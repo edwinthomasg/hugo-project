@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{.Title}}</title>
+</head>
+<body>
+    <h3>Template loaded from Posts Type</h3>
+    {{block "list-content" .}}
+    {{end}}
+    {{block "single-content" .}}
+    {{end}}
+</body>
+</html>

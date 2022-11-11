@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{.Site.Title}}</title>
+</head>
+<body>
+    THIS IS A HOME PAGE.
+    <ul>
+    {{ range where .Site.Pages "Kind" "section"}}
+        <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+      {{end}}
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,9 @@
+{{define "single-content"}}
+<h3>Title :</h3>
+<b>{{.Title}}</b>
+<hr>
+<h3>Creation date : </h3>
+{{.Date.Format "2006, year Jan 06"}}
+<h3>Content : </h3>
+{{.Content}}
+{{end}}
