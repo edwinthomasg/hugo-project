@@ -8,4 +8,4 @@ This is some random post for page1.
 
 T﻿his is some content while update.
 
-\[﻿google](www.google.com)
+[﻿google](www.google.com)
