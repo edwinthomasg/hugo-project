@@ -7,7 +7,7 @@ public_folder: /img
 site_url: https://hugo-test-site.com
 display_url: https://hugo-test-site.com
 logo_url: http://localhost:1313/img/amazon.png
-# show_preview_links: false
+
 collections:
   - name: 'blog'
     label: 'Blog'
