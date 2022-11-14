@@ -5,4 +5,4 @@ draft: true
 ---
 This is a home page content for hugo test website.
 
-T﻿his is some additional stuff to home page..
+T﻿his is some additional stuff to home page.
