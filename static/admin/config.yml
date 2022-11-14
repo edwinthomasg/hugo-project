@@ -103,5 +103,5 @@ collections:
         field: draft
         pattern: true
       - label: "By Popularity"
-        field: "users"
+        field: "popular"
         pattern: true
