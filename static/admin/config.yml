@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main 
+  branch: main
 publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
@@ -9,74 +9,71 @@ display_url: https://hugo-test-site.com
 show_preview_links: true
 logo_url: http://localhost:1313/img/amazon.png
 
-
 collections:
-  - name: 'custom-blog'
-    label: 'Blog'
+  - name: "custom-blog"
+    label: "Blog"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    folder: 'content/blogs'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    folder: "content/blogs"
     fields:
-     - { label: 'Blog Title', name: 'title', widget: 'string' }
-     - { label: 'body', name: 'body', widget: 'markdown' }
-     - { label: 'date', name: 'date', widget: 'date' }
-    
-  - name: 'post'
-    label: 'Post'
-    folder: 'content/posts'
+      - { label: "Blog Title", name: "title", widget: "string" }
+      - { label: "body", name: "body", widget: "markdown" }
+      - { label: "date", name: "date", widget: "date" }
+  - name: "post"
+    label: "Post"
+    folder: "content/posts"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-     preview: true
-    description: 'small description about Post section.'
+      preview: true
+    description: "small description about Post section."
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-  - name: 'feeds'
-    label: 'Feeds'
-    folder: 'content/feeds'
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Description", name: "description", widget: "string" }
+  - name: "feeds"
+    label: "Feeds"
+    folder: "content/feeds"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' 
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-     preview: true
+      preview: true
     publish: false
     fields:
-     - { label: 'Feed Title', name: 'title', widget: 'string' }
-     - { label: 'Feed Body', name: 'body', widget: 'markdown'}
-     - { label: 'Feed Date', name: 'date', widget: 'date'}
-  - name: 'pages'
-    label: 'Pages'
+      - { label: "Feed Title", name: "title", widget: "string" }
+      - { label: "Feed Body", name: "body", widget: "markdown" }
+      - { label: "Feed Date", name: "date", widget: "date" }
+  - name: "pages"
+    label: "Pages"
     files:
-     - file: 'content/_index.md'
-       name: 'home'
-       label: 'Home Page'
-       create: true
-       editor:
-        preview: true
-       fields:
-        - { label: 'Home Title', name: 'title', widget: 'string'}
-        - { label: 'Home Body', name: 'body', widget: 'markdown'}
-  - name: 'news'
-    label: 'News Section'
+      - file: "content/_index.md"
+        name: "home"
+        label: "Home Page"
+        create: true
+        editor:
+          preview: true
+        fields:
+          - { label: "Home Title", name: "title", widget: "string" }
+          - { label: "Home Body", name: "body", widget: "markdown" }
+  - name: "news"
+    label: "News Section"
     create: true
     editor:
-     preview: true
-    folder: 'content/news'
+      preview: true
+    folder: "content/news"
     identifier_field: name
     delete: false
     fields:
-     - { label: 'body' , name: 'body', widget: 'markdown'}
-
+      - { label: "body", name: "body", widget: "markdown" }
   - name: hugopages
     label: HugoPages
-    label_singular: 'HugoPage'
+    label_singular: "HugoPage"
     folder: content/posts
     create: true
     nested:
       depth: 100
-      summary: '{{title}}'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+      summary: "{{title}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: Title
         name: title
@@ -84,26 +81,24 @@ collections:
       - label: Body
         name: body
         widget: markdown
-    meta: { path: { widget: string, label: 'Path', index_file: '_index.md' } }
-
-  - name: 'media'
-    label: 'Media'
+    meta: { path: { widget: string, label: "Path", index_file: "_index.md" } }
+  - name: "media"
+    label: "Media"
     create: true
-    folder: 'content/media'
+    folder: "content/media"
     search: true
     fields:
-     - { label: 'By Title', name: 'title', widget: 'string' }
-     - { label: 'Body', name: 'body', widget: 'markdown' }
-     - { label: 'By Creation Date', name: 'date', widget: 'date'}
-    sortable_fields: ['title', 'date', 'weight']
+      - { label: "By Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "By Creation Date", name: "date", widget: "date" }
+    sortable_fields: ["title", "date", "weight"]
     view_filters:
       - label: "By Title"
         field: title
         pattern: "Insta" # returns pages that matches the expression
-      - label: 'By Creation Date'
+      - label: "By Creation Date"
         field: date
         pattern: "2022"
-      - label: 'By Drafts'
+      - label: "By Drafts"
         field: draft
         pattern: true
-     
