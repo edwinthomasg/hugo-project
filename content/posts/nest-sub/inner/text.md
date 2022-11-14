@@ -5,4 +5,4 @@ draft: true
 ---
 
 This is inner content for inner section inside sub-post.
-L﻿ocation changed to nested sub from inner folder.
+L﻿ocation changed to nested sub from nested post.
