@@ -43,6 +43,7 @@ collections:
       - { label: "Feed Title", name: "title", widget: "string" }
       - { label: "Feed Body", name: "body", widget: "markdown" }
       - { label: "Feed Date", name: "date", widget: "date" }
+      - { label: "Featured Image", name: "image", widget: "image"}
   - name: "pages"
     label: "Pages"
     files:
