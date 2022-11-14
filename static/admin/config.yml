@@ -95,7 +95,6 @@ collections:
      - { label: 'By Title', name: 'title', widget: 'string' }
      - { label: 'Body', name: 'body', widget: 'markdown' }
      - { label: 'By Creation Date', name: 'date', widget: 'date'}
-     - { label: 'By ranking', name: 'weight', widget: 'number'}
     sortable_fields: ['title', 'date', 'weight']
     view_filters:
       - label: "By Title"
