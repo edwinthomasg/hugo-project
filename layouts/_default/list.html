@@ -3,7 +3,7 @@
  <b>{{.Title}}</b>
  {{.Content}}
  <ul>
-    {{range .Pages.ByTitle}}
+    {{range .Pages.ByWeight}}
     <li><a href="{{.Permalink}}">{{.Title}}</a></li>
     {{end}}
  </ul>
