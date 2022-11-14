@@ -94,3 +94,13 @@ collections:
      - { label: 'Title', name: 'title', widget: 'string' }
      - { label: 'Body', name: 'body', widget: 'markdown' }
     sortable_fields: ['title', 'date']
+    view_filters:
+      - label: "Filter Title"
+        field: title
+        pattern: 'Alice|Bob'
+      - label: 'Filter Date'
+        field: date
+        pattern: '2020'
+      - label: 'Filter Drafts'
+        field: draft
+        pattern: true
