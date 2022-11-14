@@ -6,7 +6,7 @@ media_folder: static/img
 public_folder: /img
 site_url: https://hugo-test-site.com
 display_url: https://hugo-test-site.com
-show_preview_links: false
+show_preview_links: true
 logo_url: http://localhost:1313/img/amazon.png
 
 collections:
