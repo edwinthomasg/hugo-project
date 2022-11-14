@@ -53,9 +53,12 @@ collections:
         create: true
         editor:
           preview: true
+        media_folder: ""
+        public_folder: ""
         fields:
           - { label: "Home Title", name: "title", widget: "string" }
           - { label: "Home Body", name: "body", widget: "markdown" }
+          - { label: "Featured Image", name: "image", widget: "image"}
   - name: "news"
     label: "News Section"
     create: true
