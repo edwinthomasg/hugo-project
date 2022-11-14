@@ -28,6 +28,7 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
      preview: true
+    description: 'small description about Post section.'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -65,5 +66,29 @@ collections:
     identifier_field: name
     fields:
      - { label: 'body' , name: 'body', widget: 'markdown'}
+  - name: 'blogs'
+    label: 'Blogs'
+    label_singular: 'Blog'
+    folder: 'content/blogs'
+    create: true
+    nested:
+     depth: 50
+     summary: '{{title}}'
+    fields:
+     - label: 'Title'
+       name: 'title'
+       widget: 'string'
+     - label: 'Body'
+       name: 'body'
+       widget: 'markdown'
+    meta: 
+      { 
+        path: 
+        { 
+          widget: string, 
+          label: 'path',
+          index_file: 'index'
+        }
+      }
 
     
