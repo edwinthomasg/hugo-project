@@ -10,6 +10,15 @@ show_preview_links: false
 logo_url: http://localhost:1313/img/amazon.png
 
 collections:
+  - name: 'custom-blog'
+    label: 'Blog'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    folder: 'content/blogs'
+    fields:
+     - { label: 'Blog Title', name: 'title', widget: 'string' }
+     - { label: 'body', name: 'body', widget: 'markdown' }
+     - { label: 'date', name: 'date', widget: 'date' }
   - name: 'post'
     label: 'Post'
     folder: 'content/posts'
@@ -62,7 +71,7 @@ collections:
     create: true
     nested:
      depth: 100
-     summary: '{{title}}'
+     summary: 'sub-{{title}}'
     fields:
      - label: 'Title'
        name: 'title'
@@ -75,8 +84,8 @@ collections:
         path: 
         { 
           widget: string, 
-          label: 'Path',
-          index_file: 'index'
+          label: 'Content Path',
+          index_file: '_index'
         }
       }
 
