@@ -19,6 +19,7 @@ collections:
      - { label: 'Blog Title', name: 'title', widget: 'string' }
      - { label: 'body', name: 'body', widget: 'markdown' }
      - { label: 'date', name: 'date', widget: 'date' }
+    
   - name: 'post'
     label: 'Post'
     folder: 'content/posts'
@@ -26,6 +27,7 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
      preview: true
+    preview_path: "posts/{{year}}/{{month}}/{{filename}}.{{extension}}"
     description: 'small description about Post section.'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -65,7 +67,6 @@ collections:
     delete: false
     fields:
      - { label: 'body' , name: 'body', widget: 'markdown'}
-    preview_path: "news/{{year}}/{{month}}/{{filename}}.{{extension}}"
 
   - name: hugopages
     label: HugoPages
@@ -84,6 +85,3 @@ collections:
         name: body
         widget: markdown
     meta: { path: { widget: string, label: 'Path', index_file: '_index.md' } }
-
-
-    
