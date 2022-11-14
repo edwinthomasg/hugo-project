@@ -75,12 +75,8 @@ collections:
       summary: "{{title}}"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Body
-        name: body
-        widget: markdown
+      - { label: Title, name: title, widget: string }
+      - { label: Body, name: body, widget: markdown }
     meta: { path: { widget: string, label: "Path", index_file: "_index.md" } }
   - name: "media"
     label: "Media"
@@ -111,4 +107,3 @@ collections:
         pattern: 2021-\d{2}-\d{2}
       - label: Unpopularized
         field: popular
-
