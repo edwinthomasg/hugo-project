@@ -91,16 +91,15 @@ collections:
     create: true
     folder: 'content/media'
     fields:
-     - { label: 'Title', name: 'title', widget: 'string' }
+     - { label: 'By Title', name: 'title', widget: 'string' }
      - { label: 'Body', name: 'body', widget: 'markdown' }
+     - { label: 'By Creation Date', name: 'date', widget: 'date'}
     sortable_fields: ['title', 'date']
     view_filters:
-      - label: "Filter Title"
+      - label: "By Title"
         field: title
-        pattern: 'Alice|Bob'
-      - label: 'Filter Date'
+      - label: 'By Creation Date'
         field: date
-        pattern: '2020'
-      - label: 'Filter Drafts'
+      - label: 'By Drafts'
         field: draft
         pattern: true
