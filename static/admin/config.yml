@@ -65,6 +65,7 @@ collections:
     delete: false
     fields:
      - { label: 'body' , name: 'body', widget: 'markdown'}
+    preview_path: "news/{{year}}/{{month}}/{{filename}}.{{extension}}"
 
   - name: hugopages
     label: HugoPages
