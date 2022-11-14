@@ -107,3 +107,9 @@ collections:
       - label: 'By Drafts'
         field: draft
         pattern: true
+     view_groups:
+      - label: Year
+        field: date
+        pattern: '\d{4}-10'
+      - label: Drafts
+        field: draft
