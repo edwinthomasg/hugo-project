@@ -90,6 +90,7 @@ collections:
     label: 'Media'
     create: true
     folder: 'content/media'
+    search: true
     fields:
      - { label: 'By Title', name: 'title', widget: 'string' }
      - { label: 'Body', name: 'body', widget: 'markdown' }
