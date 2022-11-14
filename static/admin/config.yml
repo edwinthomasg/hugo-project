@@ -71,11 +71,10 @@ collections:
     label_singular: 'HugoPage'
     folder: content/posts
     create: true
-    # adding a nested object will show the collection folder structure
-  
     nested:
       depth: 100
       summary: '{{title}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - label: Title
         name: title
