@@ -1,0 +1,1 @@
+New news section page.
