@@ -8,7 +8,6 @@ site_url: https://hugo-test-site.com
 display_url: https://hugo-test-site.com
 show_preview_links: true
 logo_url: http://localhost:1313/img/amazon.png
-sortable_fields: ['title', 'date']
 
 
 collections:
@@ -86,6 +85,7 @@ collections:
         name: body
         widget: markdown
     meta: { path: { widget: string, label: 'Path', index_file: '_index.md' } }
+
   - name: 'media'
     label: 'Media'
     create: true
@@ -93,3 +93,4 @@ collections:
     fields:
      - { label: 'Title', name: 'title', widget: 'string' }
      - { label: 'Body', name: 'body', widget: 'markdown' }
+    sortable_fields: ['title', 'date']
