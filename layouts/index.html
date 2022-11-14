@@ -6,8 +6,11 @@
 </head>
 <body>
     THIS IS A HOME PAGE.
+    <hr>
+    Home Content :
+    {{.Content}}
     <ul>
-    {{ range where .Site.Pages "Kind" "section"}}
+    {{ range where .Site.Pages.ByTitle "Kind" "section"}}
         <li><a href="{{.Permalink}}">{{.Title}}</a></li>
       {{end}}
     </ul>

@@ -43,4 +43,17 @@ collections:
      - { label: 'Feed Title', name: 'title', widget: 'string' }
      - { label: 'Feed Body', name: 'body', widget: 'markdown'}
      - { label: 'Feed Date', name: 'date', widget: 'date'}
+  - name: 'pages'
+    label: 'Pages'
+    files:
+     - file: 'content/_index.md'
+       name: 'home'
+       label: 'Home Page'
+       create: true
+       editor:
+        preview: true
+       fields:
+        - { label: 'Home Title', name: 'title', widget: 'string'}
+        - { label: 'Home Body', name: 'body', widget: 'markdown'}
+
     
