@@ -98,7 +98,7 @@ collections:
     view_filters:
       - label: "By Title"
         field: title
-        pattern: "Media Pattern"
+        pattern: "Insta"
       - label: 'By Creation Date'
         field: date
         pattern: "2022"
