@@ -98,8 +98,10 @@ collections:
     view_filters:
       - label: "By Title"
         field: title
+        pattern: "Media Pattern"
       - label: 'By Creation Date'
         field: date
+        pattern: "2022"
       - label: 'By Drafts'
         field: draft
         pattern: true
