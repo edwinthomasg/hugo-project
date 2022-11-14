@@ -61,6 +61,7 @@ collections:
     create: true
     editor:
      preview: true
+    identifier_field: name
     fields:
      - { label: 'body' , name: 'body', widget: 'markdown'}
 
