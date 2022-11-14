@@ -62,9 +62,10 @@ collections:
      preview: true
     folder: 'content/news'
     identifier_field: name
+    delete: false
     fields:
      - { label: 'body' , name: 'body', widget: 'markdown'}
-     
+
   - name: hugopages
     label: HugoPages
     label_singular: 'HugoPage'
@@ -72,8 +73,8 @@ collections:
     create: true
     # adding a nested object will show the collection folder structure
     nested:
-      depth: 100 # max depth to show in the collection tree
-      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+      depth: 100
+      summary: '{{title}}'
     fields:
       - label: Title
         name: title
@@ -81,8 +82,6 @@ collections:
       - label: Body
         name: body
         widget: markdown
-    # adding a meta object with a path property allows editing the path of entries
-    # moving an existing entry will move the entire sub tree of the entry to the new location
     meta: { path: { widget: string, label: 'Path', index_file: '_index.md' } }
 
 
