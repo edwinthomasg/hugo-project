@@ -30,3 +30,15 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Description', name: 'description', widget: 'string' }
+  - name: 'feeds'
+    label: 'Feeds'
+    folder: 'content/feeds'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' 
+    editor:
+     preview: true
+    fields:
+     - { label: 'Feed Title', name: 'title', widget: 'string' }
+     - { label: 'Feed Body', name: 'body', widget: 'markdown'}
+     - { label: 'Feed Date', name: 'date', widget: 'date'}
+    
