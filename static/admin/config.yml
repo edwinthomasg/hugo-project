@@ -103,10 +103,5 @@ collections:
         field: draft
         pattern: true
       - label: "By Popularity"
-        field: "popular"
+        field: "users"
         pattern: true
-        name: "popularized"
-      - label: "By Unpopularity"
-        field: "popular"
-        pattern: false
-        name: "unpopularized"
