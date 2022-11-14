@@ -56,5 +56,12 @@ collections:
        fields:
         - { label: 'Home Title', name: 'title', widget: 'string'}
         - { label: 'Home Body', name: 'body', widget: 'markdown'}
+  - name: 'news'
+    label: 'News Section'
+    create: true
+    editor:
+     preview: true
+    fields:
+     - { label: 'body' , name: 'body', widget: 'markdown'}
 
     
