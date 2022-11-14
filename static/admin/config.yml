@@ -98,13 +98,13 @@ collections:
         pattern: "Insta" # returns pages that matches the expression
       - label: "By Creation Date"
         field: date
-        pattern: "2022"
+        pattern: "2022-11"
       - label: "By Drafts"
         field: draft
         pattern: true
       - label: "By Male Users"
         field: "users"
-        pattern: "male"
+        pattern: male
       - label: "By Female Users"
         field: "users"
-        pattern: "female"
+        pattern: female
