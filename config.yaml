@@ -1,3 +1,5 @@
 baseURL: ""
 languageCode: en-us
 title: New Hugo Site
+taxonomies:
+ user: users

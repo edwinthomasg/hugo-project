@@ -102,3 +102,6 @@ collections:
       - label: "By Drafts"
         field: draft
         pattern: true
+      - label: "By Users"
+        field: "users"
+        pattern: "."
