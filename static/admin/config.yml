@@ -62,6 +62,7 @@ collections:
     editor:
      preview: true
     folder: 'content/news'
+    identifier_field: name
     fields:
      - { label: 'body' , name: 'body', widget: 'markdown'}
 
