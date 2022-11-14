@@ -102,6 +102,9 @@ collections:
       - label: "By Drafts"
         field: draft
         pattern: true
-      - label: "By Users"
+      - label: "By Male Users"
         field: "users"
-        pattern: "."
+        pattern: "male"
+      - label: "By Female Users"
+        field: "users"
+        pattern: "female"
