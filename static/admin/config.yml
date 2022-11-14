@@ -69,15 +69,15 @@ collections:
     delete: false
     fields:
       - { label: "body", name: "body", widget: "markdown" }
-  - name: hugopages
-    label: HugoPages
-    label_singular: "HugoPage"
+  - name: posts
+    label: Posts
+    label_singular: "Post"
     folder: content/posts
     create: true
+    allow_nesting: true
     nested:
       depth: 100
-      summary: "{{title}}"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+      summary: "child-{{title}}"
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Body, name: body, widget: markdown }
