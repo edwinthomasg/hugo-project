@@ -72,7 +72,7 @@ collections:
     folder: content/posts
     create: true
     # adding a nested object will show the collection folder structure
-    allow_nesting: true
+  
     nested:
       depth: 100
       summary: '{{title}}'
