@@ -64,31 +64,8 @@ collections:
     identifier_field: name
     fields:
      - { label: 'body' , name: 'body', widget: 'markdown'}
-  - name: 'blogs'
-    label: 'Blogs'
-    folder: 'content/blogs'
-    create: true
-    nested:
-     depth: 100
-     summary: 'nested: {{title}}'
-    meta: 
-      { 
-        path: 
-        { 
-          widget: string, 
-          label: 'Content Path',
-          index_file: '_index.md'
-        }
-      }
-    fields:
-     - label: 'Sub Blog Title'
-       name: 'title'
-       widget: 'string'
-     - label: 'Sub Blog Body'
-       name: 'body'
-       widget: 'markdown'
-
-    - name: hugopages
+     
+  - name: hugopages
     label: HugoPages
     label_singular: 'HugoPage'
     folder: content/posts
