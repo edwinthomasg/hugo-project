@@ -107,4 +107,4 @@ collections:
         pattern: male
       - label: "By Female Users"
         field: "users"
-        pattern: female
+        pattern: fe-male
