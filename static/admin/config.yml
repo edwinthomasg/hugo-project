@@ -10,15 +10,14 @@ show_preview_links: false
 logo_url: http://localhost:1313/img/amazon.png
 
 collections:
-  - name: 'blog'
+  - name: 'custom-blog'
     label: 'Blog'
     folder: 'content/blogs'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
-    custom_identifier: 'custom_blog_title'
-    identifier_field: custom_identifier 
+    identifier_field: name
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
