@@ -105,3 +105,8 @@ collections:
       - label: "By Popularity"
         field: "popular"
         pattern: true
+        name: "popularized"
+      - label: "By Unpopularity"
+        field: "popular"
+        pattern: false
+        name: "unpopularized"
