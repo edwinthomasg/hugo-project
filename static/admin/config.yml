@@ -6,6 +6,7 @@ media_folder: static/img
 public_folder: /img
 site_url: https://hugo-test-site.com
 display_url: https://hugo-test-site.com
+show_preview_links: false
 logo_url: http://localhost:1313/img/amazon.png
 
 collections:
@@ -37,6 +38,7 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' 
     editor:
      preview: true
+    publish: false
     fields:
      - { label: 'Feed Title', name: 'title', widget: 'string' }
      - { label: 'Feed Body', name: 'body', widget: 'markdown'}
