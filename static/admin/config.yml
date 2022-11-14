@@ -67,11 +67,11 @@ collections:
   - name: 'blogs'
     label: 'Blogs'
     label_singular: 'Blog'
-    folder: 'content'
+    folder: 'content/blogs'
     create: true
     nested:
      depth: 100
-     summary: 'sub-{{title}}'
+     summary: 'nested: {{title}}'
     meta: 
       { 
         path: 
