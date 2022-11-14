@@ -67,26 +67,26 @@ collections:
   - name: 'blogs'
     label: 'Blogs'
     label_singular: 'Blog'
-    folder: 'content/blogs'
+    folder: 'content'
     create: true
     nested:
      depth: 100
      summary: 'sub-{{title}}'
-    fields:
-     - label: 'Title'
-       name: 'title'
-       widget: 'string'
-     - label: 'Body'
-       name: 'body'
-       widget: 'markdown'
     meta: 
       { 
         path: 
         { 
           widget: string, 
           label: 'Content Path',
-          index_file: '_index'
+          index_file: '_index.md'
         }
       }
+    fields:
+     - label: 'Sub Blog Title'
+       name: 'title'
+       widget: 'string'
+     - label: 'Sub Blog Body'
+       name: 'body'
+       widget: 'markdown'
 
     
