@@ -81,16 +81,17 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Body, name: body, widget: markdown }
-    meta: { path: { widget: string, label: "Path", index_file: "_index.md" } }
+    meta: { path: { widget: string, label: "Path", index_file: "_index" } }
   - name: "media"
     label: "Media"
     create: true
     folder: "content/media"
     search: true
     fields:
-      - { label: "By Title", name: "title", widget: "string" }
+      - { label: "Media Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "By Creation Date", name: "date", widget: "date" }
+      - { label: "Creation Date", name: "date", widget: "date" }
+      - { label: "Ranking", name: "weight", widget: "number"}
     sortable_fields: ["title", "date", "weight"]
     view_filters:
       - label: "By Title"
