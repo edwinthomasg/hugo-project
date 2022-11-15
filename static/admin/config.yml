@@ -51,6 +51,13 @@ collections:
             { label: "Security", name: "secured", widget: "boolean", hint: "switch to set true" }
           ]
         }
+      - label: "Manual PDF"
+        name: "manual_pdf"
+        widget: "file"
+        default: "/uploads/general-manual.pdf" 
+        media_library: 
+         config: 
+          multiple: true
   - name: "pages"
     label: "Pages"
     files:
