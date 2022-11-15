@@ -3,7 +3,6 @@ backend:
   branch: main
 publish_mode: editorial_workflow
 media_folder: static/img
-public_folder: /img
 site_url: https://hugo-test-site.com
 display_url: https://hugo-test-site.com
 show_preview_links: true
