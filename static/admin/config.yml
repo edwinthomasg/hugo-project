@@ -46,7 +46,7 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image"}
       - { label: "Privacy", name: "privacy", widget: "object", 
           fields: [
-            { label: "Security", name: "privacy.security", widget: "boolean" }
+            { label: "Security", name: "privacy.security", widget: "boolean", default: true }
           ]
         }
   - name: "pages"
