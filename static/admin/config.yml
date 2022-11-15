@@ -89,6 +89,16 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Body, name: body, widget: markdown }
     meta: { path: { widget: string, label: "Path", index_file: "_index.md" } }
+  - name: "nest-sub"
+    label: "Nest Sub"
+    create: true
+    folder: "content/posts/nest-sub"
+    editor: 
+     preview: true
+    fields:
+    - { label: Title, name: title, widget: string }
+    - { label: Body, name: body, widget: markdown }
+    - { label: Image, name: image, widget: image }
   - name: "media"
     label: "Media"
     create: true
@@ -118,3 +128,5 @@ collections:
         pattern: 2021-\d{2}-\d{2}
       - label: Unpopularized
         field: popular
+
+    
