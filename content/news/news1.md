@@ -5,6 +5,9 @@ draft: true
 tags:
   - east.north
   - west
+galleryImages:
+  - /img/amazon.png
+  - /img/friends.jpg
 ---
 
 This is some markdown content for news1 page.
