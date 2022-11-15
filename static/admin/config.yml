@@ -26,6 +26,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: true
+    publish: false
     description: "small description about Post section."
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -38,12 +39,16 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: true
-    publish: false
     fields:
       - { label: "Feed Title", name: "title", widget: "string" }
       - { label: "Feed Body", name: "body", widget: "markdown" }
       - { label: "Feed Date", name: "date", widget: "date" }
       - { label: "Featured Image", name: "image", widget: "image"}
+      - { label: "Privacy", name: "privacy", widget: "object", 
+          fields: [
+            { label: "Security", name: "privacy.security", widget: "boolean" }
+          ]
+        }
   - name: "pages"
     label: "Pages"
     files:
@@ -81,12 +86,11 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Body, name: body, widget: markdown }
-    meta: { path: { widget: string, label: "Path", index_file: "_index" } }
+    meta: { path: { widget: string, label: "Path", index_file: "_index.md" } }
   - name: "media"
     label: "Media"
     create: true
     folder: "content/media"
-    search: true
     fields:
       - { label: "Media Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
