@@ -16,6 +16,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     folder: "content/blogs"
     path: "{{year}}/{{slug}}"
+    summary: "Summary: {{dirname}} - {{title}}"
     fields:
       - { label: "Blog Title", name: "title", widget: "string" }
       - { label: "body", name: "body", widget: "markdown" }
@@ -95,8 +96,6 @@ collections:
     folder: "content/posts/nest-sub"
     editor: 
      preview: true
-    slug: "{{year}}/{{slug}}"
-    path: "{{dirname}}/{{slug}}"
     fields:
     - { label: Title, name: title, widget: string }
     - { label: Body, name: body, widget: markdown }
