@@ -54,10 +54,7 @@ collections:
       - label: "Manual Docs"
         name: "manual_doc"
         widget: "file"
-        media_library: 
-         config: 
-          multiple: true
-         media_folder: "files"
+        media_folder: "files"
   - name: "pages"
     label: "Pages"
     files:
