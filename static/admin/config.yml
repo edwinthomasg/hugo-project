@@ -97,7 +97,8 @@ collections:
       - { label: "Media Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Creation Date", name: "date", widget: "date" }
-    sortable_fields: ["title", "date", "fields.weight"]
+      - { label: "Ranking", name: "weight", widget: "number"}
+    sortable_fields: ["title", "date", "weight"]
     view_filters:
       - label: "By Title"
         field: title
