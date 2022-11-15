@@ -71,6 +71,7 @@ collections:
       preview: true
     folder: "content/news"
     path: "{{year}}-{{month}}-{{day}}/{{slug}}"
+    slug: "{{title}}"
     identifier_field: name
     delete: false
     fields:
