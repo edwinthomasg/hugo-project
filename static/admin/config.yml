@@ -19,8 +19,9 @@ collections:
     summary: "Summary: {{dirname}} - {{title}}"
     fields:
       - { label: "Blog Title", name: "title", widget: "string" }
-      - { label: "body", name: "body", widget: "markdown" }
+      - { label: "body", name: "body", widget: "markdown" , minimal: true, buttons: ["bold","italic","link","heading-one","heading-six","numbered-list"], sanitize_preview: true }
       - { label: "date", name: "date", widget: "date" }
+
   - name: "post"
     label: "Post"
     folder: "content/posts"
