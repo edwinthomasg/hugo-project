@@ -70,8 +70,8 @@ collections:
     editor:
       preview: true
     folder: "content/news"
-    path: "{{year}}-{{month}}-{{day}}/{{slug}}"
-    slug: "{{title}}"
+    path: "{{year}}/{{slug}}"
+    slug: "{{slug}}"
     identifier_field: name
     delete: false
     fields:
