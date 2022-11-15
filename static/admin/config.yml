@@ -87,6 +87,10 @@ collections:
         widget: "list"
         summary: '{{fields.image}}'
         field: {label: Image, name: image, widget: image}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+          
   - name: posts
     label: Posts
     label_singular: "Post"
