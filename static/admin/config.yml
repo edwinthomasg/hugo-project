@@ -70,10 +70,12 @@ collections:
     editor:
       preview: true
     folder: "content/news"
+    path: "{{year}}-{{month}}-{{day}}/{{slug}}"
     identifier_field: name
     delete: false
     fields:
-      - { label: "body", name: "body", widget: "markdown" }
+      - { label: 'Date', name: 'date', widget: 'date' }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: posts
     label: Posts
     label_singular: "Post"
