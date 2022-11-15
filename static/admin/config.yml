@@ -19,7 +19,7 @@ collections:
     summary: "Summary: {{dirname}} - {{title}}"
     fields:
       - { label: "Blog Title", name: "title", widget: "string" }
-      - { label: "body", name: "body", widget: "markdown" , minimal: true, buttons: ["bold","italic","link","heading-one","heading-six","numbered-list"], sanitize_preview: true }
+      - { label: "body", name: "body", widget: "markdown" , minimal: true, buttons: ["bold","italic","link","heading-one","heading-three",heading-six","numbered-list"], sanitize_preview: true }
       - { label: "date", name: "date", widget: "date" }
 
   - name: "post"
@@ -35,6 +35,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Description", name: "description", widget: "string" }
+
   - name: "feeds"
     label: "Feeds"
     folder: "content/feeds"
@@ -94,6 +95,7 @@ collections:
         name: "tags"
         widget: "list"
       - { label: "Map Location", name: "location", widget: "map" }
+
   - name: posts
     label: Posts
     label_singular: "Post"
@@ -107,6 +109,7 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Body, name: body, widget: markdown }
     meta: { path: { widget: string, label: "Path", index_file: "_index.md" } }
+
   - name: "nest-sub"
     label: "Nest Sub"
     create: true
