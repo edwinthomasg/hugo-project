@@ -5,6 +5,7 @@ draft: true
 image: /img/friends.jpg
 privacy:
   secured: false
+manual_pdf: /img/bay-allocation.postman_collection.json
 ---
 
 This is some random content for feed1.
