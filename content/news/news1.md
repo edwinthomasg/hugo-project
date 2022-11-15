@@ -6,10 +6,10 @@ galleryImages:
   - /img/amazon.png
   - /img/friends.jpg
 tags:
-  - east
-  - south
-  - north
-  - west
+  - left
+  - right
+  - top
+  - bottom
 ---
 
 This is some markdown content for news1 page.
