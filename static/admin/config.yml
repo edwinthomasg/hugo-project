@@ -85,8 +85,7 @@ collections:
       - label: "Photos"
         name: "galleryImages"
         widget: "list"
-        summary: 'summary - {{fields.image}}'
-        collapsed: false 
+        summary: 'summary - {{fields.image}}' 
         minimize_collapsed: true
         field: { label: Image, name: image, widget: image }
       - label: "Tags"
