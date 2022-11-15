@@ -51,6 +51,7 @@ collections:
             { label: "Security", name: "secured", widget: "boolean", hint: "switch to set true" }
           ]
         }
+      - {label: "Layout", name: "layout", widget: "hidden", default: "hidden feed"}
       - label: "Manual Docs"
         name: "manual_doc"
         widget: "file"
