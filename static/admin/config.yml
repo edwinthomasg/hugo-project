@@ -15,6 +15,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     folder: "content/blogs"
+    path: "{{year}}/{{slug}}"
     fields:
       - { label: "Blog Title", name: "title", widget: "string" }
       - { label: "body", name: "body", widget: "markdown" }
@@ -70,8 +71,6 @@ collections:
     editor:
       preview: true
     folder: "content/news"
-    path: "{{year}}/{{slug}}"
-    slug: "{{slug}}"
     identifier_field: name
     delete: false
     fields:
