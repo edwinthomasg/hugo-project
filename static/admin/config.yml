@@ -86,12 +86,11 @@ collections:
         name: "galleryImages"
         widget: "list"
         summary: 'summary - {{fields.image}}'
-        collapsed: true 
+        collapsed: false 
         field: { label: Image, name: image, widget: image }
       - label: "Tags"
         name: "tags"
         widget: "list"
-        collapsed: true 
   - name: posts
     label: Posts
     label_singular: "Post"
