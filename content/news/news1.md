@@ -6,9 +6,9 @@ galleryImages:
   - /img/amazon.png
   - /img/friends.jpg
 tags:
-  - north
   - east
   - south
+  - north
   - west
 ---
 
