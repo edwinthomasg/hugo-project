@@ -95,6 +95,8 @@ collections:
     folder: "content/posts/nest-sub"
     editor: 
      preview: true
+    slug: "{{slug}}"
+    path: "{{dirname}}"
     fields:
     - { label: Title, name: title, widget: string }
     - { label: Body, name: body, widget: markdown }
