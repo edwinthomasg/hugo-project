@@ -82,10 +82,11 @@ collections:
     fields:
       - { label: 'Date', name: 'date', widget: 'date' }
       - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Tags"
-        name: "tags"
+      - label: "Gallery"
+        name: "galleryImages"
         widget: "list"
-        default: ["south"]
+        summary: '{{fields.image}}'
+        field: {label: Image, name: image, widget: image}
   - name: posts
     label: Posts
     label_singular: "Post"
