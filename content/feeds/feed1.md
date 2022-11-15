@@ -5,7 +5,6 @@ draft: true
 image: /img/friends.jpg
 privacy:
   secured: false
-manual_pdf: /img/bay-allocation.postman_collection.json
 manual_doc: files/bay-allocation.postman_collection.json
 ---
 
