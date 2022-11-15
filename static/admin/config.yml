@@ -46,7 +46,7 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image"}
       - { label: "Privacy", name: "privacy", widget: "object", 
           fields: [
-            { label: "Security", name: "privacy.security", widget: "boolean", default: true }
+            { label: "Security", name: "privacy.security", widget: "boolean" }
           ]
         }
   - name: "pages"
@@ -86,7 +86,7 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Body, name: body, widget: markdown }
-    meta: { path: { widget: string, label: "Path", index_file: "_index.md" } }
+    meta: { path: { widget: string, label: "Path" } }
   - name: "media"
     label: "Media"
     create: true
