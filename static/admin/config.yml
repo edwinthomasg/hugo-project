@@ -45,10 +45,10 @@ collections:
       - { label: "Feed Title", name: "title", widget: "string" }
       - { label: "Feed Body", name: "body", widget: "markdown" }
       - { label: "Feed Date", name: "date", widget: "date" }
-      - { label: "Featured Image", name: "image", widget: "image"}
+      - { label: "Featured Image", name: "image", widget: "image", required: false}
       - { label: "Privacy", name: "privacy", widget: "object", 
           fields: [
-            { label: "Security", name: "privacy.security", widget: "boolean" }
+            { label: "Security", name: "privacy.security", widget: "boolean", hint: "switch to set true" }
           ]
         }
   - name: "pages"
@@ -65,7 +65,7 @@ collections:
         fields:
           - { label: "Home Title", name: "title", widget: "string" }
           - { label: "Home Body", name: "body", widget: "markdown" }
-          - { label: "Featured Image", name: "image", widget: "image"}
+          - { label: "Featured Image", name: "image", widget: "image", required: false}
   - name: "news"
     label: "News Section"
     create: true
@@ -97,9 +97,9 @@ collections:
     editor: 
      preview: true
     fields:
-    - { label: Title, name: title, widget: string }
+    - { label: Title, name: title, widget: string, pattern: ["[a-zA-Z-]*", "only alphabets and - character are allowed"] }
     - { label: Body, name: body, widget: markdown }
-    - { label: Image, name: image, widget: image }
+    - { label: Image, name: image, widget: image , required: false}
   - name: "media"
     label: "Media"
     create: true
