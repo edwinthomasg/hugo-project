@@ -101,6 +101,7 @@ collections:
     - { label: Body, name: body, widget: markdown }
     - { label: Image, name: image, widget: image , required: false}
     - { label: Code, name: code, widget: code, allow_language_selection: true }
+    - { label: 'Color', name: 'font-color', widget: 'color', default: "blue", allowInput: true, enableAlpha: true }
   - name: "media"
     label: "Media"
     create: true
