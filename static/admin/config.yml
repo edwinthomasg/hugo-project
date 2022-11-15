@@ -19,7 +19,7 @@ collections:
     summary: "Summary: {{dirname}} - {{title}}"
     fields:
       - { label: "Blog Title", name: "title", widget: "string" }
-      - { label: "body", name: "body", widget: "markdown" , minimal: true, buttons: ["bold","italic","link","heading-one","heading-three",heading-six","numbered-list"], sanitize_preview: true }
+      - { label: "body", name: "body", widget: "markdown" , minimal: true, buttons: ["bold","italic","link","heading-one","heading-three","heading-six","numbered-list"], sanitize_preview: true }
       - { label: "date", name: "date", widget: "date" }
 
   - name: "post"
