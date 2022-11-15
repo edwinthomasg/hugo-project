@@ -5,6 +5,7 @@ draft: true
 code:
   code: console.log("hey am using javscript code here");
   lang: javascript
+font-color: black
 ---
 
 This is nested content for nested sub section.
