@@ -87,10 +87,12 @@ collections:
         widget: "list"
         summary: 'summary - {{fields.image}}' 
         minimize_collapsed: true
+        add_to_top: true
         field: { label: Image, name: image, widget: image }
       - label: "Tags"
         name: "tags"
         widget: "list"
+      - { label: "Map Location", name: "location", widget: "map" }
   - name: posts
     label: Posts
     label_singular: "Post"
