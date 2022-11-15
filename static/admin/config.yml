@@ -86,7 +86,7 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Body, name: body, widget: markdown }
-    meta: { path: { widget: string, label: "Path" } }
+    meta: { path: { widget: string, label: "Path", index_file: "_index.md" } }
   - name: "media"
     label: "Media"
     create: true
