@@ -11,6 +11,7 @@ tags:
   - right
   - top
   - bottom
+location: '{"type":"Point","coordinates":[77.7232981,11.3851438]}'
 ---
 
 This is some markdown content for news1 page.
