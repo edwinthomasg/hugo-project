@@ -1,0 +1,6 @@
+Available Categories :
+<ul>
+    {{range .Data.Pages}}
+      <li><a href="{{.Permalink}}">{{.Title | title}}</a></li>
+    {{end}}
+</ul>

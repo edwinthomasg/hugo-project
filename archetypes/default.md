@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .Name "-" " " | title | default "root" }}"
+title: "{{ replace .Name "-" " " | title | default .Section}}"
 date: {{ .Date }}
 draft: true
 ---
