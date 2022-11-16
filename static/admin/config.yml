@@ -104,7 +104,7 @@ collections:
     create: true
     nested:
       depth: 100
-      summary: "child-{{title}}"
+      summary: "{{meta.path}}"
     slug: "{{year}}-{{slug}}"
     fields:
       - label: Title
@@ -173,3 +173,4 @@ collections:
         name: body
         widget: markdown
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+  
