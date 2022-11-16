@@ -157,4 +157,19 @@ collections:
       - label: Unpopularized
         field: popular
 
-    
+  - name: pages
+    label: Pages
+    label_singular: 'Page'
+    folder: content/pages
+    create: true
+    nested:
+      depth: 100 
+      summary: '{{title}}'
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
