@@ -6,6 +6,7 @@ image: /img/friends.jpg
 privacy:
   secured: false
 manual_doc: files/bay-allocation.postman_collection.json
+visible: true
 ---
 
 This is some random content for feed1.

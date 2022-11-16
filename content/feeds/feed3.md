@@ -5,6 +5,7 @@ draft: true
 image: /img/friends.jpg
 privacy:
   secured: false
+visible: true
 ---
 
 
