@@ -216,5 +216,5 @@ collections:
     view_filters:
       - { label: "ByDraft", field: "draft", pattern: true }
     view_groups:
-      - { label: "Drafted", field: "draft", pattern: true }
+      - { label: "Drafted", field: "draft" }
     
