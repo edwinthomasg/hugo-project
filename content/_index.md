@@ -6,4 +6,4 @@ image: dq.jpeg
 ---
 This is a home page content for hugo test website.
 
-T﻿his is some additional stuff to home page.
+This is some additional stuff to home page.

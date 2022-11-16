@@ -9,4 +9,4 @@ font-color: black
 ---
 
 This is nested content for nested sub section.
-A﻿dd javascript code to the frontmatter.
+Add javascript code to the frontmatter.

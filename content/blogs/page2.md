@@ -6,4 +6,4 @@ description: This is about page2 from blogs
 ---
 This is some random stuff for page 2.
 
-A﻿dditional content added to page 2.
+Additional content added to page 2.
