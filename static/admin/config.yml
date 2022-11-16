@@ -139,7 +139,7 @@ collections:
       - label: "Ratings"
         name: "ratings"
         widget: "select"
-        options: [1,2,3,4,5,6,7,8,9,10]
+        options: ["1","2","3","4","5","6","7","8","9","10"]
     sortable_fields: ["title", "date", "weight"]
     view_filters:
       - label: "By Title"
