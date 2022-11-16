@@ -135,7 +135,7 @@ collections:
       - { label: "Media Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Creation Date", name: "date", widget: "date" }
-      - { label: "Ranking", name: "weight", widget: "number"}
+      - { label: "Ranking", name: "weight", widget: "number", value_type: "int", min: 1, max: 5 }
     sortable_fields: ["title", "date", "weight"]
     view_filters:
       - label: "By Title"
