@@ -219,6 +219,6 @@ collections:
       - { label: "ByDraft", field: "draft", pattern: true }
     view_groups:
       - { label: "Drafted", field: "draft" }
-      - { label: "Chefs", field: "chefs" }
+      - { label: "Chefs", field: "chefs", pattern: "damu" }
     
     
