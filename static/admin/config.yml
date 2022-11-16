@@ -212,10 +212,12 @@ collections:
       - { label: "Code Section", name: "codeBlock", widget: "code", output_code_only: true, required: false }
       - { label: "Featured Image", name: "imageSource", widget: "image", choose_url: false, required: false }
       - { label: "Complement", name: "complement", widget: "list" }
-      - { label: "Add Image", name: "image", widget: "list" , field : { label: "Image Source", name: "source", widget: "image" }}
+      - { label: "Add Image", name: "image", widget: "list" , field : { label: "Image Source", name: "source", widget: "image" } }
+      - { label: "Add Chef", name: "chefs", widget: "list", required: false }
     sortable_fields: ["title","weight"]
     view_filters:
       - { label: "ByDraft", field: "draft", pattern: true }
     view_groups:
       - { label: "Drafted", field: "draft" }
+    
     

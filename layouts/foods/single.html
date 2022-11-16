@@ -6,6 +6,7 @@
 {{.Date.Format "2006, year Jan 06"}}
 <h3>Content : </h3>
 {{.Content}}
+<b>Image : </b>
 {{range .Site.Taxonomies.chefs}} 
   <a href="{{.Page.Permalink}}">{{.Page.Title}}</a>
 {{end}}
