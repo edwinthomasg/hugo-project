@@ -195,10 +195,10 @@ collections:
         widget: markdown
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
   - name: food
-    label: food
+    label: Food
     folder: "content/foods"
     create: true
-    filter: [{ field: "visible", value: true }]
+    filter: { field: "visible", value: true }
     editor: 
      preview: true
     media_folder: "static/food/img"
