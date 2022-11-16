@@ -126,7 +126,6 @@ collections:
     label: "Media"
     create: true
     folder: "content/media"
-    filter: { field: "draft", value: true }
     fields:
       - { label: "Media Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
