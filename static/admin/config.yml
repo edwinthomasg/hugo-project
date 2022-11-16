@@ -133,7 +133,7 @@ collections:
       widget: "relation"
       collection: "feeds"
       search_fields: ["date", "title"]
-      value_field: 'date'
+      value_field: 'title'
   - name: "media"
     label: "Media"
     create: true
