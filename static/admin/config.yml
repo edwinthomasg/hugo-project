@@ -106,6 +106,7 @@ collections:
     nested:
       depth: 100
       summary: "child-{{title}}"
+    filter: { field: }
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Body, name: body, widget: markdown }
