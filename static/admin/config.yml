@@ -117,8 +117,9 @@ collections:
     folder: "content/posts/nest-sub"
     editor: 
      preview: true
+
     fields:
-    - { label: Title, name: title, widget: string, pattern: ["[a-zA-Z-]*", "only alphabets and - character are allowed"] }
+    - { label: Title, name: title, widget: string, pattern: ["[a-zA-Z]+", "only alphabets and - character are allowed"] }
     - { label: Body, name: body, widget: markdown }
     - { label: Image, name: image, widget: image , required: false}
     - { label: Code, name: code, widget: code, allow_language_selection: true }
