@@ -210,4 +210,11 @@ collections:
       - { label: "Weight", name: "weight", widget: "number", min: 1, max: 10 }
       - { label: "Code Section", name: "codeBlock", widget: "code", output_code_only: true }
       - { label: "Featured Image", name: "imageSource", widget: "image", choose_url: false }
-
+      - { label: "Complement", name: "complement", widget: "list" }
+      - { label: "Add Image", name: "image", widget: "list" , field : { label: "Image Source", name: "source", widget: "image" }}
+    sortable_fields: ["title","weight"]
+    view_filters:
+      - { label: "ByDraft", field: "draft", pattern: true }
+    view_groups:
+      - { label: "Drafted", field: "draft", pattern: true }
+    
