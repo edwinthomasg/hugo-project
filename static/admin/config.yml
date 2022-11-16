@@ -157,8 +157,8 @@ collections:
       - label: Unpopularized
         field: popular
 
-  - name: pages
-    label: Pages
+  - name: nest
+    label: NestPages
     label_singular: 'Page'
     folder: content/pages
     create: true
