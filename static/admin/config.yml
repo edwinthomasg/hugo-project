@@ -106,7 +106,7 @@ collections:
     nested:
       depth: 100
       summary: "child-{{title}}"
-    filter: { field: }
+    filter: { field: "visible", value: true }
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Body, name: body, widget: markdown }
