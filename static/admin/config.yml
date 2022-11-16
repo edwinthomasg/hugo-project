@@ -196,7 +196,7 @@ collections:
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
   - name: food
     label: food
-    folder: "content/food"
+    folder: "content/foods"
     create: true
     filter: [{ field: "visible", value: true }]
     editor: 
