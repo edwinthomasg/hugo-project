@@ -102,13 +102,17 @@ collections:
     label_singular: "Post"
     folder: content/posts
     create: true
-    allow_nesting: true
     nested:
       depth: 100
       summary: "child-{{title}}"
+    slug: "{{year}}-{{slug}}"
     fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Body, name: body, widget: markdown }
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
     meta: { path: { widget: string, label: "Path", index_file: "_index.md" } }
 
   - name: "nest-sub"
@@ -117,7 +121,6 @@ collections:
     folder: "content/posts/nest-sub"
     editor: 
      preview: true
-
     fields:
     - { label: Title, name: title, widget: string, pattern: ["[a-zA-Z ]+", "only alphabets and - character are allowed"] }
     - { label: Body, name: body, widget: markdown }
