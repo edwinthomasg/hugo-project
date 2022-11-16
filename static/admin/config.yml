@@ -57,7 +57,7 @@ collections:
       - label: "Manual Docs"
         name: "manual_doc"
         widget: "file"
-        media_folder: "staic/files"
+        media_folder: "static/files"
         public_folder: "/files"
   - name: "pages"
     label: "Pages"
