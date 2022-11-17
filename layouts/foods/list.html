@@ -1,11 +1,13 @@
 {{define "list-content"}}
- <h3>Section : </h3>
- <b>{{.Title}}</b>
- {{.Content}}
- <b>Pages aligned by priority :</b>
- <ol>
-    {{range .Pages.ByWeight}}
-    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
-    {{end}}
- </ol>
+{{if .IsTranslated}}
+<h3>Section : </h3>
+<b>{{.Title}}</b>
+{{.Content}}
+<b>Pages aligned by priority :</b>
+<ol>
+   {{range .Pages.ByWeight}}
+   <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+   {{end}}
+</ol>
+{{end}}
 {{end}}

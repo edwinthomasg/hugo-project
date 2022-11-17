@@ -6,29 +6,28 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-   <h1> THIS IS A HOME PAGE.</h1>
+   <h1>CECI EST UNE PAGE D'ACCUEIL.</h1>
     <hr>
-    Home Content :
+    Contenu de l'accueil :
     {{.Content}}
-    <b>Section Kind Pages :</b>
+    <b>Section Genre Pages :</b>
     <ul>
     {{ range where .Site.Pages.ByTitle "Kind" "section"}}
         <li><a href="{{.Permalink}}">{{.Title}}</a></li>
       {{end}}
     </ul>
     <hr>
-    <b>Top level pages :</b>
+    <b>Pages de niveau supérieur :</b>
     <ul>
         {{range .Pages}}
           <li><a href="{{.Permalink}}">{{.Title}}</a></li>
         {{end}}
     </ul>
     <hr>
-    Switch to available languages : 
-     {{.Site.Language}}
+    <ul>
       {{ range $.Site.Home.AllTranslations }}
-       
-       <a href="{{ .Permalink }}">#{{ .Language.LanguageName }}</a>
+      <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
       {{ end }}
+    </ul>
 </body>
 </html>

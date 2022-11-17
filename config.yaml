@@ -1,5 +1,16 @@
 baseURL: ""
 languageCode: en-us
 title: New Hugo Site
-taxonomies: 
- chef: "chefs"
+taxonomies:
+  chef: "chefs"
+languages:
+  en:
+    baseURL: https://example.com
+    languageName: English
+    title: In English
+    weight: 1
+  fr:
+    baseURL: https://example.fr
+    languageName: Français
+    title: En Français
+    weight: 2
