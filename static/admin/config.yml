@@ -5,7 +5,7 @@ publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
 site_url: http://localhost:1313/
-display_url: https://localhost:1313/
+display_url: http://localhost:1313/
 logo_url: http://localhost:1313/img/amazon.png
 
 collections:
