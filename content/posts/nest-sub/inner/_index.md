@@ -6,4 +6,4 @@ draft: true
 
 This is root content for inner section.
 
-E﻿diting the index file of inner sub section.
+Editing the index file of inner sub section.
