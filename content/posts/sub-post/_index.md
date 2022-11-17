@@ -1,7 +1,9 @@
 ---
-title: "Sub Post"
-date: 2022-11-14T15:25:04+05:30
+title: Inner
+date: 2022-11-14T16:10:45+05:30
 draft: true
 ---
 
-This is the root page for sub post inside post.
+This is root content for inner section.
+
+Editing the index file of inner sub section.
