@@ -134,6 +134,7 @@ collections:
       collection: "media"
       search_fields: ["title","weight"]
       value_field: 'title'
+      display_fields: ["title", "weight"]
   - name: "media"
     label: "Media"
     create: true
@@ -220,5 +221,4 @@ collections:
     view_groups:
       - { label: "Drafted", field: "draft" }
       - { label: "Chefs", field: "chefs", pattern: "suresh" }
-    
     
