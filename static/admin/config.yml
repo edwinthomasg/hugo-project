@@ -205,7 +205,7 @@ collections:
     editor: 
      preview: true
     slug: "{{year}}-{{slug}}"
-    summary: "dir : {{dirname} file:{{filename}} - weight - {{fields.weight}}"
+    summary: "dir : {{dirname}} file:{{filename}} - weight - {{fields.weight}}"
     media_folder: "static/food/img"
     public_folder: "/food/img"
     fields:
