@@ -1,4 +1,4 @@
-baseURL: "my-web.com/hugo"
+baseURL: ""
 languageCode: en-us
 title: New Hugo Site
 taxonomies:
