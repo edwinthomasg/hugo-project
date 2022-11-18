@@ -215,6 +215,7 @@ collections:
       - { label: "Complement", name: "complement", widget: "list" }
       - { label: "Add Image", name: "image", widget: "list" , field : { label: "Image Source", name: "source", widget: "image" } }
       - { label: "Add Chef", name: "chefs", widget: "list", required: false }
+    meta: { path: { widget: "string", label: "Path", index_file: "_index.md" } }
     sortable_fields: ["title","weight"]
     view_filters:
       - { label: "ByDraft", field: "draft", pattern: true }

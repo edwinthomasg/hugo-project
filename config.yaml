@@ -1,16 +1,16 @@
-baseURL: ""
+baseURL: "my-web.com/hugo"
 languageCode: en-us
 title: New Hugo Site
 taxonomies:
   chef: "chefs"
+defaultContentLanguage : "en"
 languages:
   en:
-    baseURL: https://example.com
     languageName: English
     title: In English
     weight: 1
   fr:
-    baseURL: https://example.fr
     languageName: Français
     title: En Français
     weight: 2
+defaultContentLanguageInSubdir : true
