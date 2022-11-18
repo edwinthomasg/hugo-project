@@ -180,7 +180,7 @@ collections:
         field: popular
 
   - name: nest
-    label: NestPages
+    label: NestedPages
     label_singular: 'Page'
     folder: content/pages
     create: true
