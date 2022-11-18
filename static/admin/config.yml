@@ -205,7 +205,7 @@ collections:
     editor: 
      preview: true
     slug: "custom-slug"
-    summary: "summary - {{slug}}"
+    summary: "summary - {{fields.slug}}"
     media_folder: "static/food/img"
     public_folder: "/food/img"
     fields:
