@@ -204,7 +204,7 @@ collections:
     filter: { field: "visible", value: true }
     editor: 
      preview: true
-    slug: "{{year}}-{{slug}}"
+    slug: "{{slug}}"
     summary: "dir : {{dirname}} file:{{filename}} - weight - {{fields.weight}}"
     media_folder: "static/food/img"
     public_folder: "/food/img"
