@@ -1,5 +1,5 @@
 ---
-title: "Européen"
+title: Européen
 date: 2022-11-17T18:11:56+05:30
 draft: true
 weight: 2
