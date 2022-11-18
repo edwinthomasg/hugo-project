@@ -204,6 +204,8 @@ collections:
     filter: { field: "visible", value: true }
     editor: 
      preview: true
+    slug: "custom-slug"
+    summary: "summary - {{slug}}"
     media_folder: "static/food/img"
     public_folder: "/food/img"
     fields:
