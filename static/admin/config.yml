@@ -187,6 +187,7 @@ collections:
     nested:
       depth: 100
       summary: '{{meta.path}}-{{slug}}'
+    slug: "{{day}}-{{slug}}"
     fields:
       - label: Title
         name: title
@@ -194,7 +195,7 @@ collections:
       - label: Body
         name: body
         widget: markdown
-    meta: { path: { widget: string, label: 'Path', index_file: '{{fields.title}}' } }
+    meta: { path: { widget: string, label: 'Path', index_file: slug } }
 
   - name: food
     label: Food
