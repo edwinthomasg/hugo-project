@@ -185,8 +185,7 @@ collections:
     folder: content/pages
     create: true
     nested:
-      depth: 100 
-      slug: "{{slug}}"
+      depth: 100
       summary: '{{meta.path}}-{{slug}}'
     fields:
       - label: Title
@@ -195,7 +194,7 @@ collections:
       - label: Body
         name: body
         widget: markdown
-    meta: { path: { widget: string, label: 'Path', index_file: 'slug' } }
+    meta: { path: { widget: string, label: 'Path', index_file: 'fields.title' } }
 
   - name: food
     label: Food
