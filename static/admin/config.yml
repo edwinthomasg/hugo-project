@@ -187,7 +187,8 @@ collections:
     slug: "{{slug}}"
     nested:
       depth: 100 
-      summary: '{{title}}'
+      summary: '{{slug}}'
+    summary: "{{filename}}"
     fields:
       - label: Title
         name: title
