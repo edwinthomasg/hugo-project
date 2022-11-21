@@ -3,14 +3,14 @@ languageCode: en-us
 title: New Hugo Site
 taxonomies:
   chef: "chefs"
-# defaultContentLanguage : "en"
-# languages:
-#   en:
-#     languageName: English
-#     title: In English
-#     weight: 1
-#   fr:
-#     languageName: Français
-#     title: En Français
-#     weight: 2
-# defaultContentLanguageInSubdir : true
+defaultContentLanguage : "en"
+languages:
+  en:
+    languageName: English
+    title: In English
+    weight: 1
+  fr:
+    languageName: Français
+    title: En Français
+    weight: 2
+defaultContentLanguageInSubdir : true

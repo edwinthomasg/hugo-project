@@ -25,9 +25,8 @@
     </ul>
     <hr>
     Switch to available languages : 
-     {{.Site.Language}}
+     {{.Lang}}
       {{ range $.Site.Home.AllTranslations }}
-       
        <a href="{{ .Permalink }}">#{{ .Language.LanguageName }}</a>
       {{ end }}
 </body>

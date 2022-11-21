@@ -6,4 +6,3 @@ description: This is about page1 from blogs
 ---
 This is some random stuff for page1.
 
-{{< custom text="hello world, whatsup !" color="red" >}}
