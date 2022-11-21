@@ -27,25 +27,25 @@
           <li><a href="{{.Permalink}}">{{.Title}}</a></li>
         {{end}}
     </ul>
+    <!-- <hr> -->
+    <!-- Switch to available languages :  -->
+     {{/*.Lang*/}}
+      {{/* range $.Site.Home.AllTranslations */}}
+       <!-- <a href="{{/* .Permalink */}}">#{{/* .Language.LanguageName */}}</a> -->
+      {{/* end */}}
+    <!-- <hr> -->
+    <!-- Param Accessing: -->
+    {{/*.Param "custom"*/}}
     <hr>
-    Switch to available languages : 
-     {{.Lang}}
-      {{ range $.Site.Home.AllTranslations }}
-       <a href="{{ .Permalink }}">#{{ .Language.LanguageName }}</a>
-      {{ end }}
-    <hr>
-    Param Accessing:
-    {{.Param "custom"}}
-    <hr>
-    <ul>
-      {{ range .Translations }}
-      {{.Lang}}
+    <!-- <ul>
+      {{/* range .Translations */}}
+      {{/*.Lang*/}}
       <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <a href="{{/* .Permalink */}}">{{/* .Title */}}</a>
       </li>
-      {{ end }}
-    </ul>
-    {{.WordCount}}
-    {{.ReadingTime}}
+      {{/* end */}}
+    </ul> -->
+    {{ partial "read" . }}
+    
 </body>
 </html>
