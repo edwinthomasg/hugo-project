@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chefs on New Hugo Site</title>
-    <link>/chefs/</link>
+    <link>https://edwinthomasg.github.io/hugo-test/chefs/</link>
     <description>Recent content in Chefs on New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 16 Nov 2022 18:01:16 +0530</lastBuildDate><atom:link href="/chefs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Nov 2022 18:01:16 +0530</lastBuildDate><atom:link href="https://edwinthomasg.github.io/hugo-test/chefs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bhat</title>
-      <link>/chefs/bhat/</link>
+      <link>https://edwinthomasg.github.io/hugo-test/chefs/bhat/</link>
       <pubDate>Wed, 16 Nov 2022 18:01:16 +0530</pubDate>
       
-      <guid>/chefs/bhat/</guid>
+      <guid>https://edwinthomasg.github.io/hugo-test/chefs/bhat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hussain</title>
-      <link>/chefs/hussain/</link>
+      <link>https://edwinthomasg.github.io/hugo-test/chefs/hussain/</link>
       <pubDate>Wed, 16 Nov 2022 18:01:16 +0530</pubDate>
       
-      <guid>/chefs/hussain/</guid>
+      <guid>https://edwinthomasg.github.io/hugo-test/chefs/hussain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>suresh</title>
-      <link>/chefs/suresh/</link>
+      <link>https://edwinthomasg.github.io/hugo-test/chefs/suresh/</link>
       <pubDate>Wed, 16 Nov 2022 18:01:16 +0530</pubDate>
       
-      <guid>/chefs/suresh/</guid>
+      <guid>https://edwinthomasg.github.io/hugo-test/chefs/suresh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>damu</title>
-      <link>/chefs/damu/</link>
+      <link>https://edwinthomasg.github.io/hugo-test/chefs/damu/</link>
       <pubDate>Wed, 16 Nov 2022 17:57:56 +0530</pubDate>
       
-      <guid>/chefs/damu/</guid>
+      <guid>https://edwinthomasg.github.io/hugo-test/chefs/damu/</guid>
       <description></description>
     </item>
     

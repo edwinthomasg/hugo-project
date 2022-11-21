@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on New Hugo Site</title>
-    <link>/blogs/</link>
+    <link>https://edwinthomasg.github.io/hugo-test/blogs/</link>
     <description>Recent content in Blogs on New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 11 Nov 2022 14:19:09 +0530</lastBuildDate><atom:link href="/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 14:19:09 +0530</lastBuildDate><atom:link href="https://edwinthomasg.github.io/hugo-test/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cricket</title>
-      <link>/blogs/2022/2022-11-16-cricket/</link>
+      <link>https://edwinthomasg.github.io/hugo-test/blogs/2022/2022-11-16-cricket/</link>
       <pubDate>Wed, 16 Nov 2022 04:24:15 +0000</pubDate>
       
-      <guid>/blogs/2022/2022-11-16-cricket/</guid>
+      <guid>https://edwinthomasg.github.io/hugo-test/blogs/2022/2022-11-16-cricket/</guid>
       <description>Virat Kohli is named as chase master.He is the GOAT in chasing runs.</description>
     </item>
     
     <item>
       <title>Recent Blog</title>
-      <link>/blogs/2022/2022-11-15-recent-blog/</link>
+      <link>https://edwinthomasg.github.io/hugo-test/blogs/2022/2022-11-15-recent-blog/</link>
       <pubDate>Tue, 15 Nov 2022 07:00:25 +0000</pubDate>
       
-      <guid>/blogs/2022/2022-11-15-recent-blog/</guid>
+      <guid>https://edwinthomasg.github.io/hugo-test/blogs/2022/2022-11-15-recent-blog/</guid>
       <description>Some content goes here.
 google
 YouTube</description>
@@ -28,38 +28,38 @@ YouTube</description>
     
     <item>
       <title>Page2</title>
-      <link>/blogs/page2/</link>
+      <link>https://edwinthomasg.github.io/hugo-test/blogs/page2/</link>
       <pubDate>Fri, 11 Nov 2022 14:18:24 +0530</pubDate>
       
-      <guid>/blogs/page2/</guid>
+      <guid>https://edwinthomasg.github.io/hugo-test/blogs/page2/</guid>
       <description>This is some random stuff for page 2.
 Additional content added to page 2.</description>
     </item>
     
     <item>
       <title>Page1</title>
-      <link>/blogs/page1/</link>
+      <link>https://edwinthomasg.github.io/hugo-test/blogs/page1/</link>
       <pubDate>Fri, 11 Nov 2022 14:18:15 +0530</pubDate>
       
-      <guid>/blogs/page1/</guid>
+      <guid>https://edwinthomasg.github.io/hugo-test/blogs/page1/</guid>
       <description>This is some random stuff for page1.</description>
     </item>
     
     <item>
       <title>Blog 5</title>
-      <link>/blogs/2022-11-14-blog-5/</link>
+      <link>https://edwinthomasg.github.io/hugo-test/blogs/2022-11-14-blog-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blogs/2022-11-14-blog-5/</guid>
+      <guid>https://edwinthomasg.github.io/hugo-test/blogs/2022-11-14-blog-5/</guid>
       <description>This is some markdown content for blog 5.</description>
     </item>
     
     <item>
       <title>Page4</title>
-      <link>/blogs/2022-11-11-page4/</link>
+      <link>https://edwinthomasg.github.io/hugo-test/blogs/2022-11-11-page4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blogs/2022-11-11-page4/</guid>
+      <guid>https://edwinthomasg.github.io/hugo-test/blogs/2022-11-11-page4/</guid>
       <description>Hey Whatsup !!! New blog is created along with the changes inside the posts section.</description>
     </item>
     
