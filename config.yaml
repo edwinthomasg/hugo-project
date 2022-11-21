@@ -1,3 +1,4 @@
+baseURL: ""
 title: New Hugo Site
 taxonomies:
   chef: "chefs"
