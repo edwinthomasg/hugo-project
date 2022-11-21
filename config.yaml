@@ -36,5 +36,6 @@ menus:
     weight: 4
 params: 
  menu: "css/menus.css"
+publishDir: docs
 
 
