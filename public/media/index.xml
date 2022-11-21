@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Media on New Hugo Site</title>
+    <link>/media/</link>
+    <description>Recent content in Media on New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 14 Nov 2022 17:40:04 +0530</lastBuildDate><atom:link href="/media/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fb</title>
+      <link>/media/fb/</link>
+      <pubDate>Sun, 14 Nov 2021 17:40:23 +0530</pubDate>
+      
+      <guid>/media/fb/</guid>
+      <description>This is some content related to facebook.</description>
+    </item>
+    
+    <item>
+      <title>Twitter</title>
+      <link>/media/twitter/</link>
+      <pubDate>Mon, 14 Nov 2022 17:40:17 +0530</pubDate>
+      
+      <guid>/media/twitter/</guid>
+      <description>This is some content related to twitter.</description>
+    </item>
+    
+    <item>
+      <title>Insta</title>
+      <link>/media/insta/</link>
+      <pubDate>Sun, 14 Nov 2021 17:40:11 +0530</pubDate>
+      
+      <guid>/media/insta/</guid>
+      <description>This is some content related to insta.</description>
+    </item>
+    
+    <item>
+      <title>Whatsapp</title>
+      <link>/media/whatsapp/</link>
+      <pubDate>Mon, 14 Nov 2022 17:40:29 +0530</pubDate>
+      
+      <guid>/media/whatsapp/</guid>
+      <description>This is some content related to whatsapp.</description>
+    </item>
+    
+    <item>
+      <title>Sharechat</title>
+      <link>/media/sharechat/</link>
+      <pubDate>Mon, 14 Nov 2022 21:53:58 +0530</pubDate>
+      
+      <guid>/media/sharechat/</guid>
+      <description>This is content about sharechat.</description>
+    </item>
+    
+  </channel>
+</rss>

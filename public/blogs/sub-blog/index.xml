@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sub Blog on New Hugo Site</title>
+    <link>/blogs/sub-blog/</link>
+    <description>Recent content in Sub Blog on New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 14 Nov 2022 14:42:49 +0530</lastBuildDate><atom:link href="/blogs/sub-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sub Blog2</title>
+      <link>/blogs/sub-blog/sub-blog2/</link>
+      <pubDate>Mon, 14 Nov 2022 12:18:22 +0530</pubDate>
+      
+      <guid>/blogs/sub-blog/sub-blog2/</guid>
+      <description>This is some random content about sub blog 2 inside blog section.</description>
+    </item>
+    
+    <item>
+      <title>Sub Blog1</title>
+      <link>/blogs/sub-blog/sub-blog1/</link>
+      <pubDate>Mon, 14 Nov 2022 12:18:12 +0530</pubDate>
+      
+      <guid>/blogs/sub-blog/sub-blog1/</guid>
+      <description>This is some random content about sub blog 1 inside blog section.</description>
+    </item>
+    
+  </channel>
+</rss>
