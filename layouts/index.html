@@ -3,9 +3,13 @@
 <head>
     <title>{{.Site.Title}}</title>
     <meta name="description" content="{{ .Param "description" }}">
+    {{$globalcss := resources.Get "css/style.css" }}
+    <link rel="stylesheet" href="{{.Param "menu"}}">
+    <link rel="stylesheet" href="{{$globalcss.Permalink}}">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
+   {{ partial "menus" . }}
    <h1> THIS IS A HOME PAGE.</h1>
     <hr>
     Home Content :
@@ -29,5 +33,19 @@
       {{ range $.Site.Home.AllTranslations }}
        <a href="{{ .Permalink }}">#{{ .Language.LanguageName }}</a>
       {{ end }}
+    <hr>
+    Param Accessing:
+    {{.Param "custom"}}
+    <hr>
+    <ul>
+      {{ range .Translations }}
+      {{.Lang}}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    {{.WordCount}}
+    {{.ReadingTime}}
 </body>
 </html>

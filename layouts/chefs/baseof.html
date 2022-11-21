@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{.Site.Title}}</title>
+    <link rel="stylesheet" href="{{.Param "menu" | absURL}}">
+</head>
+<body>
+    {{block "terms-content" .}}
+    {{end}}
+    {{block "term-content" .}}
+    {{end}}
+</body>
+</html>

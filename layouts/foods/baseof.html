@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <title>{{.Title}}</title>
+    <link rel="stylesheet" href="{{.Param "menu" | absURL}}">
 </head>
 <body>
+    {{ partial "menus" . }}
     <h3>Template loaded from Foods Type</h3>
     {{block "list-content" .}}
     {{end}}

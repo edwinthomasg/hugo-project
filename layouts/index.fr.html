@@ -29,5 +29,21 @@
       <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
       {{ end }}
     </ul>
+    <hr>
+    Param Accessing:
+    {{.Param "custom"}}
+    <hr>
+    All translation defined : {{.AllTranslations}} <br>
+    Shows translation available for current page : {{.Translations}} <br>
+    <b>Translations available for current page :</b>
+    <ul>
+      {{ range .Translations }}
+      {{.Lang}}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    {{.WordCount}}
 </body>
 </html>

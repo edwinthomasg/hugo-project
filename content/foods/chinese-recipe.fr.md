@@ -7,6 +7,7 @@ chefs:
 - bhat
 weight: 3
 visible: true
+slug: "Recette chinoise"
 ---
 
 Liste de toutes les recettes chinoises disponibles.

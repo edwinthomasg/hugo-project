@@ -12,6 +12,7 @@ chefs:
   - suresh
   - hussain
 visible: true
+slug: "Européen"
 ---
 
 Liste de toutes les recettes européennes disponibles.

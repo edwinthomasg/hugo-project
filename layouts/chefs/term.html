@@ -1,6 +1,10 @@
+{{define "term-content"}}
+{{ partial "menus" . }}
+<hr>
 Pages tagged with <b>{{.Title | title}}</b> :
 <ul>
   {{range .Data.Pages}}
   <li><a href="{{.Permalink}}">{{.Title | title}}</a></li>
   {{end}}
 </ul>
+{{end}}

@@ -5,6 +5,7 @@ draft: true
 chefs: damu
 weight: 4
 visible: true
+slug: "Recette Italienne"
 ---
 
 Liste de toutes les recettes italiennes disponibles.

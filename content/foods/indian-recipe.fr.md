@@ -9,6 +9,7 @@ visible: true
 complement:
   - bien
   - équitable
+slug: "Recette Indienne"
 ---
 
 Liste de toutes les recettes indiennes disponibles.

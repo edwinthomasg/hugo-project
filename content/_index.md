@@ -1,5 +1,5 @@
 ---
-title: Root Page
+title: "home"
 date: 2022-11-14T12:17:35+05:30
 draft: true
 image: dq.jpeg
