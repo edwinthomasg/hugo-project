@@ -1,24 +1,24 @@
 title: New Hugo Site
 taxonomies:
   chef: "chefs"
-defaultContentLanguage : "en"
-languages:
-  en:
-    baseURL: "mysite.com/hugo/english"
-    languageName: English
-    title: In English
-    weight: 1
-    params:
-     custom: "english site"
-  fr:
-    baseURL: "mysite.com/hugo/french"
-    languageName: Français
-    title: En Français
-    weight: 2
-    params:
-     custom: "french site"
+# defaultContentLanguage : "en"
+# languages:
+#   en:
+#     baseURL: "mysite.com/hugo/english"
+#     languageName: English
+#     title: In English
+#     weight: 1
+#     params:
+#      custom: "english site"
+#   fr:
+#     baseURL: "mysite.com/hugo/french"
+#     languageName: Français
+#     title: En Français
+#     weight: 2
+#     params:
+#      custom: "french site"
      
-defaultContentLanguageInSubdir : true
+# defaultContentLanguageInSubdir : true
 menus:
  main:
   - name: "home"
