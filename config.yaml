@@ -36,6 +36,4 @@ menus:
     weight: 4
 params: 
  menu: "css/menus.css"
-
-
-
+buildDrafts: true

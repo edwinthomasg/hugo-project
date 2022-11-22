@@ -4,9 +4,8 @@ backend:
 publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
-site_url: http://localhost:1313/
-display_url: http://localhost:1313/
-logo_url: http://localhost:1313/img/amazon.png
+site_url: https://edwinthomasg.github.io/hugo-test/
+display_url: https://edwinthomasg.github.io/hugo-test/
 
 collections:
   - name: "custom-blog"
@@ -210,7 +209,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "date" }
-      - { label: "Draft", name: "draft", widget: "boolean" , default: true}
+      - { label: "Draft", name: "draft", widget: "boolean" , default: false}
       - { label: "Body", name: "body", widget: "markdown", minimal: true }
       - { label: "Weight", name: "weight", widget: "number", min: 1, max: 10 }
       - { label: "Code Section", name: "codeBlock", widget: "code", output_code_only: true, required: false }
@@ -220,7 +219,7 @@ collections:
       - { label: "Add Chef", name: "chefs", widget: "list", required: false }
     sortable_fields: ["title","weight"]
     view_filters:
-      - { label: "ByDraft", field: "draft", pattern: true }
+      - { label: "ByDraft", field: "draft", pattern: false }
     view_groups:
       - { label: "Drafted", field: "draft" }
       - { label: "Chefs", field: "chefs", pattern: "suresh" }
