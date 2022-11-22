@@ -42,5 +42,14 @@
       <description>Listing out all the italian recipes available. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, corrupti distinctio a doloremque libero assumenda fugit iusto officiis aliquam repudiandae corporis nulla quas magnam exercitationem hic ex repellendus quod consectetur. Deserunt, ea et optio sed cum unde! Accusamus dolor odit tempore? Earum nisi eligendi ullam itaque a id, quisquam tenetur ipsum iure minima, explicabo ipsam nihil labore omnis dolores debitis doloremque, repellendus eos incidunt ut perferendis iste.</description>
     </item>
     
+    <item>
+      <title>Mexican</title>
+      <link>https://edwinthomasg.github.io/hugo-test/foods/mexican-1/</link>
+      <pubDate>Mon, 21 Nov 2022 13:25:17 +0000</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/foods/mexican-1/</guid>
+      <description>This page contains information about mexican recipes.</description>
+    </item>
+    
   </channel>
 </rss>
