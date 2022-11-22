@@ -6,4 +6,4 @@ weight: 5
 complement:
   - yummy
 ---
-T﻿his page contains information about mexican recipes.
+This page contains information about mexican recipes.
