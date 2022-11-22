@@ -1,0 +1,17 @@
+{{$paginator := .Paginator}}
+<hr>
+{{if gt $paginator.TotalPages 1}}
+  <ul>
+    {{range $paginator.Pages}}
+    <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+    {{end}}
+  </ul>
+ <a href="{{if $paginator.HasPrev}}{{$paginator.Prev.URL}}{{end}}"><span class="{{if $paginator.HasPrev }}fa fa-caret-left{{else}}fa fa-caret-left disable{{end}}"></span></a> {{$paginator.First.PageNumber}} ..{{if and (ne $paginator.PageNumber $paginator.First.PageNumber) (ne $paginator.PageNumber $paginator.Last.PageNumber)}}{{$paginator.PageNumber}}{{end}}.. {{$paginator.Last.PageNumber}}
+ <a href="{{if $paginator.HasNext}}{{$paginator.Next.URL}}{{end}}"><span class="{{if $paginator.HasNext }}fa fa-caret-right{{else}}fa fa-caret-right disable{{end}}"></span></a>
+{{else}}
+  <ul>
+    {{range $paginator.Pages}}
+    <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+    {{end}}
+  </ul>
+{{end}}     
