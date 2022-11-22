@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bhat on New Hugo Site</title>
+    <link>https://edwinthomasg.github.io/hugo-test/chefs/bhat/</link>
+    <description>Recent content in bhat on New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 16 Nov 2022 18:01:16 +0530</lastBuildDate><atom:link href="https://edwinthomasg.github.io/hugo-test/chefs/bhat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>European</title>
+      <link>https://edwinthomasg.github.io/hugo-test/foods/european/</link>
+      <pubDate>Wed, 16 Nov 2022 18:01:16 +0530</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/foods/european/</guid>
+      <description>Listing out all the european recipes available.</description>
+    </item>
+    
+    <item>
+      <title>Chinese Recipe</title>
+      <link>https://edwinthomasg.github.io/hugo-test/foods/chinese-recipe/</link>
+      <pubDate>Wed, 16 Nov 2022 17:53:42 +0530</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/foods/chinese-recipe/</guid>
+      <description>Listing out all the chinese recipes available.</description>
+    </item>
+    
+  </channel>
+</rss>
