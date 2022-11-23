@@ -250,7 +250,7 @@ collections:
       - { label: "Chefs", field: "chefs", pattern: "suresh" }
 
   - name: "data"
-    label: "Data"
+    label: "Data Page"
     extension: yaml
     format: yaml
     create: true
