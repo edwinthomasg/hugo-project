@@ -249,7 +249,7 @@ collections:
       - { label: "Drafted", field: "draft" }
       - { label: "Chefs", field: "chefs", pattern: "suresh" }
 
-  - name: "data"
+  - name: "dataJson"
     label: "Data Page"
     label_singular: "Json File"
     extension: json
@@ -270,7 +270,7 @@ collections:
              
         }
       
-  - name: "data"
+  - name: "dataYaml"
     label: "Data Page"
     label_singular: "Yaml File"
     extension: yaml
