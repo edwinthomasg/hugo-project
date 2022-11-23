@@ -248,5 +248,11 @@ collections:
     view_groups:
       - { label: "Drafted", field: "draft" }
       - { label: "Chefs", field: "chefs", pattern: "suresh" }
-    
-
+  - name: "partials"
+    label: "Partials"
+    folder: "layouts/partials"
+    create: true
+    editor: 
+     preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
