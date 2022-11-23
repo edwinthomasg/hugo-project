@@ -251,15 +251,14 @@ collections:
 
   - name: "data"
     label: "Data"
-    extension: yaml
-    format: json
     files:
       - file: "data/data.yaml"
         name: "data"
         label: "Data Page"
-        create: true
         editor:
           preview: true
+        extension: yaml
+        format: json
         fields:
           - { label: "Name", name: "name", widget: "string" }
           - { label: "Age", name: "age", widget: "number" }
