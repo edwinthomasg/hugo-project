@@ -7,7 +7,12 @@ public_folder: /img
 site_url: https://edwinthomasg.github.io/hugo-test/
 display_url: https://edwinthomasg.github.io/hugo-test/
 
+########################### COLLECTIONS ############################
+
 collections:
+
+############################## BLOGS ###############################
+
   - name: "custom-blog"
     label: "Blog"
     create: true
@@ -20,6 +25,8 @@ collections:
       - { label: "Blog Title", name: "title", widget: "string" }
       - { label: "body", name: "body", widget: "markdown" , minimal: true, buttons: ["bold","italic","link","heading-one","heading-three","heading-six","numbered-list"], sanitize_preview: true }
       - { label: "date", name: "date", widget: "date" }
+
+############################## POSTS ###############################
 
   - name: "post"
     label: "Post"
@@ -34,6 +41,8 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Description", name: "description", widget: "string" }
+
+############################## FEEDS ###############################
 
   - name: "feeds"
     label: "Feeds"
@@ -58,6 +67,9 @@ collections:
         name: "manual_doc"
         widget: "file"
         media_folder: "/static/files"
+
+############################## PAGES - FILE COLLECTION ###############################
+
   - name: "pages"
     label: "Pages"
     files:
@@ -73,6 +85,9 @@ collections:
           - { label: "Home Title", name: "title", widget: "string" }
           - { label: "Home Body", name: "body", widget: "markdown" }
           - { label: "Featured Image", name: "image", widget: "image", required: false}
+
+############################## NEWS ###############################
+
   - name: "news"
     label: "News Section"
     create: true
@@ -96,6 +111,8 @@ collections:
         widget: "list"
       - { label: "Map Location", name: "location", widget: "map" }
 
+############################## POSTS ###############################
+
   - name: posts
     label: Posts
     label_singular: "Post"
@@ -113,6 +130,8 @@ collections:
         name: body
         widget: markdown
     meta: { path: { widget: string, label: "Path", index_file: "_index.md" } }
+
+######################## NESTED COLLECTIONS - POSTS ########################
 
   - name: "nest-sub"
     label: "Nest Sub"
@@ -134,6 +153,9 @@ collections:
       search_fields: ["title","weight"]
       value_field: 'title'
       display_fields: ["title", "weight"]
+
+################################# MEDIA ###################################
+
   - name: "media"
     label: "Media"
     create: true
@@ -178,6 +200,8 @@ collections:
       - label: Unpopularized
         field: popular
 
+################################# NESTED COLLECTIONS - LEAF ###################################
+
   - name: nest
     label: NestedPages
     label_singular: 'Page'
@@ -193,7 +217,9 @@ collections:
       - label: Body
         name: body
         widget: markdown
-    meta: { path: { widget: string, label: 'Path', index_file: "_index" } }
+    meta: { path: { widget: string, label: 'Path', index_file: "index" } }
+
+################################# FOODS ###################################
 
   - name: food
     label: Food
@@ -225,4 +251,3 @@ collections:
       - { label: "Chefs", field: "chefs", pattern: "suresh" }
     
 
-    # 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 
