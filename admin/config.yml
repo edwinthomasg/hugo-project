@@ -258,7 +258,8 @@ collections:
     editor:
       preview: true
     folder: "data/json-data"
-    slug: "{{fields.employee.name}}"
+    summary: "{{filename}}"
+    slug: "{{fields.employee.company}}-{{fields.employee.name}}"
     fields:
       - { label: "Employee", name: "employee", widget: "object", 
           fields: [
@@ -280,8 +281,8 @@ collections:
     editor:
       preview: true
     folder: "data/yaml-data"
-    summary: "name : {{fields.employee.name}}"
-    slug: "helo"
+    summary: "{{filename}}"
+    slug: "{{fields.employee.company}}-{{fields.employee.name}}"
     fields:
       - { label: "Employee", name: "employee", widget: "object", 
           fields: [
