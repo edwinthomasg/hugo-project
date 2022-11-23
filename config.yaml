@@ -1,25 +1,21 @@
-baseURL: "https://edwinthomasg.github.io/hugo-test/"
+
 title: New Hugo Site
+baseURL: "https://edwinthomasg.github.io/hugo-test"
+buildDrafts: true
+
+############################### TAXONOMIES ################################
 taxonomies:
   chef: "chefs"
-# defaultContentLanguage : "en"
-# languages:
-#   en:
-#     baseURL: "mysite.com/hugo/english"
-#     languageName: English
-#     title: In English
-#     weight: 1
-#     params:
-#      custom: "english site"
-#   fr:
-#     baseURL: "mysite.com/hugo/french"
-#     languageName: Français
-#     title: En Français
-#     weight: 2
-#     params:
-#      custom: "french site"
-     
-# defaultContentLanguageInSubdir : true
+
+################################ PARAMS ###################################
+params: 
+ menu: "css/menus.css"
+
+################################ PAGINATION ###################################
+paginate: 5
+paginatePath: "paginate"
+
+################################ MENUS ###################################
 menus:
  main:
   - name: "home"
@@ -34,8 +30,3 @@ menus:
   - name: "feeds"
     url: "/feeds"
     weight: 4
-params: 
- menu: "css/menus.css"
-buildDrafts: true
-paginate: 5
-paginatePath: "paginate"

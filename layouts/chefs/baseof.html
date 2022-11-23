@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="{{.Param "menu" | absURL}}">
 </head>
 <body>
+    {{ partial "menus" . }}
     {{block "terms-content" .}}
     {{end}}
     {{block "term-content" .}}

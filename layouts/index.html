@@ -4,7 +4,7 @@
     <title>{{.Site.Title}}</title>
     <meta name="description" content="{{ .Param "description" }}">
     {{$globalcss := resources.Get "css/style.css" }}
-    <link rel="stylesheet" href="{{.Param "menu"}}">
+    <link rel="stylesheet" href="{{.Param "menu" | absURL}}">
     <link rel="stylesheet" href="{{$globalcss.Permalink}}">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
@@ -27,24 +27,7 @@
           <li><a href="{{.Permalink}}">{{.Title}}</a></li>
         {{end}}
     </ul>
-    <!-- <hr> -->
-    <!-- Switch to available languages :  -->
-     {{/*.Lang*/}}
-      {{/* range $.Site.Home.AllTranslations */}}
-       <!-- <a href="{{/* .Permalink */}}">#{{/* .Language.LanguageName */}}</a> -->
-      {{/* end */}}
-    <!-- <hr> -->
-    <!-- Param Accessing: -->
-    {{/*.Param "custom"*/}}
     <hr>
-    <!-- <ul>
-      {{/* range .Translations */}}
-      {{/*.Lang*/}}
-      <li>
-        <a href="{{/* .Permalink */}}">{{/* .Title */}}</a>
-      </li>
-      {{/* end */}}
-    </ul> -->
     {{ partial "read" . }}
 </body>
 </html>
