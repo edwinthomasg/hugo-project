@@ -294,4 +294,14 @@ collections:
           ]
         }
       
-     
+  - name: "partials"
+    label: "Partials"
+    extension: html
+    create: true
+    editor:
+      preview: true
+    folder: "layouts/partials"
+    summary: "{{filename}}"
+    fields:
+      - { label: "Code", name: "code", widget: "code", 
+        }
