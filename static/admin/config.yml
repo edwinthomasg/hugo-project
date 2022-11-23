@@ -250,17 +250,24 @@ collections:
       - { label: "Chefs", field: "chefs", pattern: "suresh" }
 
   - name: "data"
-    label: "Data Page Json"
+    label: "Data Page"
+    label_singular: "Json File"
     extension: json
     format: json
     create: true
     editor:
       preview: true
-    folder: "data/yaml-data"
-    slug: "{{slug}}"
+    folder: "data/json-data"
+    slug: "{{fields.company}}"
     fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Age", name: "age", widget: "number" }
-      - { label: "Role", name: "role", widget: "string" }
-      - { label: "Location", name: "location", widget: "string" }
-      - { label: "Company", name: "company", widget: "string" }
+      - { label: "Company", name: "company", widget: "object", 
+          fields: [
+             { label: "Name", name: "name", widget: "string" },
+             { label: "Age", name: "age", widget: "number" },
+             { label: "Role", name: "role", widget: "string" },
+             { label: "Location", name: "location", widget: "string" }
+          ]
+             
+        }
+      
+     
