@@ -1,0 +1,10 @@
+{
+  "employee":
+  {
+    "name": "edie",
+    "age": 22,
+    "role": "developer",
+    "location": "chennai",
+    "company": "aspire systems"
+  }
+}
