@@ -13,3 +13,5 @@ complement:
 ---
 
 Listing out all the indian recipes available.
+
+{{< custom text="Indian Recipe" color="blue" >}}
