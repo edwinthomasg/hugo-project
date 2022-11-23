@@ -303,6 +303,5 @@ collections:
     folder: "layouts/partials"
     summary: "{{filename}}"
     fields:
-         - { label: Code, name: body, widget: code, default_language: "HTML" }
+         - { label: Code, name: code, widget: code, default_language: "HTML" }
     
-  
