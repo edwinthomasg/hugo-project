@@ -257,7 +257,7 @@ collections:
         label: "Data Page"
         editor:
           preview: true
-        extension: yaml
+        extension: json
         format: json
         fields:
           - { label: "Name", name: "name", widget: "string" }
