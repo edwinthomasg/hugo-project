@@ -248,11 +248,14 @@ collections:
     view_groups:
       - { label: "Drafted", field: "draft" }
       - { label: "Chefs", field: "chefs", pattern: "suresh" }
-  - name: "partials"
-    label: "Partials"
-    folder: "layouts/partials"
+  - name: "data"
+    label: "Data"
+    folder: "data"
     create: true
     editor: 
      preview: true
+    extension: yaml
+    format: json
     fields:
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Age", name: "age", widget: "number" }
