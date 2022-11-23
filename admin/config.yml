@@ -16,7 +16,6 @@ collections:
   - name: "custom-blog"
     label: "Blog"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     folder: "content/blogs"
     path: "{{year}}/{{slug}}"
     summary: "Summary: {{dirname}} - {{title}}"
