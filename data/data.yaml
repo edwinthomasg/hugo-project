@@ -1,5 +1,4 @@
-name: "edwin"
-age: 22
-role: "developer"
-location: "chennai"
-company: "aspire systems"
+{
+  "name": "virat",
+  "age": 33
+}
