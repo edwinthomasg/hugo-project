@@ -304,4 +304,15 @@ collections:
     summary: "{{filename}}"
     fields:
          - { label: Code, name: code, widget: code, default_language: "HTML" }
+  
+  - name: "shortcodes"
+    label: "Shortcodes"
+    extension: html
+    create: true
+    editor:
+      preview: true
+    folder: "layouts/shortcodes"
+    summary: "{{filename}}"
+    fields:
+         - { label: Code, name: code, widget: code, default_language: "HTML" }
     
