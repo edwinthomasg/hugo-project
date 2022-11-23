@@ -1,2 +1,3 @@
 Rendered from shortcode :
-<b style="color: {{.Get "color"}}">{{.Get "text"}}</b>
+
+{{ printf `<b style="color: blue ">%s</b>` (.Get "color") (.Get "text") | safeHTML}}
