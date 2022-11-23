@@ -251,15 +251,15 @@ collections:
 
   - name: "data"
     label: "Data"
-    files:
-      - file: "data/data.yaml"
-        name: "data"
-        label: "Data Page"
-        editor:
-          preview: true
-        extension: json
-        format: json
-        fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Age", name: "age", widget: "number" }
-   
+    extension: yaml
+    format: json
+    create: true
+    editor:
+      preview: true
+    folder: "data/yaml-data"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Age", name: "age", widget: "number" }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Company", name: "company", widget: "string" }
