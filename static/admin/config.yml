@@ -280,6 +280,7 @@ collections:
     editor:
       preview: true
     folder: "data/yaml-data"
+    summary: "name : {{filename}}"
     slug: "helo"
     fields:
       - { label: "Employee", name: "employee", widget: "object", 
