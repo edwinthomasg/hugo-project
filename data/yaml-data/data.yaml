@@ -1,6 +1,6 @@
 employee:
-  name: "edwin"
+  name: edie
   age: 22
-  role: "developer"
-  location: "chennai"
-  company: "aspire systems"
+  role: developer
+  location: chennai
+  company: aspire systems
