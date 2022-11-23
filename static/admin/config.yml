@@ -260,12 +260,13 @@ collections:
     folder: "data/json-data"
     slug: "{{fields.company}}"
     fields:
-      - { label: "Company", name: "company", widget: "object", 
+      - { label: "Employee", name: "employee", widget: "object", 
           fields: [
              { label: "Name", name: "name", widget: "string" },
              { label: "Age", name: "age", widget: "number" },
              { label: "Role", name: "role", widget: "string" },
-             { label: "Location", name: "location", widget: "string" }
+             { label: "Location", name: "location", widget: "string" },
+             { label: "Company", name: "company", widget: "string" }
           ]
              
         }
@@ -281,14 +282,14 @@ collections:
     folder: "data/yaml-data"
     slug: "helo"
     fields:
-      - { label: "Company", name: "company", widget: "object", 
+      - { label: "Employee", name: "employee", widget: "object", 
           fields: [
              { label: "Name", name: "name", widget: "string" },
              { label: "Age", name: "age", widget: "number" },
              { label: "Role", name: "role", widget: "string" },
-             { label: "Location", name: "location", widget: "string" }
+             { label: "Location", name: "location", widget: "string" },
+             { label: "Company", name: "company", widget: "string" }
           ]
-             
         }
       
      
