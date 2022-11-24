@@ -12,4 +12,4 @@ This is some random post for page1.
 
 This is some content while update.
 
-[﻿google](www.google.com)
+[google](www.google.com)
