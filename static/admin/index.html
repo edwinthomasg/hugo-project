@@ -10,11 +10,12 @@
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
     <script>
       var CategoriesControl = createClass({
         handleChange: function(e) {
           const separator = this.props.field.get('separator', ', ')
-          this.props.onChange(e.target.value.split(separator).map((e) => e.trim()));
+          this.props.onChange(e.target.value.split(separator).map((e) => e));
         },
       
         render: function() {
@@ -48,5 +49,6 @@
       
       CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema);
       </script>
+      
   </body>
 </html>
