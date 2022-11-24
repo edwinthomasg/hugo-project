@@ -128,6 +128,10 @@ collections:
       - label: Body
         name: body
         widget: markdown
+      - label: Categories
+        name: Categories
+        widget: categories
+        separator: __
     meta: { path: { widget: string, label: "Path", index_file: "_index.md" } }
 
 ######################## NESTED COLLECTIONS - POSTS ########################
