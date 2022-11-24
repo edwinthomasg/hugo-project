@@ -315,4 +315,15 @@ collections:
     summary: "{{filename}}"
     fields:
          - { label: Code, name: code, widget: code, default_language: "HTML" }
-    
+
+  - name: postsSection
+    label: Posts
+    folder: content/posts
+    fields:
+      - name: title
+        label: "Title"
+        widget: string
+      - name: categories
+        label: Categories
+        widget: categories
+        separator: __
