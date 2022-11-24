@@ -216,6 +216,12 @@ collections:
       - label: Body
         name: body
         widget: markdown
+      - name: 'summary'
+        label: 'Summary'
+        widget: 'string'
+      - name: 'details'
+        label: 'Details'
+        widget: 'markdown'
     meta: { path: { widget: string, label: 'Path', index_file: "index" } }
 
 ################################# FOODS ###################################
