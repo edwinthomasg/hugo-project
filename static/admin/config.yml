@@ -270,6 +270,7 @@ collections:
     folder: "data/json-data"
     summary: "{{filename}}"
     slug: "{{fields.employee.company}}-{{fields.employee.name}}"
+    identifier_field: "{{fields.name}}"
     fields:
       - { label: "Employee", name: "employee", widget: "object", 
           fields: [
@@ -293,6 +294,7 @@ collections:
     folder: "data/yaml-data"
     summary: "{{filename}}"
     slug: "{{fields.employee.company}}-{{fields.employee.name}}"
+    identifier_field: "{{fields.name}}"
     fields:
       - { label: "Employee", name: "employee", widget: "object", 
           fields: [
