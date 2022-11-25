@@ -144,7 +144,6 @@ var PartialPreview = createClass({
       console.log(entry.getIn(['data', 'body']))
       return h('div', {},
         h('p', {}, entry.getIn(['data', 'body'])),
-        h('div', {"className": "text"}, this.props.widgetFor('body'))
       );
     }
   });
