@@ -315,7 +315,6 @@ collections:
     folder: "layouts/partials"
     summary: "{{filename}}"
     fields:
-         - { label: Title, name: title, widget: string }
          - { label: Code, name: code, widget: code, default_language: "HTML" }
   
   - name: "shortcodes"
