@@ -6,6 +6,6 @@ draft: true
 
 This is the root content for nested sub.
 
-{{< gist charlie charlie2902 >}}
+{{< gist karthiknos15599 f4995b28691acad1d92a39d94ce328fa >}}
 
-{{< gist edwin edwin2902 >}}
+{{< gist karthiknos15599 f4995b28691acad1d92a39d94ce328fa >}}
