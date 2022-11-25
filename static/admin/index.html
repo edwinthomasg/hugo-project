@@ -68,6 +68,7 @@ CMS.registerEditorComponent({
   pattern: /^<details>\s*<summary>\s*(.*)\s*<\/summary>\s*(.*)\s*<\/details>/ms,
  
   fromBlock: function(match) {
+    console.log("from block : ")
     console.log("match : ",match)
     console.log("match 1 : ",match[1])
     console.log("match 2 : ",match[2])
@@ -116,9 +117,6 @@ CMS.registerEditorComponent({
     ],
     pattern: /^{{< gist ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
     fromBlock: function(match) {
-      console.log("match : ",match)
-      console.log("match 1 : ",match[1])
-      console.log("match 2 : ",match[2])
         return {
             username: match[1],
             gid: match[2],
@@ -136,7 +134,6 @@ CMS.registerPreviewStyle("/example.css");
 var PostPreview = createClass({
     render: function() {
       var entry = this.props.entry;
-      console.log("posts entries : ",entry);
 
       return h('div', {},
         h('h1', {}, entry.getIn(['data', 'title'])),
@@ -150,8 +147,6 @@ CMS.registerPreviewTemplate("posts", PostPreview);
 var PartialPreview = createClass({
     render: function() {
       var entry = this.props.entry;
-      console.log("partials entries : ",entry);
-      console.log(entry.getIn(['data', 'body']))
       return h('div', {},
         h('p', {}, entry.getIn(['data', 'body'])),
       );
