@@ -65,7 +65,7 @@ CMS.registerEditorComponent({
     }
   ],
 
-  pattern: /^<details>\s*?<summary>\s*?(.*)\s*?<\/summary>\s*?(.*)\s*?<\/details>$/ms,
+  pattern: /^<details>\s*<summary>\s*(.*)\s*<\/summary>\s*(.*)\s*<\/details>$/ms,
  
   fromBlock: function(match) {
     console.log("from block : ")
