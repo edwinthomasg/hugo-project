@@ -82,18 +82,20 @@ CMS.registerEditorComponent({
     console.log("data detail : ",data.detail)
     return `
 <details>
-  <summary>${data.summary}</summary>
-  ${data.detail}
+<summary>${data.summary}</summary>
+${data.detail}
 </details>
 `;
   },
 
   toPreview: function(data) {
     console.log("to preview :")
+    console.log("data summary : ",data.summary)
+    console.log("data detail : ",data.detail)
     return `
 <details>
-  <summary>${data.summary}</summary>
-  ${data.detail}
+<summary>${data.summary}</summary>
+${data.detail}
 </details>
 `;
   }
