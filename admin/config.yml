@@ -314,8 +314,8 @@ collections:
       preview: true
     folder: "layouts/partials"
     summary: "{{filename}}"
-    identifier_field: "partial"
     fields:
+         - { label: Title, name: title, widget: string }
          - { label: Code, name: code, widget: code, default_language: "HTML" }
   
   - name: "shortcodes"
@@ -326,6 +326,7 @@ collections:
       preview: true
     folder: "layouts/shortcodes"
     summary: "{{filename}}"
+    identifier_field: "shortcode"
     fields:
          - { label: Code, name: code, widget: code, default_language: "HTML" }
         
