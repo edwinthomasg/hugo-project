@@ -65,12 +65,12 @@ CMS.registerEditorComponent({
       widget: 'markdown'
     }
   ],
-  pattern: /^<p>\s*(.*)\s*<\/p>/ms,
+  pattern: /^<details>\s*<summary>\s*(.*)\s*<\/summary>\s*(.*)\s*<\/details>/ms,
  
   fromBlock: function(match) {
     console.log("match : ",match)
     console.log("match 1 : ",match[1])
-    console.log("match 2 : ",match[2])
+    console.log("match 1 : ",match[2])
     return {
       summary: match[1],
       detail: match[2]
@@ -89,9 +89,7 @@ CMS.registerEditorComponent({
     return `
 <details>
   <summary>${data.summary}</summary>
-
   ${data.detail}
-
 </details>
 `;
   }

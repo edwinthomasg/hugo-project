@@ -14,6 +14,9 @@ here html attached:
 <p>html paragraph here</p>
 <a href="https://www.google.com">click here</a>
 
-<p>
-This is some small summary about this page.
-<p>
+<details>
+    <summary>
+      hello
+    </summary>
+    hi here is details
+</details>
