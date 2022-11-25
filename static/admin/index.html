@@ -143,8 +143,7 @@ var PartialPreview = createClass({
       console.log("partials entries : ",entry);
 
       return h('div', {},
-        h('h1', {}, entry.getIn(['data', 'title'])),
-        h('h2', {}, entry.getIn(['data', 'description'])),
+        h('p', {}, entry.getIn(['data', 'body'])),
         h('div', {"className": "text"}, this.props.widgetFor('body'))
       );
     }
