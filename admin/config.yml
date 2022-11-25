@@ -314,6 +314,7 @@ collections:
       preview: true
     folder: "layouts/partials"
     summary: "{{filename}}"
+    identifier_field: "partial"
     fields:
          - { label: Code, name: code, widget: code, default_language: "HTML" }
   
