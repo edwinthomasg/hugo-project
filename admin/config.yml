@@ -329,4 +329,3 @@ collections:
     identifier_field: "shortcode"
     fields:
          - { label: Code, name: code, widget: code, default_language: "HTML" }
-        
