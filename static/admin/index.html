@@ -122,10 +122,25 @@ CMS.registerEditorComponent({
     },
 });
 CMS.registerPreviewStyle("/example.css");
+
 var PostPreview = createClass({
     render: function() {
       var entry = this.props.entry;
-      console.log("entries : ",entry);
+      console.log("posts entries : ",entry);
+
+      return h('div', {},
+        h('h1', {}, entry.getIn(['data', 'title'])),
+        h('h2', {}, entry.getIn(['data', 'description'])),
+        h('div', {"className": "text"}, this.props.widgetFor('body'))
+      );
+    }
+  });
+CMS.registerPreviewTemplate("posts", PostPreview);
+
+var PostPreview = createClass({
+    render: function() {
+      var entry = this.props.entry;
+      console.log("partials entries : ",entry);
 
       return h('div', {},
         h('h1', {}, entry.getIn(['data', 'title'])),
