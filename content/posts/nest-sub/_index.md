@@ -26,5 +26,5 @@ here html attached:
 
 <details>
 <summary>change in summary</summary>
-hi here is details
+change in details
 </details>
