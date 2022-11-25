@@ -141,7 +141,7 @@ var PartialPreview = createClass({
     render: function() {
       var entry = this.props.entry;
       console.log("partials entries : ",entry);
-
+      console.log(entry.getIn(['data', 'body']))
       return h('div', {},
         h('p', {}, entry.getIn(['data', 'body'])),
         h('div', {"className": "text"}, this.props.widgetFor('body'))
