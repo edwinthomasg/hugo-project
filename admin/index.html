@@ -125,11 +125,14 @@ CMS.registerPreviewStyle("/example.css");
 var PostPreview = createClass({
     render: function() {
       var entry = this.props.entry;
-      console.log(entry);
+      console.log("entries : ",entry);
       var image = entry.getIn(['data', 'image']);
+      console.log("image : ",image);
       var bg = this.props.getAsset(image);
+      console.log("bg : ",bg);
       return h('div', {},
         h('h1', {}, entry.getIn(['data', 'title'])),
+        h('h2', {}, entry.getIn(['data', 'description'])),
         h('img', {src: bg.toString()}),
         h('div', {"className": "text"}, this.props.widgetFor('body'))
       );
