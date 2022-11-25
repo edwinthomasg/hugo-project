@@ -24,7 +24,7 @@ here html attached:
 {{< gist karthiknos15599 e1766226db5cd6c7d5af41ad45084112 >}}
 
 
-<details>
-<summary>change in summary</summary>
+<h2>
+<h3>change in summary</h3>
 change in details
-</details>
+</h2>

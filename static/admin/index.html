@@ -75,19 +75,19 @@ CMS.registerEditorComponent({
   },
   toBlock: function(data) {
     return `
-<details>
-<summary>${data.summary}</summary>
+<h2>
+<h3>${data.summary}</h3>
 ${data.details}
-</details>
+</h2>
 `;
   },
 
   toPreview: function(data) {
     return `
-<details>
-<summary>${data.summary}</summary>
+<h2>
+<h3>${data.summary}</h3>
 ${data.details}
-</details>
+</h2>
 `;
   }
 });
