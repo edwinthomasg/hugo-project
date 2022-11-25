@@ -2,6 +2,10 @@
 title: New Hugo Site
 baseURL: "https://edwinthomasg.github.io/hugo-test"
 buildDrafts: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 ############################### TAXONOMIES ################################
 taxonomies:
@@ -30,3 +34,4 @@ menus:
   - name: "feeds"
     url: "/feeds"
     weight: 4
+
