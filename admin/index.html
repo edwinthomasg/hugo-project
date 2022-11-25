@@ -77,16 +77,16 @@ CMS.registerEditorComponent({
   //to save it in a file
   toBlock: function(data) {
     return `
+<nothing>
+`;
+  },
+//to preview the data before publishing
+  toPreview: function(data) {
+    return `
 <h2>
 <h3>${data.summary}</h3>
 ${data.details}
 </h2>
-`;
-  },
-
-  toPreview: function(data) {
-    return `
-<p>nothing</p>
 `;
   }
 });
