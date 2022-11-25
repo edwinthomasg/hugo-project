@@ -47,10 +47,11 @@ var schema = {
 }
 
 CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema);
+
 CMS.registerEditorComponent({
 
-  id: "collapsible-note",
-  label: "Collapsible Note",
+  id: "html",
+  label: "Html",
   
   fields: [
     {
@@ -61,7 +62,8 @@ CMS.registerEditorComponent({
     {
       name: 'details',
       label: 'Details',
-      widget: 'markdown'
+      widget: 'markdown',
+      collapsed: true
     }
   ],
 
