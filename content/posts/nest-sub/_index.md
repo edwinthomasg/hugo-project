@@ -25,8 +25,6 @@ here html attached:
 
 
 <details>
-  <summary>change in summary    </summary>
-  hi here is details
-
-
+<summary>change in summary</summary>
+hi here is details
 </details>
