@@ -48,9 +48,8 @@ var schema = {
 
 CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema);
 CMS.registerEditorComponent({
-  
+
   id: "collapsible-note",
-  
   label: "Collapsible Note",
   
   fields: [
@@ -65,18 +64,22 @@ CMS.registerEditorComponent({
       widget: 'markdown'
     }
   ],
+
   pattern: /^<details>\s*<summary>\s*(.*)\s*<\/summary>\s*(.*)\s*<\/details>/ms,
  
   fromBlock: function(match) {
     console.log("match : ",match)
     console.log("match 1 : ",match[1])
-    console.log("match 1 : ",match[2])
+    console.log("match 2 : ",match[2])
     return {
       summary: match[1],
       detail: match[2]
     };
   },
   toBlock: function(data) {
+    console.log("to block :")
+    console.log("data summary : ",data.summary)
+    console.log("data detail : ",data.detail)
     return `
 <details>
   <summary>${data.summary}</summary>
@@ -86,6 +89,7 @@ CMS.registerEditorComponent({
   },
 
   toPreview: function(data) {
+    console.log("to preview :")
     return `
 <details>
   <summary>${data.summary}</summary>
