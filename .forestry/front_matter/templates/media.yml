@@ -63,6 +63,7 @@ fields:
     type: pages
     section: series
     file: data/dummy-data.json
+    path:
 pages:
 - content/media/fb.md
 - content/media/insta.md
