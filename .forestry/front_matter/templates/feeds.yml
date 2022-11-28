@@ -18,3 +18,7 @@ fields:
   type: file
   label: Image
   maxSize: 2
+- type: image_gallery
+  name: gallery
+  label: Gallery
+  description: Select group of photos
