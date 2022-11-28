@@ -1,5 +1,6 @@
 ---
 label: Feeds
+hide_body: false
 fields:
 - name: title
   type: text
