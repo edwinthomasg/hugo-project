@@ -61,7 +61,7 @@ fields:
   config: 
    source:
     type: pages
-    section: employee
+    section: data
     file: data/yaml-data/data.yaml
 pages:
 - content/media/fb.md
