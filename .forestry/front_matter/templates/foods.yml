@@ -28,7 +28,7 @@ fields:
     color_format: Hex
 - name: chefs
   type: tag_list
-  label: chefs
+  label: Chefs
   default: 
   - damu
   - suresh
