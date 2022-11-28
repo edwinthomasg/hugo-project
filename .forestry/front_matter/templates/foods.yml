@@ -1,6 +1,7 @@
 ---
 label: Foods
-hide_body: true
+hide_body: false
+display_field: title
 fields:
 - name: title
   type: text
@@ -21,14 +22,14 @@ fields:
     display_utc: false
   default: now
 - name: font-color
-  label: Font Color 
-  type: color 
+  label: Font Color
+  type: color
   config:
-   color_format: Hex
+    color_format: Hex
 - name: chefs
   type: tag_list
   label: Chefs
-  default: 
+  default:
   - Eleventy
   - Gatsby
   - Gridsome
