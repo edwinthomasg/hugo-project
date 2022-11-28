@@ -11,7 +11,11 @@ complement:
 - good
 - fair
 font-color: ''
-
+ingredients:
+- carrot
+- pumpkin
+- brinjal
+- "cauli flower"
 ---
 Listing out all the indian recipes available.
 
