@@ -37,6 +37,20 @@ fields:
 - name: ingredients
   label: Ingredients
   type: list
-  
+  config:
+   max: 5
+   use_select: true
+   source:
+    type: simple
+   options:
+    - Dan
+    - DJ
+    - Frank
+    - James
+    - Jeff
+    - Jordan
+    - Mitch
+    - Nolan
+    - Scott
 pages:
 - content/foods/indian-recipe.md
