@@ -50,6 +50,11 @@ sections:
   match: "*.yaml"
   new_doc_ext: ".yaml"
   create: all
+- type: document
+  label: Json Page
+  path: data/json-data/data.json
+  create: all
+  new_doc_ext: ".json"
 
 upload_dir: static/uploads
 public_path: "/uploads"
