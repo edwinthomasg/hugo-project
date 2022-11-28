@@ -58,6 +58,7 @@ sections:
   path: data/json-data/data.json
   label: Json Page
   new_doc_ext: json
+  read_only: true # cannot edit
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
