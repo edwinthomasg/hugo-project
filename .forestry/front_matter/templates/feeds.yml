@@ -28,6 +28,10 @@ fields:
   fields:
   - type: text
     name: secured
-    label: secured
+    label: Secured
     config:
      required: true
+  - type: textarea
+    name: reason
+    label: Reason
+
