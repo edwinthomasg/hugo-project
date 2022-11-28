@@ -36,7 +36,7 @@ sections:
   match: "**/*"
 - type: directory
   path: content/leaf-bundle
-  label: Pages
+  label: Leaf Bundle
   create: all
   match: "**/*"
 - type: directory
