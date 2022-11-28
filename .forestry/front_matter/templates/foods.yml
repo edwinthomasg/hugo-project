@@ -38,19 +38,16 @@ fields:
   label: Ingredients
   type: list
   config:
-   max: 5
+   max: 10
    use_select: true
    source:
     type: simple
    options:
-    - Dan
-    - DJ
-    - Frank
-    - James
-    - Jeff
-    - Jordan
-    - Mitch
-    - Nolan
-    - Scott
+    - tomato
+    - potato
+    - chicken
+    - mutton
+    - fish
+
 pages:
 - content/foods/indian-recipe.md
