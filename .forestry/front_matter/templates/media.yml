@@ -46,3 +46,12 @@ fields:
     - 8
     - 9
     - 10
+- type: select
+  name: related_page
+  label: Related Page
+  description: Select a related page
+  hidden: false
+  config:
+    source:
+      type: pages
+      section: pages
