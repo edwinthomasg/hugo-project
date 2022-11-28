@@ -14,3 +14,7 @@ fields:
   type: boolean
   label: Draft
   default: false
+- name: image
+  type: file
+  label: Image
+  maxSize: 2
