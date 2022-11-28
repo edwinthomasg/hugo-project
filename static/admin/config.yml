@@ -136,10 +136,10 @@ collections:
 
 ######################## NESTED COLLECTIONS - POSTS ########################
 
-  - name: "nest-sub"
-    label: "Nest Sub"
+  - name: "nested-posts"
+    label: "Nested Posts"
     create: true
-    folder: "content/posts/nest-sub"
+    folder: "content/posts/nested-posts"
     editor: 
      preview: true
     fields:
@@ -205,8 +205,8 @@ collections:
 
 ################################# NESTED COLLECTIONS - LEAF ###################################
 
-  - name: nest
-    label: NestedPages
+  - name: leaf
+    label: "Leaf Bundle"
     label_singular: 'Page'
     folder: content/pages
     create: true
