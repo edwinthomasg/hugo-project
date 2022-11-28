@@ -7,19 +7,25 @@ public_folder: /img
 site_url: https://edwinthomasg.github.io/hugo-test/
 display_url: https://edwinthomasg.github.io/hugo-test/
 
+########################### COLLECTIONS ############################
+
 collections:
+
+############################## BLOGS ###############################
+
   - name: "custom-blog"
     label: "Blog"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     folder: "content/blogs"
     path: "{{year}}/{{slug}}"
     summary: "Summary: {{dirname}} - {{title}}"
-    preview_path: "blogs/{{slug}}"
+    preview_path: "blogs/{{year}}/{{slug}}"
     fields:
       - { label: "Blog Title", name: "title", widget: "string" }
       - { label: "body", name: "body", widget: "markdown" , minimal: true, buttons: ["bold","italic","link","heading-one","heading-three","heading-six","numbered-list"], sanitize_preview: true }
       - { label: "date", name: "date", widget: "date" }
+
+############################## POSTS ###############################
 
   - name: "post"
     label: "Post"
@@ -34,6 +40,8 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Description", name: "description", widget: "string" }
+
+############################## FEEDS ###############################
 
   - name: "feeds"
     label: "Feeds"
@@ -58,6 +66,9 @@ collections:
         name: "manual_doc"
         widget: "file"
         media_folder: "/static/files"
+
+############################## PAGES - FILE COLLECTION ###############################
+
   - name: "pages"
     label: "Pages"
     files:
@@ -73,6 +84,9 @@ collections:
           - { label: "Home Title", name: "title", widget: "string" }
           - { label: "Home Body", name: "body", widget: "markdown" }
           - { label: "Featured Image", name: "image", widget: "image", required: false}
+
+############################## NEWS ###############################
+
   - name: "news"
     label: "News Section"
     create: true
@@ -96,6 +110,8 @@ collections:
         widget: "list"
       - { label: "Map Location", name: "location", widget: "map" }
 
+############################## POSTS ###############################
+
   - name: posts
     label: Posts
     label_singular: "Post"
@@ -112,12 +128,18 @@ collections:
       - label: Body
         name: body
         widget: markdown
+      - label: Categories
+        name: Categories
+        widget: categories
+        separator: __
     meta: { path: { widget: string, label: "Path", index_file: "_index.md" } }
 
-  - name: "nest-sub"
-    label: "Nest Sub"
+######################## NESTED COLLECTIONS - POSTS ########################
+
+  - name: "nested-posts"
+    label: "Nested Posts"
     create: true
-    folder: "content/posts/nest-sub"
+    folder: "content/posts/nested-posts"
     editor: 
      preview: true
     fields:
@@ -134,6 +156,9 @@ collections:
       search_fields: ["title","weight"]
       value_field: 'title'
       display_fields: ["title", "weight"]
+
+################################# MEDIA ###################################
+
   - name: "media"
     label: "Media"
     create: true
@@ -178,10 +203,12 @@ collections:
       - label: Unpopularized
         field: popular
 
-  - name: nest
-    label: NestedPages
+################################# NESTED COLLECTIONS - LEAF ###################################
+
+  - name: leaf
+    label: "Leaf Bundle"
     label_singular: 'Page'
-    folder: content/pages
+    folder: content/leaf-bundle
     create: true
     nested:
       depth: 100
@@ -193,7 +220,15 @@ collections:
       - label: Body
         name: body
         widget: markdown
-    meta: { path: { widget: string, label: 'Path', index_file: "_index" } }
+      - name: 'summary'
+        label: 'Summary'
+        widget: 'string'
+      - name: 'details'
+        label: 'Details'
+        widget: 'markdown'
+    meta: { path: { widget: string, label: 'Path', index_file: "index" } }
+
+################################# FOODS ###################################
 
   - name: food
     label: Food
@@ -223,6 +258,74 @@ collections:
     view_groups:
       - { label: "Drafted", field: "draft" }
       - { label: "Chefs", field: "chefs", pattern: "suresh" }
-    
 
-    # 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 
+  - name: "dataJson"
+    label: "Data Page"
+    label_singular: "Json File"
+    extension: json
+    format: json
+    create: true
+    editor:
+      preview: true
+    folder: "data/json-data"
+    summary: "{{filename}}"
+    slug: "{{fields.employee.company}}-{{fields.employee.name}}"
+    identifier_field: "{{fields.name}}"
+    fields:
+      - { label: "Employee", name: "employee", widget: "object", 
+          fields: [
+             { label: "Name", name: "name", widget: "string" },
+             { label: "Age", name: "age", widget: "number" },
+             { label: "Role", name: "role", widget: "string" },
+             { label: "Location", name: "location", widget: "string" },
+             { label: "Company", name: "company", widget: "string" }
+          ]
+             
+        }
+      
+  - name: "dataYaml"
+    label: "Data Page"
+    label_singular: "Yaml File"
+    extension: yaml
+    format: yaml
+    create: true
+    editor:
+      preview: true
+    folder: "data/yaml-data"
+    summary: "{{filename}}"
+    slug: "{{fields.employee.company}}-{{fields.employee.name}}"
+    identifier_field: "{{fields.name}}"
+    fields:
+      - { label: "Employee", name: "employee", widget: "object", 
+          fields: [
+             { label: "Name", name: "name", widget: "string" },
+             { label: "Age", name: "age", widget: "number" },
+             { label: "Role", name: "role", widget: "string" },
+             { label: "Location", name: "location", widget: "string" },
+             { label: "Company", name: "company", widget: "string" }
+          ]
+        }
+      
+  - name: "partials"
+    label: "Partials"
+    extension: html
+    create: true
+    editor:
+      preview: true
+    folder: "layouts/partials"
+    summary: "{{filename}}"
+    fields:
+         - { label: Title, name: title, widget: string }
+         - { label: Code, name: code, widget: code, default_language: "HTML" }
+  
+  - name: "shortcodes"
+    label: "Shortcodes"
+    extension: html
+    create: true
+    editor:
+      preview: true
+    folder: "layouts/shortcodes"
+    summary: "{{filename}}"
+    identifier_field: "shortcode"
+    fields:
+         - { label: Code, name: code, widget: code, default_language: "HTML" }
