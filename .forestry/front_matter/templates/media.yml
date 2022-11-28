@@ -61,7 +61,6 @@ fields:
   config: 
    source:
     type: pages
-    section: dummy-data
     file: data/dummy-data.yaml
 pages:
 - content/media/fb.md
