@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hussain on New Hugo Site</title>
+    <link>https://edwinthomasg.github.io/hugo-test/chefs/hussain/</link>
+    <description>Recent content in hussain on New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 22 Nov 2022 06:46:43 +0000</lastBuildDate><atom:link href="https://edwinthomasg.github.io/hugo-test/chefs/hussain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>European</title>
+      <link>https://edwinthomasg.github.io/hugo-test/foods/european/</link>
+      <pubDate>Wed, 16 Nov 2022 18:01:16 +0530</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/foods/european/</guid>
+      <description>Listing out all the european recipes available.</description>
+    </item>
+    
+    <item>
+      <title>Korean Recipe</title>
+      <link>https://edwinthomasg.github.io/hugo-test/foods/korean-recipe/</link>
+      <pubDate>Tue, 22 Nov 2022 06:46:43 +0000</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/foods/korean-recipe/</guid>
+      <description>Listing out all the korean recipes available.</description>
+    </item>
+    
+  </channel>
+</rss>

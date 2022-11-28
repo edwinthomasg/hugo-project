@@ -1,7 +1,7 @@
 ---
 title: "Feeds"
 date: 2022-11-14T10:52:55+05:30
-draft: true
+draft: false
 visible: false
 ---
 

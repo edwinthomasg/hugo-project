@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title | default .Section}}"
 date: {{ .Date }}
-draft: true
+draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Peaky Blinders
 date: 2022-11-14T10:53:29+05:30
-draft: true
+draft: false
 image: /img/friends.jpg
 privacy:
   secured: false

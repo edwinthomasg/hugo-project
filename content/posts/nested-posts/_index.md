@@ -1,7 +1,7 @@
 ---
 title: Nested Posts
 date: 2022-11-14T16:09:22+05:30
-draft: true
+draft: false
 code:
   code: console.log("hello");
 font-color: "#ff0000"

@@ -6,7 +6,7 @@ categories:
 - Python
 - Php
 - Dotnet
-
+draft: false
 ---
 This page contains details about aspire trainee.
 

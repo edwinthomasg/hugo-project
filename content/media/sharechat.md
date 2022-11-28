@@ -1,7 +1,7 @@
 ---
 title: "Sharechat"
 date: 2022-11-14T21:53:58+05:30
-draft: true
+draft: false
 popular: false 
 weight: 5
 ratings: 7
