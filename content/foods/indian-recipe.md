@@ -2,7 +2,10 @@
 title: Indian Recipe
 date: 2022-11-16T17:53:32.000+05:30
 weight: 1
-chefs: []
+chefs: 
+- damu
+- bhat
+- suresh
 visible: true
 complement:
 - good
