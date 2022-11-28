@@ -61,8 +61,8 @@ fields:
   config: 
    source:
     type: pages
-    section: data
-    file: data/yaml-data/data.yaml
+    section: series
+    file: data/dummy-data.yaml
 pages:
 - content/media/fb.md
 - content/media/insta.md
