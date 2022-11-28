@@ -30,9 +30,9 @@ fields:
   type: tag_list
   label: Chefs
   default:
-  - damu
-  - suresh
-  - hussain
-  - bhat
+    - damu
+    - suresh
+    - hussain
+    - bhat
 pages:
 - content/foods/indian-recipe.md
