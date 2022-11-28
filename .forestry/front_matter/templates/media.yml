@@ -78,7 +78,7 @@ fields:
     config:
       required: true
   config:
-    labelField: name # field label name
+    labelField: name
 - type: include
   template: common
   label: Common
