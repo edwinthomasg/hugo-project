@@ -55,6 +55,14 @@ fields:
     source:
       type: pages
       section: feeds
+- name: created_by
+  type: select
+  label: Developer
+  config: 
+   source:
+    type: pages
+    section: employee
+    file: data/yaml-data/data.yaml
 pages:
 - content/media/fb.md
 - content/media/insta.md
