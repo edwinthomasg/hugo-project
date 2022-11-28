@@ -45,10 +45,11 @@ sections:
   create: all
   match: "*"
 - type: document
-  path: "data/json-data"
+  path: "data/json-data/data.json"
   label: Data JSON 
   create: all
   match: "*"
+
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
