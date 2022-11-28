@@ -61,7 +61,6 @@ sections:
 - type: document
   path: data/json-data/data.json
   label: Json Page
-  read_only: true
   new_doc_ext: json
 upload_dir: static/uploads
 public_path: "/uploads"
