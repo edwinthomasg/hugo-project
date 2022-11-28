@@ -30,6 +30,6 @@ change in details.once again edited.
 </h2>
 
 <h2>
-Another heading goes here
 <h3>Sub Heading contents here</h3>
+Main heading goes here.
 </h2>
