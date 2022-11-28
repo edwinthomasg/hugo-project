@@ -80,9 +80,9 @@ fields:
   config:
     labelField: name # field label name
 - type: include
-  template: feeds
-  label: Feeds
-  name: feeds
+  template: common
+  label: Common
+  name: commontemplate
 pages:
 - content/media/fb.md
 - content/media/insta.md
