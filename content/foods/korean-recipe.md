@@ -1,5 +1,5 @@
 ---
-title: Korean
+title: Korean Recipe
 date: 2022-11-22T06:46:43.929Z
 draft: false
 weight: 6
@@ -9,4 +9,5 @@ image: []
 chefs:
   - hussain
 ---
-K﻿orean recipe tutorial goes here.
+
+Listing out all the korean recipes available.

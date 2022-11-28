@@ -2,4 +2,5 @@
 title: Chess
 date: 2022-11-22T05:57:08.969Z
 ---
-T﻿his page contains info about chess.
+
+This page contains info about chess.

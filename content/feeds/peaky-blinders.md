@@ -1,5 +1,5 @@
 ---
-title: Feed3
+title: Peaky Blinders
 date: 2022-11-14T10:53:29+05:30
 draft: true
 image: /img/friends.jpg
@@ -8,6 +8,4 @@ privacy:
 visible: true
 ---
 
-
-This is some random content for feed3.
-Edited secured false.
+This page contains cast and crew details of peaky blinders tv show.

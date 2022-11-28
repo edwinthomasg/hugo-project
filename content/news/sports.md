@@ -1,5 +1,5 @@
 ---
-title: News1
+title: Sports
 date: 2022-11-14T14:11:33+05:30
 draft: true
 galleryImages:
@@ -7,4 +7,4 @@ galleryImages:
   - /img/friends.jpg
 ---
 
-This is some markdown content for news1 page.
+This page contains news about sports.

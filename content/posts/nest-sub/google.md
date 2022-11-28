@@ -8,5 +8,4 @@ code:
 font-color: black
 ---
 
-This is nested content for nested sub section.
-Add javascript code to the frontmatter.
+This page contains details about google trainee.
