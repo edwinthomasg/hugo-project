@@ -22,3 +22,12 @@ fields:
   name: gallery
   label: Gallery
   description: Select group of photos
+- type: field_group
+  name: privacy
+  label: Privacy 
+  fields:
+  - type: text
+    name: secured
+    label: secured
+    config:
+     required: true
