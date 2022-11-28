@@ -61,9 +61,8 @@ fields:
   config: 
    source:
     type: pages
-    section: series
-    file: data/dummy-data.json
-    path:
+    section: authors
+    file: data/authors.yaml
 pages:
 - content/media/fb.md
 - content/media/insta.md
