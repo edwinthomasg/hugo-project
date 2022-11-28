@@ -1,4 +1,15 @@
 ---
 label: Feeds
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 3
+    max: 20
+  label: Title
+  description: The title of a page.
+- name: draft
+  type: boolean
+  label: Draft
