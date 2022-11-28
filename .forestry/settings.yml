@@ -5,10 +5,30 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content
-  label: Pages
+  path: content/blogs
+  label: Blogs
   create: all
-  match: "*"
+  match: "**/*"
+- type: directory
+  path: content/feeds
+  label: Feeds
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/foods
+  label: Foods
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/media
+  label: Media
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/news
+  label: News
+  create: all
+  match: "**/*"
 - type: directory
   path: content/posts
   label: Posts
@@ -20,30 +40,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/news
-  label: News
+  path: content
+  label: Pages
   create: all
-  match: "**/*"
-- type: directory
-  path: content/media
-  label: Media
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/foods
-  label: Foods
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/feeds
-  label: Feeds
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/blogs
-  label: Blogs
-  create: all
-  match: "**/*"
+  match: "*"
+
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
