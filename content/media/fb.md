@@ -5,6 +5,5 @@ weight: 1
 popular: true
 ratings: 9
 related_page: feeds/friends.md
-
 ---
 This is some content related to facebook.

@@ -5,4 +5,4 @@ weight: 6
 ratings: 9
 draft: false
 ---
-H﻿ere is some content about snapshot.
+Here is some content about snapshot.
