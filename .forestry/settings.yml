@@ -55,6 +55,7 @@ sections:
 - type: directory
   path: data/yaml-data
   label: Data YAML
+  create: all
   match: "*.yaml"
   new_doc_ext: yaml
 - type: document
