@@ -78,7 +78,7 @@ fields:
     config:
       required: true
   config:
-    labelField: Name
+    labelField: name
 pages:
 - content/media/fb.md
 - content/media/insta.md
