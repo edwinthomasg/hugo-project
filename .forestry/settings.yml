@@ -30,6 +30,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
   path: content/posts
   label: Posts
   create: all
@@ -39,16 +44,9 @@ sections:
   label: Leaf Bundle
   create: all
   match: "**/*"
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
 - type: document
-  path: "data/json-data"
-  label: Data JSON 
-  create: all
-  match: "*"
+  path: data/json-data
+  label: Data JSON
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
