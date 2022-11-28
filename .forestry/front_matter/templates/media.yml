@@ -70,17 +70,16 @@ fields:
   fields:
   - type: text
     name: name
-    label: "Founders Name"
+    label: Founders Name
     config:
       required: true
   - type: textarea
     name: description
-    label: "Description"
+    label: Description
     config:
       required: true
   config:
     labelField: name
-
 pages:
 - content/media/fb.md
 - content/media/insta.md

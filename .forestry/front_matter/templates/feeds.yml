@@ -24,14 +24,13 @@ fields:
   description: Select group of photos
 - type: field_group
   name: privacy
-  label: Privacy 
+  label: Privacy
   fields:
   - type: text
     name: secured
     label: Secured
     config:
-     required: true
+      required: true
   - type: textarea
     name: reason
     label: Reason
-
