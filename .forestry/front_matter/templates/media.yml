@@ -60,7 +60,7 @@ fields:
   label: Artist
   config: 
    source:
-    type: pages
+    type: documents
     file: data/dummy-data.yaml
 pages:
 - content/media/fb.md
