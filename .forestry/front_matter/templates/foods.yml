@@ -16,7 +16,15 @@ fields:
   description: Date of a page created.
   config:
     required: true
-    date_format: YYYY-MM-DD
+    date_format: YYYY/MM/DD
     time_format: 
     display_utc: false
   default: now
+- name: font-color
+  label: Font Color 
+  type: color 
+  config:
+   color_format: Hex
+- name: chefs
+  type: tag_list
+  label: Chefs
