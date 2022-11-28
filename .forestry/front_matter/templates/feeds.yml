@@ -13,3 +13,4 @@ fields:
 - name: draft
   type: boolean
   label: Draft
+  default: false
