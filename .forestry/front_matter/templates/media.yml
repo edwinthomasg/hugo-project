@@ -63,6 +63,24 @@ fields:
       type: pages
       section: authors
       file: data/authors.yaml
+- type: field_group_list
+  name: founders
+  label: Founders
+  hidden: false
+  fields:
+  - type: text
+    name: name
+    label: "Founders Name"
+    config:
+      required: true
+  - type: textarea
+    name: description
+    label: "Description"
+    config:
+      required: true
+  config:
+    labelField: name
+
 pages:
 - content/media/fb.md
 - content/media/insta.md
