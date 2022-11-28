@@ -1,6 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
+logo: "http://localhost:1313/hugo-test/img/amazon.png"
 admin_path: 
 webhook_url: 
 sections:
