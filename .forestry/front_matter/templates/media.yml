@@ -55,9 +55,9 @@ fields:
     source:
       type: pages
       section: feeds
-- name: created_by
+- name: artist
   type: select
-  label: Developer
+  label: Artist
   config: 
    source:
     type: pages
