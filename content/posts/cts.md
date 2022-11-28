@@ -1,5 +1,5 @@
 ---
-title: "Post2"
+title: "Cts"
 date: 2022-11-11T14:32:19+05:30
 draft: true
 description: "This is about cts trainee"
