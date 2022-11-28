@@ -28,8 +28,3 @@ here html attached:
 <h3>change in summary.once again edited</h3>
 change in details.once again edited.
 </h2>
-<p>some paragraph contents here.
-<h2>
-<h3>Sub Heading contents here</h3>
-Main heading goes here.
-</h2>
