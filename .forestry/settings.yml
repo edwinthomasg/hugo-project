@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: content
 - type: directory
   path: content/blogs
   label: Blogs
@@ -48,6 +50,8 @@ sections:
   label: Leaf Bundle
   create: all
   match: "**/*"
+- type: heading
+  label: Data Files
 - type: directory
   path: data/yaml-data
   label: Data YAML
