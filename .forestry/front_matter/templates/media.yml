@@ -25,21 +25,21 @@ fields:
   label: weight
   default: 0
   config:
-   min: 1
-   max: 20
-   step: 1
-   required: true
+    min: 1
+    max: 20
+    step: 1
+    required: true
 - name: popular
   label: Popular
   type: boolean
   default: false
 - name: ratings
-  label: Ratings 
+  label: Ratings
   type: select
   config:
-   source:
-    type: custom
-   options:
+    source:
+      type: custom
+    options:
     - 5
     - 6
     - 7
@@ -55,3 +55,6 @@ fields:
     source:
       type: pages
       section: feeds
+pages:
+- content/media/fb.md
+- content/media/insta.md
