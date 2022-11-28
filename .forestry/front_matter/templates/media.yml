@@ -78,7 +78,11 @@ fields:
     config:
       required: true
   config:
-    labelField: name
+    labelField: name # field label name
+- type: include
+  template: feeds
+  label: Feeds
+  name: feeds
 pages:
 - content/media/fb.md
 - content/media/insta.md
