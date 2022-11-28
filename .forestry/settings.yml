@@ -14,11 +14,13 @@ sections:
   label: Feeds
   create: all
   match: "**/*"
+  templates: feeds
 - type: directory
   path: content/foods
   label: Foods
   create: all
   match: "**/*"
+  templates: foods
 - type: directory
   path: content/media
   label: Media
