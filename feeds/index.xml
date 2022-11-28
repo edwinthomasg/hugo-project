@@ -1,1 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Feeds on New Hugo Site</title><link>https://edwinthomasg.github.io/hugo-test/feeds/</link><description>Recent content in Feeds on New Hugo Site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 14 Nov 2022 10:52:55 +0530</lastBuildDate><atom:link href="https://edwinthomasg.github.io/hugo-test/feeds/index.xml" rel="self" type="application/rss+xml"/><item><title>Dark</title><link>https://edwinthomasg.github.io/hugo-test/feeds/dark/</link><pubDate>Thu, 24 Nov 2022 15:08:39 +0530</pubDate><guid>https://edwinthomasg.github.io/hugo-test/feeds/dark/</guid><description>This page contains cast and crew details of dark tv show. google Rendered from shortcode : content in html format</description></item><item><title>Peaky Blinders</title><link>https://edwinthomasg.github.io/hugo-test/feeds/peaky-blinders/</link><pubDate>Mon, 14 Nov 2022 10:53:29 +0530</pubDate><guid>https://edwinthomasg.github.io/hugo-test/feeds/peaky-blinders/</guid><description>This page contains cast and crew details of peaky blinders tv show.</description></item><item><title>Prison Break</title><link>https://edwinthomasg.github.io/hugo-test/feeds/prison-break/</link><pubDate>Mon, 14 Nov 2022 10:53:26 +0530</pubDate><guid>https://edwinthomasg.github.io/hugo-test/feeds/prison-break/</guid><description>This page contains cast and crew details of prison break tv show.</description></item><item><title>Friends</title><link>https://edwinthomasg.github.io/hugo-test/feeds/friends/</link><pubDate>Mon, 14 Nov 2022 10:53:20 +0530</pubDate><guid>https://edwinthomasg.github.io/hugo-test/feeds/friends/</guid><description>This page contains cast and crew details of friends tv show.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feeds on New Hugo Site</title>
+    <link>https://edwinthomasg.github.io/hugo-test/feeds/</link>
+    <description>Recent content in Feeds on New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 14 Nov 2022 10:52:55 +0530</lastBuildDate><atom:link href="https://edwinthomasg.github.io/hugo-test/feeds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Feed 6</title>
+      <link>https://edwinthomasg.github.io/hugo-test/feeds/2022-11-16-feed-6-1/</link>
+      <pubDate>Wed, 16 Nov 2022 09:09:52 +0000</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/feeds/2022-11-16-feed-6-1/</guid>
+      <description>Virat kohli whatsup ..!
+This is some random stuff.</description>
+    </item>
+    
+    <item>
+      <title>Feed 4</title>
+      <link>https://edwinthomasg.github.io/hugo-test/feeds/2022-11-16-feed-4/</link>
+      <pubDate>Wed, 16 Nov 2022 04:57:52 +0000</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/feeds/2022-11-16-feed-4/</guid>
+      <description>T﻿his is some random content entered.No spell check is happened here. W﻿hatsup !!</description>
+    </item>
+    
+    <item>
+      <title>Feed3</title>
+      <link>https://edwinthomasg.github.io/hugo-test/feeds/feed3/</link>
+      <pubDate>Mon, 14 Nov 2022 10:53:29 +0530</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/feeds/feed3/</guid>
+      <description>This is some random content for feed3. Edited secured false.</description>
+    </item>
+    
+    <item>
+      <title>Feed2</title>
+      <link>https://edwinthomasg.github.io/hugo-test/feeds/feed2/</link>
+      <pubDate>Mon, 14 Nov 2022 10:53:26 +0530</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/feeds/feed2/</guid>
+      <description>This is some random content for feed2.</description>
+    </item>
+    
+    <item>
+      <title>Feed1</title>
+      <link>https://edwinthomasg.github.io/hugo-test/feeds/feed1/</link>
+      <pubDate>Mon, 14 Nov 2022 10:53:20 +0530</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/feeds/feed1/</guid>
+      <description>This is some random content for feed1. Edited secured to false. Saving image with public folder. Added json file saving it to files folder inside static.</description>
+    </item>
+    
+  </channel>
+</rss>
