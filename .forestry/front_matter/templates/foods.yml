@@ -29,12 +29,8 @@ fields:
   type: tag_list
   label: Chefs
   default: 
-  - Eleventy
-  - Gatsby
-  - Gridsome
-  - Hexo
-  - Hugo
-  - Jekyll
-  - NextJS
-  - NuxtJS
-  - Sapper
+  - damu
+  - suresh
+  - hussain
+  - bhat
+  
