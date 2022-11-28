@@ -30,24 +30,23 @@ fields:
   type: tag_list
   label: Chefs
   default:
-    - damu
-    - suresh
-    - hussain
-    - bhat
+  - damu
+  - suresh
+  - hussain
+  - bhat
 - name: ingredients
   label: Ingredients
   type: list
   config:
-   max: 10
-   use_select: true
-   source:
-    type: simple
-   options:
+    max: 10
+    use_select: true
+    source:
+      type: simple
+    options:
     - tomato
     - potato
     - chicken
     - mutton
     - fish
-
 pages:
 - content/foods/indian-recipe.md
