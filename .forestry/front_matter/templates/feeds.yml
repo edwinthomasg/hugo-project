@@ -1,6 +1,8 @@
 ---
 label: Feeds
 hide_body: false
+upload_dir: static/feeds
+public_path: "/feeds"
 fields:
 - name: title
   type: text
