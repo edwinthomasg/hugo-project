@@ -69,6 +69,9 @@ CMS.registerEditorComponent({
   pattern: /^<h2>\s*<h3>\s*(.*)\s*<\/h3>\s*(.*)\s*<\/h2>$/ms,
   //to fetch from file
   fromBlock: function(match) {
+    console.log("Match : ",match)
+    console.log("Match 1 : ",match[1])
+    console.log("Match 2 : ",match[2])
     return {
       summary: match[1],
       details: match[2]
