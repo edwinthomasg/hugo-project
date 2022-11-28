@@ -32,5 +32,35 @@ fields:
    max: 20
    step: 1
    required: true
+- name: popular
+  type: boolean
+  label: Popular 
+  default: false
+  config:
+   required: true
+- name: ratings
+  type: select
+  label: Ratings
+  description: rate out of 10
+  default: "5 star"
+  config:
+   source: 
+    type: custom
+   options:
+    - "5 star"
+    - "6 star"
+    - "7 star"
+    - "8 star"
+    - "9 star"
+    - "10 star"
 
+- type: select
+  name: related_page
+  label: Related Page
+  description: Select a related page
+  hidden: false
+  config:
+   source:
+    type: pages
+    section: pages
  
