@@ -1,13 +1,13 @@
 ---
 title: Korean Recipe
-date: 2022-11-22T06:46:43.929Z
-draft: false
-weight: 6
+date: 2022-11-22T06:46:43.929+00:00
+weight: "6"
 complement:
-  - tasty
+- tasty
 image: []
 chefs:
-  - hussain
----
+- suresh
+- hussain
 
+---
 Listing out all the korean recipes available.
