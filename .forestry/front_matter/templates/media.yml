@@ -62,7 +62,7 @@ fields:
    source:
     type: pages
     section: series
-    file: data/dummy-data.yaml
+    file: data/dummy-data.json
 pages:
 - content/media/fb.md
 - content/media/insta.md
