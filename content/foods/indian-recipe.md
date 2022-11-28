@@ -1,17 +1,15 @@
 ---
 title: Indian Recipe
-date: 2022-11-16T17:53:32+05:30
-draft: false
+date: 2022-11-16T17:53:32.000+05:30
 weight: 1
-chefs:
-  - damu
-  - suresh
+chefs: []
 visible: true
 complement:
-  - good
-  - fair
----
+- good
+- fair
+font-color: ''
 
+---
 Listing out all the indian recipes available.
 
 {{< custom text="Indian Recipe" color="blue" >}}
