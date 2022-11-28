@@ -47,6 +47,7 @@ sections:
 - type: document
   path: data/json-data
   label: Data JSON
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
