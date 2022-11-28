@@ -58,13 +58,11 @@ fields:
 - name: artist
   type: select
   label: Artist
-  config: 
-   source:
-    type: pages
-    section: authors
-    file: data/authors.yaml
+  config:
+    source:
+      type: pages
+      section: authors
+      file: data/authors.yaml
 pages:
 - content/media/fb.md
 - content/media/insta.md
-
-# 24hour format is not working properly

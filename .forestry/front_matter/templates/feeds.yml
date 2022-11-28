@@ -14,4 +14,3 @@ fields:
   type: boolean
   label: Draft
   default: false
-
