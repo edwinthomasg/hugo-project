@@ -208,7 +208,7 @@ collections:
   - name: leaf
     label: "Leaf Bundle"
     label_singular: 'Page'
-    folder: content/pages
+    folder: content/leaf-bundle
     create: true
     nested:
       depth: 100
