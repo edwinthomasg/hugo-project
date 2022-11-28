@@ -1,0 +1,36 @@
+---
+label: Media
+hide_body: false
+pages: 
+ - media/fb.md
+ - media/insta.md
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 3
+    max: 20
+  label: Title
+  description: Title of a page.
+- name: date
+  type: datetime
+  label: Date
+  description: Date of a page created.
+  config:
+    required: true
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
+  default: now
+- name: weight
+  type: number
+  label: weight
+  default: 0
+  config:
+   min: 1
+   max: 20
+   step: 1
+   required: true
+
+ 
