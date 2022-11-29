@@ -14,6 +14,10 @@ fields:
   type: boolean
   label: Draft
   default: false
+- name: visible
+  type: boolean
+  label: Visible
+  default: true
 - name: image
   type: file
   label: Image
