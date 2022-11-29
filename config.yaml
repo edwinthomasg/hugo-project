@@ -6,7 +6,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-      
+
 metaDataFormat: yaml
 
 ############################### TAXONOMIES ################################
@@ -22,6 +22,7 @@ paginate: 5
 paginatePath: "paginate"
 
 ################################ MENUS ###################################
+
 menus:
  main:
   - name: "home"
