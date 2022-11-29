@@ -1,6 +1,5 @@
 ---
 new_page_extension: md
-metaDataFormat: yaml
 auto_deploy: true
 admin_path: ''
 webhook_url: 
