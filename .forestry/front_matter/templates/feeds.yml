@@ -34,5 +34,3 @@ fields:
   - type: textarea
     name: reason
     label: Reason
-pages:
-- content/feeds/money-heist.md
