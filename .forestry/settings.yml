@@ -62,6 +62,13 @@ sections:
   path: data/json-data/data.json
   label: Json Page
   new_doc_ext: json
+- type: heading
+  label: home page
+- type: document
+  name: home
+  label: Home
+  path: _index.md
+  
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
