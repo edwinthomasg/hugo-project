@@ -65,10 +65,8 @@ sections:
 - type: heading
   label: home page
 - type: document
-  name: home
-  label: Home
   path: _index.md
-  
+  label: Home
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
