@@ -1,5 +1,4 @@
 +++
-draft = true
 gallery = []
 image = ""
 title = "Money Heist"
