@@ -6,5 +6,6 @@ title = "Money Heist"
 [privacy]
 reason = "for some issue"
 secured = "true"
+visible = true
 
 +++
