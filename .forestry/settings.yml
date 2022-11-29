@@ -55,13 +55,14 @@ sections:
 - type: directory
   path: data/yaml-data
   label: Data YAML
-  create: all
+  create: none
   match: "*.yaml"
   new_doc_ext: yaml
 - type: document
   path: data/json-data/data.json
   label: Json Page
   new_doc_ext: json
+  create: all
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
