@@ -6,6 +6,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      
+metaDataFormat: yaml
 
 ############################### TAXONOMIES ################################
 taxonomies:
