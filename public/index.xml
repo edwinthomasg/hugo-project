@@ -113,7 +113,16 @@ About : Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, corrup
       <pubDate>Tue, 22 Nov 2022 06:32:28 +0000</pubDate>
       
       <guid>https://edwinthomasg.github.io/hugo-test/media/snapchat/</guid>
-      <description>H﻿ere is some content about snapshot.</description>
+      <description>Here is some content about snapshot.</description>
+    </item>
+    
+    <item>
+      <title>South Indian</title>
+      <link>https://edwinthomasg.github.io/hugo-test/foods/south/south-indian/</link>
+      <pubDate>Tue, 29 Nov 2022 05:49:11 +0000</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/foods/south/south-indian/</guid>
+      <description>This page contains recipes of south indians.</description>
     </item>
     
     <item>
@@ -267,7 +276,8 @@ Hey Whatsup !! Bold Content goes here</description>
       <pubDate>Mon, 14 Nov 2022 10:53:20 +0530</pubDate>
       
       <guid>https://edwinthomasg.github.io/hugo-test/feeds/friends/</guid>
-      <description>This page contains cast and crew details of friends tv show.</description>
+      <description>This page contains cast and crew details of friends tv show.
+Rendered from shortcode : shortcode text</description>
     </item>
     
     <item>
@@ -305,6 +315,15 @@ youtube</description>
       
       <guid>https://edwinthomasg.github.io/hugo-test/blogs/hockey/</guid>
       <description>This page contains rules and regulations about hockey.</description>
+    </item>
+    
+    <item>
+      <title>Money Heist</title>
+      <link>https://edwinthomasg.github.io/hugo-test/feeds/money-heist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/feeds/money-heist/</guid>
+      <description>This page contains cast and crew details of money heist tv show.</description>
     </item>
     
   </channel>

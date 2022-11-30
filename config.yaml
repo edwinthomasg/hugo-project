@@ -1,12 +1,10 @@
 
 title: New Hugo Site
 baseURL: "https://edwinthomasg.github.io/hugo-test"
-
 markup:
   goldmark:
     renderer:
       unsafe: true
-
 metaDataFormat: yaml
 
 ############################### TAXONOMIES ################################

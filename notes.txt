@@ -4,3 +4,13 @@
 4.Possible to edit inbuilt shortcodes like gist,insta,figure,youtube etc.
 
 1.Cannot edit html files from layouts or other directories
+
+{{$hugoData := unmarshal .Content}}
+  {{range $hugoData}}
+    {{$string := jsonify .}}
+    {{$filename := printf "feeds/%s.md" (urlize .id)}}
+    {{$filename}}
+    {{$resource := resources.FromString $filename $string }}
+    {{$resource.RelPermalink}}
+    <hr>
+  {{end}}

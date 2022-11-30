@@ -38,6 +38,18 @@
     <loc>https://edwinthomasg.github.io/hugo-test/media/snapchat/</loc>
     <lastmod>2022-11-22T06:32:28+00:00</lastmod>
   </url><url>
+    <loc>https://edwinthomasg.github.io/hugo-test/chefs/bhat/</loc>
+    <lastmod>2022-11-29T05:49:11+00:00</lastmod>
+  </url><url>
+    <loc>https://edwinthomasg.github.io/hugo-test/chefs/</loc>
+    <lastmod>2022-11-29T05:49:11+00:00</lastmod>
+  </url><url>
+    <loc>https://edwinthomasg.github.io/hugo-test/chefs/damu/</loc>
+    <lastmod>2022-11-29T05:49:11+00:00</lastmod>
+  </url><url>
+    <loc>https://edwinthomasg.github.io/hugo-test/foods/south/south-indian/</loc>
+    <lastmod>2022-11-29T05:49:11+00:00</lastmod>
+  </url><url>
     <loc>https://edwinthomasg.github.io/hugo-test/feeds/dark/</loc>
     <lastmod>2022-11-24T15:08:39+05:30</lastmod>
   </url><url>
@@ -46,9 +58,6 @@
   </url><url>
     <loc>https://edwinthomasg.github.io/hugo-test/blogs/</loc>
     <lastmod>2022-11-23T10:27:10+05:30</lastmod>
-  </url><url>
-    <loc>https://edwinthomasg.github.io/hugo-test/chefs/</loc>
-    <lastmod>2022-11-22T06:46:43+00:00</lastmod>
   </url><url>
     <loc>https://edwinthomasg.github.io/hugo-test/chefs/hussain/</loc>
     <lastmod>2022-11-22T06:46:43+00:00</lastmod>
@@ -64,12 +73,6 @@
   </url><url>
     <loc>https://edwinthomasg.github.io/hugo-test/posts/nested-posts/inner/hexaware/</loc>
     <lastmod>2022-11-17T10:20:45+05:30</lastmod>
-  </url><url>
-    <loc>https://edwinthomasg.github.io/hugo-test/chefs/bhat/</loc>
-    <lastmod>2022-11-16T18:01:16+05:30</lastmod>
-  </url><url>
-    <loc>https://edwinthomasg.github.io/hugo-test/chefs/damu/</loc>
-    <lastmod>2022-11-16T12:27:56+00:00</lastmod>
   </url><url>
     <loc>https://edwinthomasg.github.io/hugo-test/foods/</loc>
     <lastmod>2022-11-16T17:53:07+05:30</lastmod>
@@ -145,5 +148,7 @@
   </url><url>
     <loc>https://edwinthomasg.github.io/hugo-test/blogs/hockey/</loc>
     <lastmod>2022-11-11T14:18:15+05:30</lastmod>
+  </url><url>
+    <loc>https://edwinthomasg.github.io/hugo-test/feeds/money-heist/</loc>
   </url>
 </urlset>

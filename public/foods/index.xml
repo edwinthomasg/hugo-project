@@ -62,5 +62,14 @@ About : Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, corrup
       <description>Listing out all the korean recipes available.</description>
     </item>
     
+    <item>
+      <title>South Indian</title>
+      <link>https://edwinthomasg.github.io/hugo-test/foods/south/south-indian/</link>
+      <pubDate>Tue, 29 Nov 2022 05:49:11 +0000</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/foods/south/south-indian/</guid>
+      <description>This page contains recipes of south indians.</description>
+    </item>
+    
   </channel>
 </rss>

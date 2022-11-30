@@ -5,7 +5,25 @@
     <link>https://edwinthomasg.github.io/hugo-test/chefs/</link>
     <description>Recent content in Chefs on New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 22 Nov 2022 06:46:43 +0000</lastBuildDate><atom:link href="https://edwinthomasg.github.io/hugo-test/chefs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 05:49:11 +0000</lastBuildDate><atom:link href="https://edwinthomasg.github.io/hugo-test/chefs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bhat</title>
+      <link>https://edwinthomasg.github.io/hugo-test/chefs/bhat/</link>
+      <pubDate>Tue, 29 Nov 2022 05:49:11 +0000</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/chefs/bhat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>damu</title>
+      <link>https://edwinthomasg.github.io/hugo-test/chefs/damu/</link>
+      <pubDate>Tue, 29 Nov 2022 05:49:11 +0000</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/chefs/damu/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hussain</title>
       <link>https://edwinthomasg.github.io/hugo-test/chefs/hussain/</link>
@@ -21,24 +39,6 @@
       <pubDate>Tue, 22 Nov 2022 06:46:43 +0000</pubDate>
       
       <guid>https://edwinthomasg.github.io/hugo-test/chefs/suresh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bhat</title>
-      <link>https://edwinthomasg.github.io/hugo-test/chefs/bhat/</link>
-      <pubDate>Wed, 16 Nov 2022 18:01:16 +0530</pubDate>
-      
-      <guid>https://edwinthomasg.github.io/hugo-test/chefs/bhat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>damu</title>
-      <link>https://edwinthomasg.github.io/hugo-test/chefs/damu/</link>
-      <pubDate>Wed, 16 Nov 2022 12:27:56 +0000</pubDate>
-      
-      <guid>https://edwinthomasg.github.io/hugo-test/chefs/damu/</guid>
       <description></description>
     </item>
     
