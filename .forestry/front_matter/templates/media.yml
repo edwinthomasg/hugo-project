@@ -85,4 +85,5 @@ fields:
   name: commontemplate
 pages:
 - content/media/fb.md
+- content/media/hike.md
 - content/media/insta.md
