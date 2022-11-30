@@ -26,7 +26,7 @@ Date : {{/* $data.Date */}} <br>
   {{range $data.data}}
     {{$string := jsonify .attributes}}
     {{$string}}
-    {{$filename := printf "feeds/%s.md" (urlize .id)}}
+    {{$filename := printf "content/feeds/%s.md" (urlize .id)}}
     {{$resource := resources.FromString $filename $string }}
     {{$resource.RelPermalink}}
     <hr>

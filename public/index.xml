@@ -117,6 +117,15 @@ About : Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, corrup
     </item>
     
     <item>
+      <title>Hike</title>
+      <link>https://edwinthomasg.github.io/hugo-test/media/hike/</link>
+      <pubDate>Tue, 29 Nov 2022 07:16:56 +0000</pubDate>
+      
+      <guid>https://edwinthomasg.github.io/hugo-test/media/hike/</guid>
+      <description>This is one of the tradional webapp platform.</description>
+    </item>
+    
+    <item>
       <title>South Indian</title>
       <link>https://edwinthomasg.github.io/hugo-test/foods/south/south-indian/</link>
       <pubDate>Tue, 29 Nov 2022 05:49:11 +0000</pubDate>
