@@ -8,28 +8,4 @@
 {{.Content }}
 <hr>
 {{ partial "read" . }}
-<hr>
-<p><b>Remote data from strapi :</b></p>
-{{ with in (slice 1 2) .Params.id }}
-{{/* $url := printf "http://localhost:1337/feeds/%v" $.Params.id */}}
-{{/* $data := getJSON $url */}}
-<p><b>Frontmatter Fields :</b></p>
-Title : {{/* $data.Title */}} <br>
-Complement : {{/* $data.complement */}} <br>
-Date : {{/* $data.Date */}} <br>
-<p><b>Body : </b></p>
-{{/* $data.Body | markdownify */}}
-{{end}}
-<hr>
-{{ with resources.GetRemote "http://localhost:1337/api/feeds" }}
-  {{$data := unmarshal .Content }}
-  {{range $data.data}}
-    {{$string := jsonify .attributes}}
-    {{$string}}
-    {{$filename := printf "content/feeds/%s.md" (urlize .id)}}
-    {{$resource := resources.FromString $filename $string }}
-    {{$resource.RelPermalink}}
-    <hr>
-  {{end}}
-{{ end }}
 {{end}}
