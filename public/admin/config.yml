@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: static/img
+public_folder: /img
+site_url: https://edwinthomasg.github.io/hugo-test/
+display_url: https://edwinthomasg.github.io/hugo-test/
+
+########################### COLLECTIONS ############################
+
+collections:
+
+############################## BLOGS ###############################
+
+  - name: "custom-blog"
+    label: "Blog"
+    create: true
+    folder: "content/blogs"
+    path: "{{year}}/{{slug}}"
+    summary: "Summary: {{dirname}} - {{title}}"
+    preview_path: "blogs/{{year}}/{{slug}}"
+    fields:
+      - { label: "Blog Title", name: "title", widget: "string" }
+      - { label: "body", name: "body", widget: "markdown" , minimal: true, buttons: ["bold","italic","link","heading-one","heading-three","heading-six","numbered-list"], sanitize_preview: true }
+      - { label: "date", name: "date", widget: "date" }
+
+
