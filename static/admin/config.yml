@@ -25,3 +25,11 @@ collections:
       - { label: "body", name: "body", widget: "markdown" , minimal: true, buttons: ["bold","italic","link","heading-one","heading-three","heading-six","numbered-list"], sanitize_preview: true }
       - { label: "date", name: "date", widget: "date" }
 
+  - name: "feeds"
+    label: "Feeds"
+    create: true
+    folder: "content/feeds"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "body", name: "body", widget: "markdown" , minimal: true, buttons: ["bold","italic","link","heading-one","heading-three","heading-six","numbered-list"], sanitize_preview: true }
+      - { label: "date", name: "date", widget: "date" }
