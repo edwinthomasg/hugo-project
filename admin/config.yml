@@ -27,7 +27,7 @@ collections:
     nested:
      depth: 100
     # sidebar label
-     summary: "{{slug}}"
+     summary: "{{dirname}} {{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
