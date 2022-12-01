@@ -19,7 +19,7 @@ collections:
     # creation
     slug: "created-{{title}}" 
     # inside label
-    summary: "label-{{slug}}"
+    summary: "{{fields.title}}"
     path: "{{fields.title}}/{{slug}}"
     create: true
     edit:
