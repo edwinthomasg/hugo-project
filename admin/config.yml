@@ -16,7 +16,7 @@ collections:
   - name: "tutorial"
     label: "Tutorial"
     folder: "content/hugo-blogs/tutorial"
-    slug: "{{dirname}}/{{title}}"
+    slug: "yes/{{dirname}}/{{title}}"
     # path: "sub-tutorial-one/{{slug}}"
     create: true
     edit:
