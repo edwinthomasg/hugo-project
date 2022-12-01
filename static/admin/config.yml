@@ -19,14 +19,14 @@ collections:
     # creation
     slug: "{{fields.path}}/{{fields.title}}" 
     # inside label
-    summary: "{{fields.title}}"
+    summary: "{{slug}}"
     create: true
     edit:
      preview: true
     allow_nesting: true
     nested:
      depth: 100
-     # sidebar label
+    # sidebar label
      summary: "{{slug}} {{dirname}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
