@@ -18,6 +18,7 @@ collections:
     folder: "content/hugo-blogs/tutorial"
     slug: "yes/{{title}}"
     summary: "{{slug}}"
+    description: "{{slug}}"
     # path: "sub-tutorial-one/{{slug}}"
     create: true
     edit:
