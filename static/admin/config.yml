@@ -21,7 +21,7 @@ collections:
      preview: true
     nested:
      depth: 100
-     summary: "{{title}} {{dirname}}"
+     summary: "{{title}} {{dirname}} {{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
