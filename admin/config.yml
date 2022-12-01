@@ -34,4 +34,4 @@ collections:
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Path", name: "path", widget: "string", required: false }
       
-      
+    meta: {path: {label: "Path", widget: "string", index_file: "_index"}}
