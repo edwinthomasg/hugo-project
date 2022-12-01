@@ -20,7 +20,7 @@ collections:
     slug: "created-{{title}}" 
     # inside label
     summary: "label-{{slug}}"
-    # path: "sub-tutorial-one/{{slug}}"
+    path: "{{fields.title}}/{{slug}}"
     create: true
     edit:
      preview: true
@@ -29,10 +29,9 @@ collections:
      depth: 100
      # sidebar label
      summary: "{{slug}} {{dirname}}"
-     create: true
-     path: "new/{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "date", name: "date", widget: "date" }
+      - { label: "Date", name: "date", widget: "date" }
+      
       
