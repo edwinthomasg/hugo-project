@@ -29,7 +29,8 @@ collections:
      depth: 100
      # sidebar label
      summary: "{{slug}} {{dirname}}"
-     
+     create: true
+     path: "new/{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
