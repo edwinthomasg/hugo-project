@@ -12,6 +12,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: "content/hugo-blogs/tutorial"
+  label: Tutorial
+  create: all
+  match: "**/*"
+- type: directory
   path: content/feeds
   label: Feeds
   create: all
