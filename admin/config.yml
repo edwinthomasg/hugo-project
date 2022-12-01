@@ -16,6 +16,8 @@ collections:
     label: "Tutorial"
     folder: "content/hugo-blogs/tutorial"
     create: true
+    edit:
+     preview: true
     nested:
      depth: 100
      summary: "{{title}}"
