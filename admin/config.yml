@@ -16,13 +16,14 @@ collections:
   - name: "tutorial"
     label: "Tutorial"
     folder: "content/hugo-blogs/tutorial"
-    path: "{{dirname}}/{{slug}}"
+    
     create: true
     edit:
      preview: true
     nested:
      depth: 100
      summary: "{{title}} {{dirname}} {{slug}}"
+     path: "sub-tutorial-one/{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
