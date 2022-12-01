@@ -17,7 +17,7 @@ collections:
     label: "Tutorial"
     folder: "content/hugo-blogs/tutorial"
     # creation
-    slug: "{{fields.path}}/{{fields.title}}" 
+    slug: "sub-tutorial-one/nested-one/{{fields.title}}" 
     # inside label
     summary: "{{slug}}"
     create: true
