@@ -17,10 +17,10 @@ collections:
     label: "Tutorial"
     folder: "content/hugo-blogs/tutorial"
     # creation
-    slug: "{{fields.path}}-{{fields.title}}" 
+    slug: "{{fields.path}}/{{fields.title}}" 
     # inside label
     summary: "{{fields.title}}"
-    path: "sub-tutorial-two/{{slug}}"
+    # path: "sub-tutorial-two/{{slug}}"
     create: true
     edit:
      preview: true
