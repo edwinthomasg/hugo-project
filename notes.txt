@@ -14,3 +14,15 @@
     {{$resource.RelPermalink}}
     <hr>
   {{end}}
+
+content :
+  blogs
+    tutorial
+      sub-tutorial
+        1.file.md
+        2.file2.md
+      sub-tutorial
+        1.file.md
+        2.file2.md
+    
+   
