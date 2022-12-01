@@ -23,6 +23,6 @@ collections:
      summary: "{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "body" }
+      - { label: "Body", name: "body", widget: "markdown" }
       - { label: "date", name: "date", widget: "date" }
       
