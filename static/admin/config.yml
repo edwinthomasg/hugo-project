@@ -11,11 +11,12 @@ display_url: https://edwinthomasg.github.io/hugo-test/
 
 collections:
 
+
 ############################## Hugo Blogs Tutorial ###############################
   - name: "tutorial"
     label: "Tutorial"
     folder: "content/hugo-blogs/tutorial"
-    
+    path: "{{year}}/{{slug}}"
     create: true
     edit:
      preview: true
