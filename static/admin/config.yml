@@ -16,7 +16,9 @@ collections:
   - name: "tutorial"
     label: "Tutorial"
     folder: "content/hugo-blogs/tutorial"
-    slug: "yes-{{title}}"
+    # creation
+    slug: "yes-{{title}}" 
+    # inside label
     summary: "no-{{slug}}"
     # path: "sub-tutorial-one/{{slug}}"
     create: true
@@ -25,7 +27,8 @@ collections:
     allow_nesting: true
     nested:
      depth: 100
-     summary: "{{slug}}"
+     # sidebar label
+     summary: "{{slug}} {{dirname}}"
      
     fields:
       - { label: "Title", name: "title", widget: "string" }
