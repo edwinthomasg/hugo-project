@@ -1,0 +1,84 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: ''
+webhook_url: 
+sections:
+- type: heading
+  label: content
+- type: directory
+  path: content/blogs
+  label: Blogs
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/feeds
+  label: Feeds
+  create: all
+  match: "**/*"
+  templates:
+  - feeds
+- type: directory
+  path: content/foods
+  label: Foods
+  create: all
+  match: "**/*"
+  templates:
+  - foods
+- type: directory
+  path: content/media
+  label: Media
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/news
+  label: News
+  create: all
+  match: "**/*"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: content/posts
+  label: Posts
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/leaf-bundle
+  label: Leaf Bundle
+  create: all
+  match: "**/*"
+- type: heading
+  label: Data Files
+- type: directory
+  path: data/yaml-data
+  label: Data YAML
+  create: none
+  match: "*.yaml"
+  new_doc_ext: yaml
+- type: document
+  path: data/json-data/data.json
+  label: Json Page
+  new_doc_ext: json
+- type: heading
+  label: home page
+- type: document
+  path: _index.md
+  label: Home
+upload_dir: static/uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.81.0
+  preview_output_directory: public
+  preview_docker_image: forestryio/hugo:latest
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: hugo server -D -E -F --renderToDisk -d public
+version: 0.81.0

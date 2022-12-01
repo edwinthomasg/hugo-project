@@ -1,0 +1,89 @@
+---
+label: Media
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 2
+    max: 20
+  label: Title
+  description: Title of a page.
+- name: date
+  type: datetime
+  label: Date
+  description: Date of a page created.
+  config:
+    required: true
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
+  default: now
+- name: weight
+  type: number
+  label: weight
+  default: 0
+  config:
+    min: 1
+    max: 20
+    step: 1
+    required: true
+- name: popular
+  label: Popular
+  type: boolean
+  default: false
+- name: ratings
+  label: Ratings
+  type: select
+  config:
+    source:
+      type: custom
+    options:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+- type: select
+  name: related_page
+  label: Related Page
+  description: Select a related page
+  hidden: false
+  config:
+    source:
+      type: pages
+      section: feeds
+- name: artist
+  type: select
+  label: Artist
+  config:
+    source:
+      type: pages
+      section: authors
+      file: data/authors.yaml
+- type: field_group_list
+  name: founders
+  label: Founders
+  fields:
+  - type: text
+    name: name
+    label: Founders Name
+    config:
+      required: true
+  - type: textarea
+    name: description
+    label: Description
+    config:
+      required: true
+  config:
+    labelField: name
+- type: include
+  template: common
+  label: Common
+  name: commontemplate
+pages:
+- content/media/fb.md
+- content/media/hike.md
+- content/media/insta.md

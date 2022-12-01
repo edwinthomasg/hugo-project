@@ -1,0 +1,42 @@
+---
+label: Feeds
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 2
+    max: 20
+  label: Title
+  description: The title of a page.
+- name: draft
+  type: boolean
+  label: Draft
+  default: false
+- name: visible
+  type: boolean
+  label: Visible
+  default: true
+- name: image
+  type: file
+  label: Image
+  maxSize: 2
+- type: image_gallery
+  name: gallery
+  label: Gallery
+  description: Select group of photos
+- type: field_group
+  name: privacy
+  label: Privacy
+  fields:
+  - type: text
+    name: secured
+    label: Secured
+    config:
+      required: true
+  - type: textarea
+    name: reason
+    label: Reason
+pages:
+- content/feeds/money-heist.md
