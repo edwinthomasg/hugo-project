@@ -15,7 +15,7 @@ collections:
   - name: "tutorial"
     label: "Tutorial"
     folder: "content/hugo-blogs/tutorial"
-    slug: "content/hugo-blogs/tutorial/{{dirname}}"
+    slug: "sub-tutorial-1"
     create: true
     edit:
      preview: true
