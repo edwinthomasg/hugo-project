@@ -17,7 +17,7 @@ collections:
     label: "Tutorial"
     folder: "content/hugo-blogs/tutorial"
     # creation
-    slug: "{{fields.title}}" 
+    slug: "{{fields.path}}-{{fields.title}}" 
     # inside label
     summary: "{{fields.title}}"
     path: "sub-tutorial-two/{{slug}}"
@@ -33,5 +33,6 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Date", name: "date", widget: "date" }
+      - { label: "Path", name: "path", widget: "path" }
       
       
