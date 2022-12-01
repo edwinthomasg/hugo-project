@@ -25,13 +25,3 @@ collections:
       - { label: "body", name: "body", widget: "markdown" , minimal: true, buttons: ["bold","italic","link","heading-one","heading-three","heading-six","numbered-list"], sanitize_preview: true }
       - { label: "date", name: "date", widget: "date" }
 
-  - name: "blogs"
-    label: "Blogs"
-    create: true
-    folder: "content/hugo-blogs/tutorial"
-    nested:
-     depth: 100
-     summary: "title"
-    fields: 
-     - { label: "Title", name: "title", widget: "string" }
-     - { label: "Date", name: "date", widget: "date" }
