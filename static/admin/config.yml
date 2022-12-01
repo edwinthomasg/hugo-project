@@ -87,28 +87,7 @@ collections:
 
 ############################## NEWS ###############################
 
-  - name: "news"
-    label: "News Section"
-    create: true
-    editor:
-      preview: true
-    folder: "content/news"
-    identifier_field: name
-    delete: false
-    fields:
-      - { label: 'Date', name: 'date', widget: 'date' }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Photos"
-        name: "galleryImages"
-        widget: "list"
-        summary: 'summary - {{fields.image}}' 
-        minimize_collapsed: true
-        add_to_top: true
-        field: { label: Image, name: image, widget: image }
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-      - { label: "Map Location", name: "location", widget: "map" }
+  
 
 ############################## POSTS ###############################
 
