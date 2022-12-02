@@ -1,0 +1,29 @@
+---
+label: Tutorial
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    min: 2
+    max: 20
+  label: Title
+  description: Title of a page.
+- name: date
+  type: datetime
+  label: Date
+  description: Date of a page created.
+  config:
+    required: true
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
+  default: now
+- type: file
+  name: banner
+  label: Banner
+  description: Provide a banner image for this post
+  config:
+    maxSize: 2
+
