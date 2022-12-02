@@ -20,6 +20,8 @@ collections:
     slug: "{{fields.path}}/{{fields.title}}" 
     # inside label
     summary: "{{slug}}"
+    media_folder: ""
+    public_folder: ""
     create: true
     edit:
      preview: true
@@ -36,6 +38,8 @@ collections:
   - name: "posts"
     label: "Posts"
     create: true
+    edit:
+     preview: true
     folder: "content/posts"
     media_folder: ""
     public_folder: ""
