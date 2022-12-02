@@ -2,6 +2,7 @@
 title: Hexaware
 date: 2022-11-17T10:20:45+05:30
 draft: false
+image: bay2.jpg
 ---
 ***This is some markdown content for text1 page.***
 
