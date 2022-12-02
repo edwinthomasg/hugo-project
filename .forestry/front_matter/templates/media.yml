@@ -84,6 +84,7 @@ fields:
   label: Common
   name: commontemplate
 pages:
+- content/hugo-blogs/tutorial/language.md
 - content/media/fb.md
 - content/media/hike.md
 - content/media/insta.md

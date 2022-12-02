@@ -12,7 +12,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: "content/hugo-blogs/tutorial"
+  path: content/hugo-blogs/tutorial
   label: Tutorial
   create: all
   match: "**/*"
