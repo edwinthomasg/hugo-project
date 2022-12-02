@@ -23,7 +23,7 @@ collections:
     label: "Tutorial"
     folder: "content/hugo-blogs/tutorial"
     # creation
-    slug: "{{fields.path}}/{fields.path}}/{{fields.title}}" 
+    slug: "{{fields.path}}/{{fields.path}}/{{fields.title}}" 
     # inside label
     summary: "{{slug}}"
     media_folder: ""
@@ -42,7 +42,7 @@ collections:
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Folder Path", name: "path", widget: "text", required: false }
       - { label: "Image", name: "image", widget: "image" }
-      - { label: "Parent", widget: "parent", name: "parent"  }
+      - { label: "Parent", widget: "parent", name: "parent" }
   - name: "posts"
     label: "Posts"
     create: true
