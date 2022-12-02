@@ -35,6 +35,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Path", name: "path", widget: "string", required: false }
+      - { label: "Image", name: "image", widget: "image" }
   - name: "posts"
     label: "Posts"
     create: true
