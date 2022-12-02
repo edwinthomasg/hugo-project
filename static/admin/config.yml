@@ -32,7 +32,6 @@ collections:
     create: true
     edit:
      preview: true
-    allow_nesting: true
     nested:
      depth: 100
     # sidebar label
