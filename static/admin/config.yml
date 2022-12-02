@@ -33,5 +33,16 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Path", name: "path", widget: "string", required: false }
-      
-    meta: {path: {label: "Path", widget: "string", index_file: "_index"}}
+  - name: "posts"
+    label: "Posts"
+    create: true
+    folder: "content/posts"
+    media_folder: ""
+    public_folder: ""
+    nested: 
+     depth: 100
+     summary: "{{title}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+    
