@@ -9,6 +9,5 @@ artist: ''
 founders: []
 developer: Edwin
 tester: Joey
-draft: true
 
 ---
