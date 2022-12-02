@@ -43,6 +43,7 @@ collections:
       - { label: "Folder Path", name: "path", widget: "text", required: false }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Parent", widget: "parent", name: "parent" }
+      - { lable: "Location", name: "location", widget: "location", separator: "/" }
   - name: "posts"
     label: "Posts"
     create: true
@@ -68,7 +69,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body",  widget: "markdown" }
-      - { lable: "Category", name: "category", widget: "categories", separator: "," }
+      - { lable: "Category", name: "category", widget: "categories", separator: "__" }
 
   
     
