@@ -61,7 +61,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body",  widget: "markdown" }
-      - { lable: "Category", name: "category", widget: "categories"}
+      - { lable: "Category", name: "category", widget: "categories", separator: "," }
 
   
     
