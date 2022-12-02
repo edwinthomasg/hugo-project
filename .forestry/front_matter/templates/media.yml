@@ -86,6 +86,7 @@ fields:
 pages:
 - content/hugo-blogs/tutorial/language.md
 - content/hugo-blogs/tutorial/sub-tutorial-four/mejento.md
+- content/hugo-blogs/tutorial/sub-tutorial-four/sub-tutorial-four-nested/nested.md
 - content/media/fb.md
 - content/media/hike.md
 - content/media/insta.md
