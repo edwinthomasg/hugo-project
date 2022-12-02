@@ -169,7 +169,7 @@ var PartialPreview = createClass({
     return h('textarea', {
       id: this.props.forID,
       className: this.props.classNameWrapper,
-      value: value ? value.join(separator) : '',
+      // value: value ? value.join(separator) : '',
       onChange: this.handleChange,
     });
   },
