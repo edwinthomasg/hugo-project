@@ -25,6 +25,7 @@
   render: function() {
     const separator = this.props.field.get('separator', ', ');
     var value = this.props.value;
+    console.log(typeof this.props.value)
     return h('textarea', {
       id: this.props.forID,
       className: this.props.classNameWrapper,
