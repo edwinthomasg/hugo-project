@@ -45,7 +45,7 @@ collections:
     media_folder: "img"
     public_folder: "/img"
     nested: 
-     depth: 100
+     depth: 1
      summary: "{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
