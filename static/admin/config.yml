@@ -43,7 +43,7 @@ collections:
      preview: true
     folder: "content/posts"
     media_folder: "img"
-    public_folder: ""
+    public_folder: "/img"
     nested: 
      depth: 100
      summary: "{{title}}"
