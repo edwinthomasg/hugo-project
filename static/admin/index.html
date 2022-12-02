@@ -159,7 +159,9 @@ var PartialPreview = createClass({
   var LocationControl = createClass({
   handleChange: function(e) {
     const separator = this.props.field.get('separator', ', ')
-    this.props.onChange(e.target.value.split(separator).map((e) => e.trim()));
+    this.props.onChange(e.target.value.split(separator).map((e) => {
+      console.log(e)
+      return e.trim()}));
   },
 
   render: function() {
