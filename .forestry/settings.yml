@@ -16,6 +16,8 @@ sections:
   label: Tutorial
   create: all
   match: "**/*"
+  templates:
+  - tutorial
 - type: directory
   path: content/feeds
   label: Feeds
