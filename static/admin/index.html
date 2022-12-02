@@ -36,6 +36,7 @@
 
 var CategoriesPreview = createClass({
   render: function() {
+    console.log(this.props.value)
     return h('ul', {},
       this.props.value.map(function(val, index) {
         return h('li', {key: index}, val);
