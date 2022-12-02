@@ -6,7 +6,6 @@
     <title>Content Manager</title>
     <!-- Include the script that enables Netlify Identity on this page. -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
   </head>
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
@@ -14,145 +13,158 @@
     <script src="https://unpkg.com/@netlify/netlify-cms-widget-parent@^1.0.0/dist/netlify-cms-widget-parent.js"></script>
     <script>
       const parentWidget = window.NetlifyCmsWidgetParent;
-      CMS.registerWidget('parent', parentWidget.control, parentWidget.preview);
+      CMS.registerWidget("parent", parentWidget.control, parentWidget.preview);
 
+      CMS.registerWidget(
+        "categories",
+        CategoriesControl,
+        CategoriesPreview,
+        schema
+      );
       var CategoriesControl = createClass({
-  handleChange: function(e) {
-    const separator = this.props.field.get('separator', ', ')
-    this.props.onChange(e.target.value.split(separator).map((e) => e.trim()));
-  },
+        handleChange: function (e) {
+          const separator = this.props.field.get("separator", ", ");
+          this.props.onChange(
+            e.target.value.split(separator).map((e) => e.trim())
+          );
+        },
 
-  render: function() {
-    const separator = this.props.field.get('separator', ', ');
-    var value = this.props.value;
-    return h('textarea', {
-      id: this.props.forID,
-      className: this.props.classNameWrapper,
-      value: value ? value.join(separator) : '',
-      onChange: this.handleChange,
-    });
-  },
-});
+        render: function () {
+          const separator = this.props.field.get("separator", ", ");
+          var value = this.props.value;
+          return h("textarea", {
+            id: this.props.forID,
+            className: this.props.classNameWrapper,
+            value: value ? value.join(separator) : "",
+            onChange: this.handleChange,
+          });
+        },
+      });
 
-var CategoriesPreview = createClass({
-  render: function() {
-    return h('ul', {},
-      this.props.value.map(function(val, index) {
-        return h('li', {key: index}, val);
-      })
-    );
-  }
-});
+      var CategoriesPreview = createClass({
+        render: function () {
+          return h(
+            "ul",
+            {},
+            this.props.value.map(function (val, index) {
+              return h("li", { key: index }, val);
+            })
+          );
+        },
+      });
 
-var schema = {
-  properties: {
-    separator: { type: 'string' },
-  },
-}
+      var schema = {
+        properties: {
+          separator: { type: "string" },
+        },
+      };
 
-CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema);
+      CMS.registerEditorComponent({
+        id: "html",
+        label: "Html",
+        collapsed: true,
+        fields: [
+          {
+            name: "summary",
+            label: "Summary",
+            widget: "string",
+          },
+          {
+            name: "details",
+            label: "Details",
+            widget: "markdown",
+          },
+        ],
 
-CMS.registerEditorComponent({
-
-  id: "html",
-  label: "Html",
-  collapsed: true,
-  fields: [
-    {
-      name: 'summary',
-      label: 'Summary',
-      widget: 'string'
-    },
-    {
-      name: 'details',
-      label: 'Details',
-      widget: 'markdown',
-    }
-  ],
-
-  pattern: /^<h2>\s*<h3>\s*(.*)\s*<\/h3>\s*(.*)\s*<\/h2>$/ms,
-  //to fetch from file
-  fromBlock: function(match) {
-    console.log("Match : ",match)
-    console.log("Match 1 : ",match[1])
-    console.log("Match 2 : ",match[2])
-    return {
-      summary: match[1],
-      details: match[2]
-    };
-  },
-  //to save it in a file
-  toBlock: function(data) {
-    return `
+        pattern: /^<h2>\s*<h3>\s*(.*)\s*<\/h3>\s*(.*)\s*<\/h2>$/ms,
+        //to fetch from file
+        fromBlock: function (match) {
+          console.log("Match : ", match);
+          console.log("Match 1 : ", match[1]);
+          console.log("Match 2 : ", match[2]);
+          return {
+            summary: match[1],
+            details: match[2],
+          };
+        },
+        //to save it in a file
+        toBlock: function (data) {
+          return `
 <h2>
 <h3>${data.summary}</h3>
 ${data.details}
 </h2>
 `;
-  },
-//to preview the data before publishing
-  toPreview: function(data) {
-    return `
+        },
+        //to preview the data before publishing
+        toPreview: function (data) {
+          return `
 <h2>
 <h3>${data.summary}</h3>
 ${data.details}
 </h2>
 `;
-  }
-});
-CMS.registerEditorComponent({
-    id: "gist",
-    label: "Gist",
-    fields: [{
+        },
+      });
+      CMS.registerEditorComponent({
+        id: "gist",
+        label: "Gist",
+        fields: [
+          {
             name: "username",
             label: "Github Username",
-            widget: "string"
-        },
-        {
+            widget: "string",
+          },
+          {
             name: "gid",
             label: "Gist ID",
-            widget: "string"
-        },
-    ],
-    pattern: /^{{< gist ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
-    fromBlock: function(match) {
-        return {
+            widget: "string",
+          },
+        ],
+        pattern: /^{{< gist ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
+        fromBlock: function (match) {
+          return {
             username: match[1],
             gid: match[2],
-        };
-    },
-    toBlock: function(obj) {
-        return `{{< gist ${obj.username} ${obj.gid} >}}`;
-    },
-    toPreview: function(obj) {
-        return '<a href="https://gist.github.com/' + obj.username + '/' + obj.gid + '">gist</a>';
-    },
-});
+          };
+        },
+        toBlock: function (obj) {
+          return `{{< gist ${obj.username} ${obj.gid} >}}`;
+        },
+        toPreview: function (obj) {
+          return (
+            '<a href="https://gist.github.com/' +
+            obj.username +
+            "/" +
+            obj.gid +
+            '">gist</a>'
+          );
+        },
+      });
 
-var PostPreview = createClass({
-    render: function() {
-      var entry = this.props.entry;
+      var PostPreview = createClass({
+        render: function () {
+          var entry = this.props.entry;
 
-      return h('div', {},
-        h('h1', {}, entry.getIn(['data', 'title'])),
-        h('h2', {}, entry.getIn(['data', 'description'])),
-        h('div', {"className": "text"}, this.props.widgetFor('body'))
-      );
-    }
-  });
-CMS.registerPreviewTemplate("posts", PostPreview);
+          return h(
+            "div",
+            {},
+            h("h1", {}, entry.getIn(["data", "title"])),
+            h("h2", {}, entry.getIn(["data", "description"])),
+            h("div", { className: "text" }, this.props.widgetFor("body"))
+          );
+        },
+      });
+      CMS.registerPreviewTemplate("posts", PostPreview);
 
-var PartialPreview = createClass({
-    render: function() {
-      var entry = this.props.entry;
-      return h('div', {},
-        h('p', {}, entry.getIn(['data', 'body'])),
-      );
-    }
-  });
+      var PartialPreview = createClass({
+        render: function () {
+          var entry = this.props.entry;
+          return h("div", {}, h("p", {}, entry.getIn(["data", "body"])));
+        },
+      });
 
-  CMS.registerPreviewTemplate("partials", PartialPreview);
+      CMS.registerPreviewTemplate("partials", PartialPreview);
     </script>
   </body>
 </html>
-
