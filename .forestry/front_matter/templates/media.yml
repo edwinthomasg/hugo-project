@@ -85,6 +85,7 @@ fields:
   name: commontemplate
 pages:
 - content/hugo-blogs/tutorial/language.md
+- content/hugo-blogs/tutorial/sub-tutorial-four/mejento.md
 - content/media/fb.md
 - content/media/hike.md
 - content/media/insta.md
