@@ -48,8 +48,8 @@ collections:
     edit:
      preview: true
     folder: "content/posts"
-    media_folder: "img"
-    public_folder: "/img"
+    media_folder: ""
+    public_folder: ""
     nested: 
      depth: 20
      summary: "{{title}}"
