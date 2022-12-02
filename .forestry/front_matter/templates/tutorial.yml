@@ -1,7 +1,6 @@
 ---
 label: Tutorial
 hide_body: false
-
 fields:
 - name: title
   type: text
@@ -27,4 +26,3 @@ fields:
   description: Provide a banner image for this post
   config:
     maxSize: 2
-
