@@ -1,5 +1,5 @@
 ---
-title: Yuvan
-slug: yuvan
+title: Rahman
+slug: singers/yuvan/_index
 ---
-This page contains information about yuvan.
+This page contains information about rahman.
