@@ -202,12 +202,12 @@ CMS.registerEventListener({
     console.log("entry : ",entry);
    if (entry.get('slug')) {
      console.log("first if : ",entry.get('data'));
-     return entry.get('data').set('titleslug', entry.get('slug'));
+     return entry.get('data').set('slug', entry.get('slug'));
    } else {
      // you can use any relevant field/logic for generating the initial slug
      const titleSlug = entry.getIn(['data', 'title'], '').toLowerCase().replace(/[']/g, '').replace(/[.]/g, '-').replace(/[\s]/g, '-')
      console.log("title slug : ",titleSlug)
-     return entry.get('data').set('titleslug', titleSlug);
+     return entry.get('data').set('slug', titleSlug);
    }
   },
 });
