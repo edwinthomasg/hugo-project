@@ -48,7 +48,7 @@ collections:
     create: true
     edit:
      preview: true
-    folder: "content/hugo-blogs/tutorial"
+    folder: "content/hugo-blogs/tutorial/"
     slug: "{{fields.path | default null }}/{{fields.title}}" 
     media_folder: ""
     public_folder: ""
