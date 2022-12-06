@@ -1,5 +1,6 @@
 ---
 title: Rahman
-slug: singers/yuvan/_index
+slug: singers/rahman/_index
+image: bay2.jpg
 ---
 This page contains information about rahman.
