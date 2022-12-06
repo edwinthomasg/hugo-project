@@ -14,7 +14,7 @@ site_url: https://edwinthomasg.github.io/hugo-test/
 display_url: https://edwinthomasg.github.io/hugo-test/
 slug:
  encoding: ascii
- sanitize_replacement: "/"
+ sanitize_replacement: "%"
 
 ########################### COLLECTIONS ############################
 
