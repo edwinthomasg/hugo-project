@@ -45,7 +45,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Folder Path", name: "path", widget: "string", required: false }
-      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Image", name: "image", widget: "image", required: false }
       # - { label: "Location", name: "path", widget: "location", separator: "/" }
   - name: "posts"
     label: "Posts"
@@ -62,7 +62,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Folder Path", name: "path", widget: "string", required: false }
     # meta: { path: { label: Parent, widget: parent, index_file: '_index' } }
   - name: "feeds"
