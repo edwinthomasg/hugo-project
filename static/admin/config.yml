@@ -48,7 +48,7 @@ collections:
     create: true
     edit:
      preview: true
-    folder: "content/posts"
+    folder: "content/hugo-blogs/tutorial"
     media_folder: ""
     public_folder: ""
     nested: 
