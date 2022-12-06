@@ -13,7 +13,7 @@
     <!-- <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <script src="https://unpkg.com/@netlify/netlify-cms-widget-parent@^1.0.0/dist/netlify-cms-widget-parent.js"></script> -->
     <script>
-      import CMS from 'netlify-cms-app'
+      const CMS = require('netlify-cms-app')
       const parentWidget = window.NetlifyCmsWidgetParent;
       CMS.registerWidget('parent', parentWidget.control, parentWidget.preview);
 
