@@ -37,7 +37,7 @@ collections:
     edit:
      preview: true
     nested:
-     depth: 3
+     depth: 100
     # sidebar label
      summary: "{{dirname}} {{slug}}"
     fields:
@@ -57,7 +57,7 @@ collections:
     media_folder: ""
     public_folder: ""
     nested: 
-     depth: 20
+     depth: 100
      summary: "{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
