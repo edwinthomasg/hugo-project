@@ -40,7 +40,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Date", name: "date", widget: "date" }
-      - { label: "Folder Path", name: "path", widget: "text", required: false }
+      - { label: "Folder Path", name: "path", widget: "string", required: false }
       - { label: "Image", name: "image", widget: "image" }
       # - { label: "Location", name: "path", widget: "location", separator: "/" }
   - name: "posts"
