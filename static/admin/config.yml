@@ -12,10 +12,6 @@ media_folder: static/img
 public_folder: /img
 site_url: https://edwinthomasg.github.io/hugo-test/
 display_url: https://edwinthomasg.github.io/hugo-test/
-slug:
-  encoding: "ascii"
-  clean_accents: true
-  sanitize_replacement: "/"
 
 ########################### COLLECTIONS ############################
 
