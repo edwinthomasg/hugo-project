@@ -61,12 +61,12 @@ collections:
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Folder Path", name: "path", widget: "string", required: false }
     # meta: { path: { label: Parent, widget: parent, index_file: '_index' } }
-  - name: "leaf"
-    label: "Leaf"
+  - name: "artists"
+    label: "Artists"
     create: true
     edit:
      preview: true
-    folder: "content/leaf-bundle/"
+    folder: "content/information/artists"
     nested: 
      depth: 100
      summary: "{{title}}"
