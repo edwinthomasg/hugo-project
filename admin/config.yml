@@ -24,7 +24,7 @@ collections:
     folder: "content/hugo-blogs/tutorial"
     # creation
     slug: "{{fields.path}}/{{fields.title}}" 
-    path: "{{slug}}"
+    # path: "{{slug}}"
     # inside label
     summary: "{{slug}}"
     media_folder: ""
