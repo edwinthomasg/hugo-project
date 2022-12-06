@@ -23,7 +23,7 @@ collections:
     label: "Tutorial"
     folder: "content/hugo-blogs/tutorial"
     # creation
-    slug: "{{fields.path}}/{{year}}/{{fields.title}}" 
+    slug: "{{fields.path}}/{{fields.title}}" 
     path: "{{slug}}"
     # inside label
     summary: "{{slug}}"
