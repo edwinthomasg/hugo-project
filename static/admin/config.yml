@@ -13,7 +13,7 @@ public_folder: /img
 site_url: https://edwinthomasg.github.io/hugo-test/
 display_url: https://edwinthomasg.github.io/hugo-test/
 slug:
- encoding: ascii
+ encoding: unicode
  sanitize_replacement: "/"
 
 ########################### COLLECTIONS ############################
