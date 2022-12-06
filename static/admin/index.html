@@ -195,6 +195,23 @@ var schema = {
 }
 
 CMS.registerWidget('location', LocationControl, LocationPreview, schema);
+
+CMS.registerEventListener({
+  name: 'preSave',
+  handler: ({ entry }) => {
+    console.log("entry : ",entry);
+   if (entry.get('slug')) {
+     console.log("first if : ",entry.get('data'));
+     return entry.get('data').set('titleslug', entry.get('slug'));
+   } else {
+     // you can use any relevant field/logic for generating the initial slug
+     const titleSlug = entry.getIn(['data', 'title'], '').toLowerCase().replace(/[']/g, '').replace(/[.]/g, '-').replace(/[\s]/g, '-')
+     console.log("title slug : ",titleSlug)
+     return entry.get('data').set('titleslug', titleSlug);
+   }
+  },
+});
+
     </script>
   </body>
 </html>
