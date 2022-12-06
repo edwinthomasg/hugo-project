@@ -61,29 +61,22 @@ collections:
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Folder Path", name: "path", widget: "string", required: false }
     # meta: { path: { label: Parent, widget: parent, index_file: '_index' } }
+  
   - name: "artists"
     label: "Artists"
     create: true
     edit:
      preview: true
     folder: "content/information/artists"
+    media_folder: ""
+    public_folder: ""
     nested: 
      depth: 100
      summary: "{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
     meta: { path: { label: Parent, widget: parent, index_file: '_index' } }
-  - name: "feeds"
-    label: "Feed"
-    create: true
-    edit:
-     preview: true
-    folder: "content/feeds"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body",  widget: "markdown" }
-      - { label: "Category", name: "category", widget: "categories", separator: "__" }
-
   
     
