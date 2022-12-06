@@ -58,7 +58,8 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Image", name: "image", widget: "image" }
-    meta: { path: { label: Parent, widget: parent, index_file: '_index' } }
+      - { label: "Folder Path", name: "path", widget: "string", required: false }
+    # meta: { path: { label: Parent, widget: parent, index_file: '_index' } }
   - name: "feeds"
     label: "Feeds"
     create: true
