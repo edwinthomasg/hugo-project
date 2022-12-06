@@ -53,9 +53,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/leaf-bundle
-  label: Leaf Bundle
+  path: "content/information/artists"
+  label: Artists
   create: all
+  templates:
+  - "artists"
   match: "**/*"
 - type: heading
   label: Data Files

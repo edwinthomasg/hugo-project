@@ -1,0 +1,31 @@
+---
+label: Artists
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: draft
+  type: boolean
+  config:
+    required: true
+    default: false
+  label: Draft
+- name: date
+  type: datetime
+  config:
+    required: true
+  label: Date
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
+- name: "image"
+  type: banner
+  description: "Add some images"
+  config:
+    required: false
+  label: Image

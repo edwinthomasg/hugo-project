@@ -4,7 +4,6 @@
  {{.Content}}
  <b>Total Pages :</b> {{.Pages}}
  {{$paginator := .Paginate (.Pages.ByWeight) }}
-    
  {{partial "pagination" (dict "Paginator" $paginator)}}
 {{end}}
 
