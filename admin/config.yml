@@ -61,6 +61,19 @@ collections:
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Folder Path", name: "path", widget: "string", required: false }
     # meta: { path: { label: Parent, widget: parent, index_file: '_index' } }
+  - name: "leaf"
+    label: "Leaf"
+    create: true
+    edit:
+     preview: true
+    folder: "content/leaf-bundle/"
+    nested: 
+     depth: 100
+     summary: "{{title}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+    meta: { path: { label: Parent, widget: parent, index_file: 'index' } }
   - name: "feeds"
     label: "Feed"
     create: true
