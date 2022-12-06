@@ -33,7 +33,7 @@ collections:
     edit:
      preview: true
     nested:
-     depth: 100
+     depth: 1
     # sidebar label
      summary: "{{dirname}} {{slug}}"
     fields:
