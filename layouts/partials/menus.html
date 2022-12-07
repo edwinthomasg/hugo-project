@@ -7,18 +7,49 @@
   <title>Document</title>
 </head>
 <body>
-  {{$current := .}}
-<nav class="nav-menu">
+  <!-- {{$current := .}} -->
+  <!-- <nav class="nav-menu">
     <ul>
-        {{range .Site.Menus.main}}
-        {{ if eq ($current.Title | lower) .Name}}
-       <li class="menu-items"> <a href="{{.URL}}" class="active-menu">{{.Name | title}}</a></li>
-        {{else}}
-        <li class="menu-items"><a href="{{.URL}}">{{.Name | title}}</a></li>
-        {{end}}
-      {{end}}
+        {{/*range .Site.Menus.main*/}}
+        {{/* if eq ($current.Title | lower) .Name*/}}
+       <li class="menu-items"> <a href="{{/*.URL*/}}" class="active-menu">{{/*.Name | title*/}}</a></li>
+        {{/*else*/}}
+        <li class="menu-items"><a href="{{/*.URL*/}}">{{/*.Name | title*/}}</a></li>
+        {{/*end*/}}
+      {{/*end*/}}
     </ul>
-</nav>
+</nav> -->
+  
+<aside>
+  <ul>
+      {{ $current := . }}
+      {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+              <li class="{{ if $current.HasMenuCurrent "main" . }}active{{else}}no{{ end }}">
+                  <a href="{{.URL}}">
+                      {{ .Pre }}
+                      <span>children {{ .Name }} {{$current.HasMenuCurrent "main" .}} {{$current.IsMenuCurrent "main" .}}</span>
+                  </a>
+              </li>
+              <ul class="sub-menu">
+                  {{ range .Children }}
+                      <li class="{{ if $current.IsMenuCurrent "main" . }}active{{ end }}">
+                          <a href="{{ .URL }}">{{ .Name }}</a>
+                      </li>
+                  {{ end }}
+              </ul>
+          {{ else }}
+              <li>
+                  <a href="{{ .URL }}">
+                      {{ .Pre }}
+                      <span>{{ .Name }} {{$current.HasMenuCurrent "main" .}} {{$current.IsMenuCurrent "main" .}}</span>
+                  </a>
+              </li>
+          {{ end }}
+      {{ end }}
+  </ul>
+</aside>
+
 </body>
 </html>
 

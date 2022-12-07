@@ -79,4 +79,13 @@ collections:
       - { label: "Image", name: "image", widget: "image", required: false }
     meta: { path: { label: Parent, widget: parent, index_file: '_index' } }
   
-    
+  - name: "page"
+    label: "Pages"
+    edit:
+     preview: true
+    files:
+      - label: "Configuration"
+        name: "configuration"
+        file: "config.yaml"
+        fields:
+          - { label: "Title", name: "title", widget: string }
