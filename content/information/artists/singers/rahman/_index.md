@@ -1,6 +1,6 @@
 ---
 title: Rahman
 slug: singers/rahman/_index
-image: bay2.jpg
+image: rahman.jpg
 ---
 This page contains information about rahman.
