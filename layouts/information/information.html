@@ -1,0 +1,8 @@
+{{define "list-content"}}
+ <h3>Section : </h3>
+ <b>{{.Title}}</b>
+ {{.Content}}
+ <b>Total Pages :</b> {{.Pages}}
+ {{$paginator := .Paginate (.Pages.ByWeight) }}
+ {{partial "pagination" (dict "Paginator" $paginator)}}
+{{end}}

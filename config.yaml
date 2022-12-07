@@ -35,4 +35,7 @@ menus:
   - name: "feeds"
     url: "/feeds"
     weight: 4
+  - name: "information"
+    url: "/information"
+    weight: 5
 
