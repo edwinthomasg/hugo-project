@@ -93,10 +93,10 @@ collections:
               fields: [{label: "Main", name: "main", widget: list, 
               fields:
                 [
-                {label: "Menu Name", name: "menuname", widget: string},
-                {label: "Menu URL", name: "menuurl", widget: string},
-                {label: "Menu Weight", name: "menuweight", widget: number},
-                {label: "Menu Identifier", name: "menuidentifier", widget: string, required: false }
+                {label: "Menu Name", name: "name", widget: string},
+                {label: "Menu URL", name: "url", widget: string},
+                {label: "Menu Weight", name: "weight", widget: number},
+                {label: "Menu Identifier", name: "identifier", widget: string, required: false }
                 ]
                 }]
             }
