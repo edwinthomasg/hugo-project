@@ -90,7 +90,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: string }
           - { label: "Menus", name: "menus", widget: object, 
-              fields: [{label: "Main", name: "main", widget: object, 
+              fields: [{label: "Main", name: "main", widget: list, 
               fields:
                 [
                 {label: "Menu Name", name: "menuname", widget: string},
