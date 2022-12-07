@@ -7,8 +7,8 @@
   <title>Document</title>
 </head>
 <body>
-  <!-- {{$current := .}} -->
-  <!-- <nav class="nav-menu">
+  {{$current := .}}
+  <nav class="nav-menu">
     <ul>
         {{/*range .Site.Menus.main*/}}
         {{/* if eq ($current.Title | lower) .Name*/}}
@@ -18,9 +18,9 @@
         {{/*end*/}}
       {{/*end*/}}
     </ul>
-</nav> -->
+</nav>
   
-<aside>
+<!-- <aside>
   <ul>
       {{ $current := . }}
       {{ range .Site.Menus.main }}
@@ -48,7 +48,7 @@
           {{ end }}
       {{ end }}
   </ul>
-</aside>
+</aside> -->
 
 </body>
 </html>
