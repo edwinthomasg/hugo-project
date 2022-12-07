@@ -5,4 +5,7 @@
  <b>Total Pages :</b> {{.Pages}}
  {{$paginator := .Paginate (.Pages.ByWeight) }}
  {{partial "pagination" (dict "Paginator" $paginator)}}
+ {{range .Resources.ByType "image"}}
+    <img src="{{.}}" alt="image not found" style="width: 350px ; height: 280px; ">
+ {{end}}
 {{end}}
