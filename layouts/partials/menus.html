@@ -10,13 +10,13 @@
   {{$current := .}}
   <nav class="nav-menu">
     <ul>
-        {{/*range .Site.Menus.main*/}}
-        {{/* if eq ($current.Title | lower) .Name*/}}
-       <li class="menu-items"> <a href="{{/*.URL*/}}" class="active-menu">{{/*.Name | title*/}}</a></li>
-        {{/*else*/}}
-        <li class="menu-items"><a href="{{/*.URL*/}}">{{/*.Name | title*/}}</a></li>
-        {{/*end*/}}
-      {{/*end*/}}
+        {{range .Site.Menus.main}}
+        {{ if eq ($current.Title | lower) .Name}}
+       <li class="menu-items"> <a href="{{.URL}}" class="active-menu">{{.Name | title}}</a></li>
+        {{else}}
+        <li class="menu-items"><a href="{{.URL}}">{{.Name | title}}</a></li>
+        {{end}}
+      {{end}}
     </ul>
 </nav>
   
