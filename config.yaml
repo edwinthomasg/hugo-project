@@ -38,6 +38,10 @@ menus:
       url: /information/artists/singers/
       weight: 1
       parent: artist
+    - name: players
+      url: /information/artists/players/
+      weight: 4
+      parent: artist
 paginate: 5
 title: New Hugo Site
 paginatePath: paginate
