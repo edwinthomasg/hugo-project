@@ -1,0 +1,44 @@
+metaDataFormat: yaml
+params:
+  menu: css/menus.css
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+slug: configuration
+taxonomies:
+  chef: chefs
+menus:
+  main:
+    - name: home
+      url: /
+      weight: 1
+    - name: chefs
+      url: /chefs/
+      weight: 3
+    - name: foods
+      url: /foods/
+      weight: 2
+    - name: feeds
+      url: /feeds/
+      weight: 4
+    - name: artists
+      url: /information/artists/
+      weight: 5
+      identifier: artist
+    - name: authors
+      url: /information/artists/authors/
+      weight: 3
+      parent: artist
+    - name: poets
+      url: /information/artists/poets/
+      weight: 2
+      parent: artist
+    - name: singers
+      url: /information/artists/singers/
+      weight: 1
+      parent: artist
+paginate: 5
+title: New Hugo Site
+paginatePath: paginate
+baseURL: https://edwinthomasg.github.io/hugo-test
