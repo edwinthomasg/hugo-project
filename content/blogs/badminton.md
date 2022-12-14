@@ -1,0 +1,6 @@
+---
+title: "Badminton"
+date: 2022-11-22T18:49:02+05:30
+---
+
+Le cricket est un sport d'équipe joué entre deux équipes de onze joueurs chacune. Il s'agit d'un jeu de batte et de balle joué sur un terrain en herbe à peu près ovale, au centre duquel se trouve une bande de terrain plate de 20,12 m (22 verges) de long, appelée terrain. À chaque extrémité du terrain se trouve un ensemble de souches en bois, appelé guichet. Notez que, plutôt déroutant, le terrain lui-même est aussi souvent appelé le guichet. Un joueur de l'équipe de terrain (le quilleur) propulse une balle en cuir dure et centrée sur un bouchon de la taille d'un poing d'un guichet vers l'autre. Le ballon rebondit généralement une fois avant d'atteindre un joueur de l'équipe adverse (le batteur), qui défend le guichet du ballon avec une batte de cricket en bois. Le batteur peut alors courir entre les guichets, échangeant des bouts avec un autre batteur (le "non-attaquant"), qui s'est tenu dans un rôle inactif près du guichet du quilleur, pour marquer des points. Le reste de l'équipe des quilleurs se tient à diverses positions autour de l'ovale en tant que défenseurs.
