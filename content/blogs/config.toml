@@ -1,0 +1,4 @@
+baseURL = "www.my-website.com"
+languageCode = "en-us"
+title = "Hugo"
+theme = ""
