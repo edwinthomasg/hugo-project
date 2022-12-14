@@ -1,0 +1,19 @@
+.active-menu{
+    background-color: red; 
+}
+.nav-menu{
+    background-color: black;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+}
+.menu-items > a{
+  color: white;
+  font-size: larger;
+  text-decoration: none;
+}
+.menu-items{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
