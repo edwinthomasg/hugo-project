@@ -39,6 +39,6 @@ menus:
       weight: 1
       parent: artist
 paginate: 5
-title: Hugo Site
+title: New Hugo
 paginatePath: paginate
 baseURL: https://edwinthomasg.github.io/hugo-test
