@@ -41,4 +41,4 @@ menus:
 paginate: 5
 title: HugoSite
 paginatePath: paginate
-baseURL: https://edwinthomasg.github.io/hugo-test
+baseURL: https://edwinthomasg.github.io/hugo-project
