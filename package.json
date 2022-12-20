@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edwinthomasg/hugo-test.git"
+    "url": "git+https://github.com/edwinthomasg/hugo-project.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/edwinthomasg/hugo-test/issues"
+    "url": "https://github.com/edwinthomasg/hugo-project/issues"
   },
-  "homepage": "https://github.com/edwinthomasg/hugo-test#readme",
+  "homepage": "https://github.com/edwinthomasg/hugo-project#readme",
   "dependencies": {
     "netlify-cms-app": "^2.15.72"
   }
