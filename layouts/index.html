@@ -16,13 +16,13 @@
     <hr>
     Home Content :
     {{.Content}}
-    <b>Section Kind Pages :</b>
+    <!-- <b>Section Kind Pages :</b>
     <ul>
     {{ range where .Site.Pages.ByTitle "Kind" "section"}}
         <li><a href="{{.Permalink}}">{{.Title}}</a></li>
       {{end}}
     </ul>
-    <hr>
+    <hr> -->
     <b>Top level pages :</b>
     <ul>
         {{range .Pages}}
