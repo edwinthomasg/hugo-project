@@ -2,9 +2,9 @@
 title: dynamic blogs
 description: This page dedicated to blogs in a static site
 createdAt: 2022-12-21T13:16:33.194Z
-editedAt: 2022-12-23T07:11:33.581Z
+editedAt: 2022-12-23T07:13:02.189Z
 ---
 
 Markdown contents for blogs section.
 This markdown content is created at timestamp 1671628593194
-This markdown content is edited lastly at timestamp 1671779493581
+This markdown content is edited lastly at timestamp 1671779582189
